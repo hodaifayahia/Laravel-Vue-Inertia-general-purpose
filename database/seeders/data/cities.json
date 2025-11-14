@@ -1,0 +1,7392 @@
+[
+    {
+        "province_code": "01",
+        "name_ar": "أدرار",
+        "name_en": "Adrar"
+    },
+    {
+        "province_code": "01",
+        "name_ar": "أولاد أحمد تيمي",
+        "name_en": "Ouled Ahmed Timmi"
+    },
+    {
+        "province_code": "01",
+        "name_ar": "أولف",
+        "name_en": "Aoulef"
+    },
+    {
+        "province_code": "01",
+        "name_ar": "إن زغمير",
+        "name_en": "In Zghmir"
+    },
+    {
+        "province_code": "01",
+        "name_ar": "اقبلي",
+        "name_en": "Akabli"
+    },
+    {
+        "province_code": "01",
+        "name_ar": "السبع",
+        "name_en": "Sebaa"
+    },
+    {
+        "province_code": "01",
+        "name_ar": "بودة",
+        "name_en": "Bouda"
+    },
+    {
+        "province_code": "01",
+        "name_ar": "تامست",
+        "name_en": "Tamest"
+    },
+    {
+        "province_code": "01",
+        "name_ar": "تامنطيط",
+        "name_en": "Tamantit"
+    },
+    {
+        "province_code": "01",
+        "name_ar": "تسابيت",
+        "name_en": "Tsabit"
+    },
+    {
+        "province_code": "01",
+        "name_ar": "تيت",
+        "name_en": "Tit"
+    },
+    {
+        "province_code": "01",
+        "name_ar": "تيمقتن",
+        "name_en": "Timekten"
+    },
+    {
+        "province_code": "01",
+        "name_ar": "رقان",
+        "name_en": "Reggane"
+    },
+    {
+        "province_code": "01",
+        "name_ar": "زاوية كنتة",
+        "name_en": "Zaouiet Kounta"
+    },
+    {
+        "province_code": "01",
+        "name_ar": "سالي",
+        "name_en": "Sali"
+    },
+    {
+        "province_code": "01",
+        "name_ar": "فنوغيل",
+        "name_en": "Fenoughil"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "أبو الحسن",
+        "name_en": "Abou El Hassane"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "أم الدروع",
+        "name_en": "Oum Drou"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "أولاد بن عبد القادر",
+        "name_en": "Ouled Ben Abdelkader"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "أولاد عباس",
+        "name_en": "Ouled Abbes"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "أولاد فارس",
+        "name_en": "Ouled Fares"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "الأبيض مجاجة",
+        "name_en": "Labiod Medjadja"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "الحجاج",
+        "name_en": "El Hadjadj"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "الزبوجة",
+        "name_en": "Zeboudja"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "الشطية",
+        "name_en": "Chettia"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "الشلف",
+        "name_en": "Chlef"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "الصبحة",
+        "name_en": "Sobha"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "الظهرة",
+        "name_en": "Dahra"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "الكريمية",
+        "name_en": "El Karimia"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "المرسى",
+        "name_en": "El Marsa"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "الهرانفة",
+        "name_en": "Herenfa"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "بريرة",
+        "name_en": "Breira"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "بنايرية",
+        "name_en": "Benairia"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "بني بوعتاب",
+        "name_en": "Beni  Bouattab"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "بني حواء",
+        "name_en": "Beni Haoua"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "بني راشد",
+        "name_en": "Beni Rached"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "بوزغاية",
+        "name_en": "Bouzeghaia"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "بوقادير",
+        "name_en": "Boukadir"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "تاجنة",
+        "name_en": "Tadjena"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "تاوقريت",
+        "name_en": "Taougrit"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "تلعصة",
+        "name_en": "Talassa"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "تنس",
+        "name_en": "Tenes"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "حرشون",
+        "name_en": "Harchoun"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "سنجاس",
+        "name_en": "Sendjas"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "سيدي عبد الرحمن",
+        "name_en": "Sidi Abderrahmane"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "سيدي عكاشة",
+        "name_en": "Sidi Akkacha"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "عين مران",
+        "name_en": "Ain Merane"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "مصدق",
+        "name_en": "Moussadek"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "وادي الفضة",
+        "name_en": "Oued Fodda"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "وادي سلي",
+        "name_en": "Oued Sly"
+    },
+    {
+        "province_code": "02",
+        "name_ar": "وادي قوسين",
+        "name_en": "Oued Goussine"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "أفلو",
+        "name_en": "Aflou"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "الأغواط",
+        "name_en": "Laghouat"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "البيضاء",
+        "name_en": "El Beidha"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "الحاج مشري",
+        "name_en": "Hadj Mechri"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "الحويطة",
+        "name_en": "El Haouaita"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "الخنق",
+        "name_en": "Kheneg"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "العسافية",
+        "name_en": "El Assafia"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "الغيشة",
+        "name_en": "El Ghicha"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "بريدة",
+        "name_en": "Brida"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "بن ناصر بن شهرة",
+        "name_en": "Benacer Benchohra"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "تاجرونة",
+        "name_en": "Tadjrouna"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "تاجموت",
+        "name_en": "Tadjemout"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "تاويالة",
+        "name_en": "Taouiala"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "سبقاق",
+        "name_en": "Sebgag"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "سيدي بوزيد",
+        "name_en": "Sidi Bouzid"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "سيدي مخلوف",
+        "name_en": "Sidi Makhlouf"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "عين سيدي علي",
+        "name_en": "Ain Sidi Ali"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "عين ماضي",
+        "name_en": "Ain Madhi"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "قصر الحيران",
+        "name_en": "Ksar El Hirane"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "قلتة سيدي سعد",
+        "name_en": "Gueltat Sidi Saad"
+    },
+    {
+        "province_code": "03",
+        "name_ar": "وادي مرة",
+        "name_en": "Oued Morra"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "أم البواقي",
+        "name_en": "Oum El Bouaghi"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "أولاد زواي",
+        "name_en": "Ouled Zouai"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "البلالة",
+        "name_en": "El Belala"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "الجازية",
+        "name_en": "El Djazia"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "الحرملية",
+        "name_en": "El Harmilia"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "الرحية",
+        "name_en": "Rahia"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "الزرق",
+        "name_en": "Zorg"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "الضلعة",
+        "name_en": "Dhalaa"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "العامرية",
+        "name_en": "El Amiria"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "الفجوج بوغرارة سعودي",
+        "name_en": "El Fedjoudj Boughrara Sa"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "بئر الشهداء",
+        "name_en": "Bir Chouhada"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "بحير الشرقي",
+        "name_en": "Behir Chergui"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "بريش",
+        "name_en": "Berriche"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "سوق نعمان",
+        "name_en": "Souk Naamane"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "سيقوس",
+        "name_en": "Sigus"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "عين البيضاء",
+        "name_en": "Ain Beida"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "عين الديس",
+        "name_en": "Ain Diss"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "عين الزيتون",
+        "name_en": "Ain Zitoun"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "عين ببوش",
+        "name_en": "Ain Babouche"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "عين فكرون",
+        "name_en": "Ain Fekroun"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "عين كرشة",
+        "name_en": "Ain Kercha"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "قصر الصباحي",
+        "name_en": "Ksar Sbahi"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "مسكيانة",
+        "name_en": "Meskiana"
+    },
+    {
+        "province_code": "04",
+        "name_ar": "هنشير تومغني",
+        "name_en": "Hanchir Toumghani"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "أريس",
+        "name_en": "Arris"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "أولاد سلام",
+        "name_en": "Ouled Sellem"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "أولاد سي سليمان",
+        "name_en": "Ouled Si Slimane"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "أولاد عمار",
+        "name_en": "Ouled Ammar"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "أولاد عوف",
+        "name_en": "Ouled Aouf"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "أولاد فاضل",
+        "name_en": "Ouled Fadel"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "إشمول",
+        "name_en": "Ichemoul"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "إمدوكل",
+        "name_en": "M Doukal"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "إينوغيسن",
+        "name_en": "Inoughissen"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "الجزار",
+        "name_en": "Djezzar"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "الحاسي",
+        "name_en": "El Hassi"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "الرحبات",
+        "name_en": "Rahbat"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "الشمرة",
+        "name_en": "Chemora"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "القصبات",
+        "name_en": "Gosbat"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "القيقبة",
+        "name_en": "Guigba"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "المعذر",
+        "name_en": "El Madher"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "باتنة",
+        "name_en": "Batna"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "بريكة",
+        "name_en": "Barika"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "بني فضالة الحقانية",
+        "name_en": "Beni Foudhala El Hakania"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "بوزينة",
+        "name_en": "Bouzina"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "بولهيلات",
+        "name_en": "Boulhilat"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "بومية",
+        "name_en": "Boumia"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "بيطام",
+        "name_en": "Bitam"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "تازولت",
+        "name_en": "Tazoult"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "تاكسلانت",
+        "name_en": "Taxlent"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "تالخمت",
+        "name_en": "Talkhamt"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "تغرغار",
+        "name_en": "Tigharghar"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "تكوت",
+        "name_en": "T Kout"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "تيغانمين",
+        "name_en": "Tighanimine"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "تيلاطو",
+        "name_en": "Tilatou"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "تيمقاد",
+        "name_en": "Timgad"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "ثنية العابد",
+        "name_en": "Teniet El Abed"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "جرمة",
+        "name_en": "Djerma"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "حيدوسة",
+        "name_en": "Hidoussa"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "رأس العيون",
+        "name_en": "Ras El Aioun"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "زانة البيضاء",
+        "name_en": "Zanet El Beida"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "سريانة",
+        "name_en": "Seriana"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "سقانة",
+        "name_en": "Seggana"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "شير",
+        "name_en": "Chir"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "عزيل عبد القادر",
+        "name_en": "Azil Abedelkader"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "عين التوتة",
+        "name_en": "Ain Touta"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "عين جاسر",
+        "name_en": "Ain Djasser"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "عين ياقوت",
+        "name_en": "Ain Yagout"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "عيون العصافير",
+        "name_en": "Ouyoun El Assafir"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "غسيرة",
+        "name_en": "Ghassira"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "فسديس",
+        "name_en": "Fesdis"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "فم الطوب",
+        "name_en": "Foum Toub"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "قصر بلزمة",
+        "name_en": "Ksar Bellezma"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "كيمل",
+        "name_en": "Kimmel"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "لارباع",
+        "name_en": "Larbaa"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "لازرو",
+        "name_en": "Lazrou"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "لمسان",
+        "name_en": "Lemcene"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "مروانة",
+        "name_en": "Merouana"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "معافة",
+        "name_en": "Maafa"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "منعة",
+        "name_en": "Menaa"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "وادي الشعبة",
+        "name_en": "Oued Chaaba"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "وادي الطاقة",
+        "name_en": "Oued Taga"
+    },
+    {
+        "province_code": "05",
+        "name_ar": "وادي الماء",
+        "name_en": "Oued El Ma"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "أدكار",
+        "name_en": "Adekar"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "أقبو",
+        "name_en": "Akbou"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "أكفادو",
+        "name_en": "Akfadou"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "أمالو",
+        "name_en": "Amalou"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "أميزور",
+        "name_en": "Amizour"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "أوزلاقن",
+        "name_en": "Ouzellaguen"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "أوقاس",
+        "name_en": "Aokas"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "أيت إسماعيل",
+        "name_en": "Ait-Smail"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "إغيل علي",
+        "name_en": "Ighil-Ali"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "اغرم",
+        "name_en": "Ighram"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "الفلاي",
+        "name_en": "Leflaye"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "القصر",
+        "name_en": "El Kseur"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "بجاية",
+        "name_en": "Bejaia"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "برباشة",
+        "name_en": "Barbacha"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "بني جليل",
+        "name_en": "Beni Djellil"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "بني معوش",
+        "name_en": "Benimaouche"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "بني مليكش",
+        "name_en": "Beni-Mallikeche"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "بو جليل",
+        "name_en": "Boudjellil"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "بوحمزة",
+        "name_en": "Bouhamza"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "بوخليفة",
+        "name_en": "Boukhelifa"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "تازمالت",
+        "name_en": "Tazmalt"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "تاسكريوت",
+        "name_en": "Taskriout"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "تالة حمزة",
+        "name_en": "Tala Hamza"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "تامريجت",
+        "name_en": "Tamridjet"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "تامقرة",
+        "name_en": "Tamokra"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "تاوريرت إغيل",
+        "name_en": "Taourit Ighil"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "توجة",
+        "name_en": "Toudja"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "تيشي",
+        "name_en": "Tichy"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "تيفرة",
+        "name_en": "Tifra"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "تيمزريت",
+        "name_en": "Timezrit"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "تينبدار",
+        "name_en": "Tinebdar"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "خراطة",
+        "name_en": "Kherrata"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "درقينة",
+        "name_en": "Darguina"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "ذراع القايد",
+        "name_en": "Dra El Caid"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "سمعون",
+        "name_en": "Smaoun"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "سوق اوفلا",
+        "name_en": "Souk Oufella"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "سوق لإثنين",
+        "name_en": "Souk El Tenine"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "سيدي عياد",
+        "name_en": "Sidi Ayad"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "سيدي عيش",
+        "name_en": "Sidi-Aich"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "شلاطة",
+        "name_en": "Chellata"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "شميني",
+        "name_en": "Chemini"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "صدوق",
+        "name_en": "Seddouk"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "طيبان",
+        "name_en": "Tibane"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "فرعون",
+        "name_en": "Feraoun"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "فناية الماثن",
+        "name_en": "Fenaia Il Maten"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "كنديرة",
+        "name_en": "Kendira"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "مالبو",
+        "name_en": "Melbou"
+    },
+    {
+        "province_code": "06",
+        "name_ar": "وادي غير",
+        "name_en": "Oued Ghir"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "أورلال",
+        "name_en": "Ourlal"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "أوماش",
+        "name_en": "Oumache"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "الحاجب",
+        "name_en": "El Hadjab"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "الحوش",
+        "name_en": "El Haouch"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "الغروس",
+        "name_en": "El Ghrous"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "الفيض",
+        "name_en": "El Feidh"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "القنطرة",
+        "name_en": "El Kantara"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "المزيرعة",
+        "name_en": "Meziraa"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "الوطاية",
+        "name_en": "El Outaya"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "برانيس",
+        "name_en": "Branis"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "برج بن عزوز",
+        "name_en": "Bordj Ben Azzouz"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "بسكرة",
+        "name_en": "Biskra"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "بوشقرون",
+        "name_en": "Bouchakroun"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "جمورة",
+        "name_en": "Djemorah"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "خنقة سيدي ناجي",
+        "name_en": "Khenguet Sidi Nadji"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "زريبة الوادي",
+        "name_en": "Zeribet El Oued"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "سيدي عقبة",
+        "name_en": "Sidi Okba"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "شتمة",
+        "name_en": "Chetma"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "طولقة",
+        "name_en": "Tolga"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "عين الناقة",
+        "name_en": "Ain Naga"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "عين زعطوط",
+        "name_en": "Ain Zaatout"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "فوغالة",
+        "name_en": "Foughala"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "ليشانة",
+        "name_en": "Lichana"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "ليوة",
+        "name_en": "Lioua"
+    },
+    {
+        "province_code": "07",
+        "name_ar": "مخادمة",
+        "name_en": "Mekhadma"
+    },
+    {
+        "province_code": "08",
+        "name_ar": "العبادلة",
+        "name_en": "Abadla"
+    },
+    {
+        "province_code": "08",
+        "name_ar": "القنادسة",
+        "name_en": "Kenadsa"
+    },
+    {
+        "province_code": "08",
+        "name_ar": "المريجة",
+        "name_en": "Meridja"
+    },
+    {
+        "province_code": "08",
+        "name_ar": "بشار",
+        "name_en": "Bechar"
+    },
+    {
+        "province_code": "08",
+        "name_ar": "بني ونيف",
+        "name_en": "Beni-Ounif"
+    },
+    {
+        "province_code": "08",
+        "name_ar": "بوكايس",
+        "name_en": "Boukais"
+    },
+    {
+        "province_code": "08",
+        "name_ar": "تاغيت",
+        "name_en": "Taghit"
+    },
+    {
+        "province_code": "08",
+        "name_ar": "تبلبالة",
+        "name_en": "Tabelbala"
+    },
+    {
+        "province_code": "08",
+        "name_ar": "عرق فراج",
+        "name_en": "Erg-Ferradj"
+    },
+    {
+        "province_code": "08",
+        "name_ar": "لحمر",
+        "name_en": "Lahmar"
+    },
+    {
+        "province_code": "08",
+        "name_ar": "مشرع هواري بومدين",
+        "name_en": "Machraa-Houari-Boumediene"
+    },
+    {
+        "province_code": "08",
+        "name_ar": "موغل",
+        "name_en": "Mogheul"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "أولاد يعيش",
+        "name_en": "Ouled Yaich"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "الأربعاء",
+        "name_en": "Larbaa"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "البليدة",
+        "name_en": "Blida"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "الشبلي",
+        "name_en": "Chebli"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "الشريعة",
+        "name_en": "Chrea"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "الشفة",
+        "name_en": "Chiffa"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "الصومعة",
+        "name_en": "Soumaa"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "العفرون",
+        "name_en": "El-Affroun"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "اولاد سلامة",
+        "name_en": "Ouled Slama"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "بن خليل",
+        "name_en": "Benkhelil"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "بني تامو",
+        "name_en": "Beni-Tamou"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "بني مراد",
+        "name_en": "Beni Mered"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "بوعرفة",
+        "name_en": "Bouarfa"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "بوعينان",
+        "name_en": "Bouinan"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "بوفاريك",
+        "name_en": "Boufarik"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "بوقرة",
+        "name_en": "Bougara"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "جبابرة",
+        "name_en": "Djebabra"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "حمام ملوان",
+        "name_en": "Hammam Elouane"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "صوحان",
+        "name_en": "Souhane"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "عين الرمانة",
+        "name_en": "Ain Romana"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "قرواو",
+        "name_en": "Guerrouaou"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "مفتاح",
+        "name_en": "Meftah"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "موزاية",
+        "name_en": "Mouzaia"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "وادي العلايق",
+        "name_en": "Oued El Alleug"
+    },
+    {
+        "province_code": "09",
+        "name_ar": "وادي جر",
+        "name_en": "Oued  Djer"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "أعمر",
+        "name_en": "Aomar"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "أهل القصر",
+        "name_en": "Ahl El Ksar"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "أولاد راشد",
+        "name_en": "Ouled Rached"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "أيت لعزيز",
+        "name_en": "Ait Laaziz"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "الأخضرية",
+        "name_en": "Lakhdaria"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "الأسنام",
+        "name_en": "El Asnam"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "البويرة",
+        "name_en": "Bouira"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "الحاكمية",
+        "name_en": "El-Hakimia"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "الحجرة الزرقاء",
+        "name_en": "Hadjera Zerga"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "الخبوزية",
+        "name_en": "El Khabouzia"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "الدشمية",
+        "name_en": "Dechmia"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "العجيبة",
+        "name_en": "El Adjiba"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "المعمورة",
+        "name_en": "Maamora"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "المقراني",
+        "name_en": "El-Mokrani"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "الهاشمية",
+        "name_en": "El Hachimia"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "بئر غبالو",
+        "name_en": "Bir Ghbalou"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "برج أوخريص",
+        "name_en": "Bordj Okhriss"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "بشلول",
+        "name_en": "Bechloul"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "بودربالة",
+        "name_en": "Bouderbala"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "بوكرم",
+        "name_en": "Boukram"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "تاغزوت",
+        "name_en": "Taghzout"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "تاقديت",
+        "name_en": "Taguedite"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "جباحية",
+        "name_en": "Djebahia"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "حيزر",
+        "name_en": "Haizer"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "ديرة",
+        "name_en": "Dirah"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "روراوة",
+        "name_en": "Raouraoua"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "ريدان",
+        "name_en": "Ridane"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "سور الغزلان",
+        "name_en": "Sour El Ghozlane"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "سوق الخميس",
+        "name_en": "Souk El Khemis"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "عين الترك",
+        "name_en": "Ain Turk"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "عين الحجر",
+        "name_en": "Ain El Hadjar"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "عين العلوي",
+        "name_en": "Ain Laloui"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "عين بسام",
+        "name_en": "Ain-Bessem"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "قادرية",
+        "name_en": "Kadiria"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "قرومة",
+        "name_en": "Guerrouma"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "مزدور",
+        "name_en": "Mezdour"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "معلة",
+        "name_en": "Maala"
+    },
+    {
+        "province_code": "10",
+        "name_ar": "وادي البردي",
+        "name_en": "Oued El Berdi"
+    },
+    {
+        "province_code": "11",
+        "name_ar": "أدلس",
+        "name_en": "Idles"
+    },
+    {
+        "province_code": "11",
+        "name_ar": "ابلسة",
+        "name_en": "Abelsa"
+    },
+    {
+        "province_code": "11",
+        "name_ar": "تاظروك",
+        "name_en": "Tazrouk"
+    },
+    {
+        "province_code": "11",
+        "name_ar": "تمنراست",
+        "name_en": "Tamanrasset"
+    },
+    {
+        "province_code": "11",
+        "name_ar": "عين امقل",
+        "name_en": "Ain Amguel"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "أم علي",
+        "name_en": "Oum Ali"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "الحمامات",
+        "name_en": "Hammamet"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "الحويجبات",
+        "name_en": "El-Houidjbet"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "الشريعة",
+        "name_en": "Cheria"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "العقلة",
+        "name_en": "El Ogla"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "العقلة المالحة",
+        "name_en": "El Ogla El Malha"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "العوينات",
+        "name_en": "El-Aouinet"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "الكويف",
+        "name_en": "El Kouif"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "الماء الابيض",
+        "name_en": "El Malabiod"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "المريج",
+        "name_en": "El Meridj"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "المزرعة",
+        "name_en": "El Mezeraa"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "الونزة",
+        "name_en": "Ouenza"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "بئر الذهب",
+        "name_en": "Bir Dheheb"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "بئر العاتر",
+        "name_en": "Bir-El-Ater"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "بئر مقدم",
+        "name_en": "Bir Mokkadem"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "بجن",
+        "name_en": "Bedjene"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "بكارية",
+        "name_en": "Bekkaria"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "بوخضرة",
+        "name_en": "Boukhadra"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "بولحاف الدير",
+        "name_en": "Boulhaf Dyr"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "تبسة",
+        "name_en": "Tebessa"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "ثليجان",
+        "name_en": "Telidjen"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "سطح قنطيس",
+        "name_en": "Stah Guentis"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "صفصاف الوسرى",
+        "name_en": "Saf Saf El Ouesra"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "عين الزرقاء",
+        "name_en": "Ain Zerga"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "فركان",
+        "name_en": "Ferkane"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "قريقر",
+        "name_en": "Guorriguer"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "مرسط",
+        "name_en": "Morsott"
+    },
+    {
+        "province_code": "12",
+        "name_ar": "نقرين",
+        "name_en": "Negrine"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "أولاد رياح",
+        "name_en": "Ouled Riyah"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "أولاد ميمون",
+        "name_en": "Ouled Mimoun"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "البويهي",
+        "name_en": "Bouihi"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "الحناية",
+        "name_en": "Hennaya"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "الرمشي",
+        "name_en": "Remchi"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "السواحلية",
+        "name_en": "Souahlia"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "السواني",
+        "name_en": "Souani"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "العريشة",
+        "name_en": "El Aricha"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "العزايل",
+        "name_en": "Azail"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "الغزوات",
+        "name_en": "Ghazaouet"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "الفحول",
+        "name_en": "El Fehoul"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "القور",
+        "name_en": "El Gor"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "باب العسة",
+        "name_en": "Bab El Assa"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "بن سكران",
+        "name_en": "Bensekrane"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "بني بهدل",
+        "name_en": "Beni Bahdel"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "بني بوسعيد",
+        "name_en": "Beni Boussaid"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "بني خلاد",
+        "name_en": "Beni Khellad"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "بني سنوس",
+        "name_en": "Beni Snous"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "بني صميل",
+        "name_en": "Beni Smiel"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "بني مستر",
+        "name_en": "Beni Mester"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "بني وارسوس",
+        "name_en": "Beni Ouarsous"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "بوحلو",
+        "name_en": "Bouhlou"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "تلمسان",
+        "name_en": "Tlemcen"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "تيانت",
+        "name_en": "Tianet"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "تيرني بني هديل",
+        "name_en": "Terny Beni Hediel"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "جبالة",
+        "name_en": "Djebala"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "حمام بوغرارة",
+        "name_en": "Hammam Boughrara"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "دار يغمراسن",
+        "name_en": "Dar Yaghmoracen"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "زناتة",
+        "name_en": "Zenata"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "سبدو",
+        "name_en": "Sebdou"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "سبعة شيوخ",
+        "name_en": "Sebbaa Chioukh"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "سوق الثلاثاء",
+        "name_en": "Souk Tleta"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "سيدي الجيلالي",
+        "name_en": "Sidi Djillali"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "سيدي العبدلي",
+        "name_en": "Sidi Abdelli"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "سيدي مجاهد",
+        "name_en": "Sidi Medjahed"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "شتوان",
+        "name_en": "Chetouane"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "صبرة",
+        "name_en": "Sabra"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "عمير",
+        "name_en": "Amieur"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "عين الكبيرة",
+        "name_en": "Ain Kebira"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "عين النحالة",
+        "name_en": "Ain Nehala"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "عين تالوت",
+        "name_en": "Ain Tellout"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "عين غرابة",
+        "name_en": "Ain Ghoraba"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "عين فتاح",
+        "name_en": "Ain Fetah"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "عين فزة",
+        "name_en": "Ain Fezza"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "عين يوسف",
+        "name_en": "Ain Youcef"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "فلاوسن",
+        "name_en": "Fellaoucene"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "مغنية",
+        "name_en": "Maghnia"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "منصورة",
+        "name_en": "Mansourah"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "ندرومة",
+        "name_en": "Nedroma"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "هنين",
+        "name_en": "Honnaine"
+    },
+    {
+        "province_code": "13",
+        "name_ar": "وادي الخضر",
+        "name_en": "Oued Lakhdar"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "الرحوية",
+        "name_en": "Rahouia"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "الرشايقة",
+        "name_en": "Rechaiga"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "السبت",
+        "name_en": "Sebt"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "السبعين",
+        "name_en": "Sebaine"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "السوقر",
+        "name_en": "Sougueur"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "الفايجة",
+        "name_en": "Faidja"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "الناظورة",
+        "name_en": "Nadorah"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "النعيمة",
+        "name_en": "Naima"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "بوقرة",
+        "name_en": "Bougara"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "تاقدمت",
+        "name_en": "Tagdempt"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "تخمرت",
+        "name_en": "Takhemaret"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "توسنينة",
+        "name_en": "Tousnina"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "تيارت",
+        "name_en": "Tiaret"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "تيدة",
+        "name_en": "Tidda"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "جبيلات الرصفاء",
+        "name_en": "Djebilet Rosfa"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "جيلالي بن عمار",
+        "name_en": "Djillali Ben Amar"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "حمادية",
+        "name_en": "Hamadia"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "دحموني",
+        "name_en": "Dahmouni"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "زمالة  الأمير عبد القادر",
+        "name_en": "Zmalet El Emir Abdelkade"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "سرغين",
+        "name_en": "Serghine"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "سي عبد الغني",
+        "name_en": "Si Abdelghani"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "سيدي بختي",
+        "name_en": "Sidi Bakhti"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "سيدي حسني",
+        "name_en": "Sidi Hosni"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "سيدي عبد الرحمن",
+        "name_en": "Sidi Abderrahmane"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "سيدي علي ملال",
+        "name_en": "Sidi Ali Mellal"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "شحيمة",
+        "name_en": "Chehaima"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "عين الحديد",
+        "name_en": "Ain El Hadid"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "عين الذهب",
+        "name_en": "Ain Deheb"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "عين بوشقيف",
+        "name_en": "Ain Bouchekif"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "عين دزاريت",
+        "name_en": "Ain Dzarit"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "عين كرمس",
+        "name_en": "Ain Kermes"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "فرندة",
+        "name_en": "Frenda"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "قرطوفة",
+        "name_en": "Guertoufa"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "قصر الشلالة",
+        "name_en": "Ksar Chellala"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "مادنة",
+        "name_en": "Madna"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "مدروسة",
+        "name_en": "Medroussa"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "مدريسة",
+        "name_en": "Medrissa"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "مشرع الصفا",
+        "name_en": "Mechraa Safa"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "مغيلة",
+        "name_en": "Meghila"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "ملاكو",
+        "name_en": "Mellakou"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "مهدية",
+        "name_en": "Mahdia"
+    },
+    {
+        "province_code": "14",
+        "name_ar": "وادي ليلي",
+        "name_en": "Oued Lilli"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "أبي يوسف",
+        "name_en": "Abi-Youcef"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "أزفون",
+        "name_en": "Azeffoun"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "أسي يوسف",
+        "name_en": "Assi-Youcef"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "أغريب",
+        "name_en": "Aghribs"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "أقرو",
+        "name_en": "Akerrou"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "أقني قغران",
+        "name_en": "Agouni-Gueghrane"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "أيت  أومالو",
+        "name_en": "Ait-Oumalou"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "أيت بــوادو",
+        "name_en": "Ait Bouaddou"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "أيت بومهدي",
+        "name_en": "Ait Boumahdi"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "أيت تودرت",
+        "name_en": "Ait-Toudert"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "أيت خليلي",
+        "name_en": "Ait Khellili"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "أيت شافع",
+        "name_en": "Ait-Chafaa"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "أيت عقـواشة",
+        "name_en": "Ait Aggouacha"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "أيت عيسى ميمون",
+        "name_en": "Ait-Aissa-Mimoun"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "أيت محمود",
+        "name_en": "Ait-Mahmoud"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "أيت يحي موسى",
+        "name_en": "Ait Yahia Moussa"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "أيت يحيى",
+        "name_en": "Ait-Yahia"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "إبودرارن",
+        "name_en": "Iboudrarene"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "إعــكورن",
+        "name_en": "Yakourene"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "إفــرحــونان",
+        "name_en": "Iferhounene"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "إفليـــسن",
+        "name_en": "Iflissen"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "إمســوحال",
+        "name_en": "Imsouhal"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "إيجــار",
+        "name_en": "Idjeur"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "إيرجـــن",
+        "name_en": "Irdjen"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "إيفيغاء",
+        "name_en": "Ifigha"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "إيلـيــلتـن",
+        "name_en": "Illilten"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "إيلولة أومـــالو",
+        "name_en": "Illoula Oumalou"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "اقبيل",
+        "name_en": "Akbil"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "الأربعــاء ناث إيراثن",
+        "name_en": "Larbaa Nath Irathen"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "بنــــي زمنزار",
+        "name_en": "Beni Zmenzer"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "بني دوالة",
+        "name_en": "Beni-Douala"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "بني زيكــي",
+        "name_en": "Beni-Zikki"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "بني عيسي",
+        "name_en": "Beni-Aissi"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "بني يني",
+        "name_en": "Beni-Yenni"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "بوجيمة",
+        "name_en": "Boudjima"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "بوزقــن",
+        "name_en": "Bouzeguene"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "بوغني",
+        "name_en": "Boghni"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "بونوح",
+        "name_en": "Bounouh"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "تادمايت",
+        "name_en": "Tadmait"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "تيرمتين",
+        "name_en": "Tirmitine"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "تيزي راشد",
+        "name_en": "Tizi-Rached"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "تيزي غنيف",
+        "name_en": "Tizi-Gheniff"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "تيزي وزو",
+        "name_en": "Tizi-Ouzou"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "تيقـزيرت",
+        "name_en": "Tigzirt"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "تيمـيزار",
+        "name_en": "Timizart"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "ذراع الميزان",
+        "name_en": "Draa-El-Mizan"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "ذراع بن خدة",
+        "name_en": "Draa-Ben-Khedda"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "زكري",
+        "name_en": "Zekri"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "سوق الإثنين",
+        "name_en": "Souk-El-Tenine"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "سيدي نعمان",
+        "name_en": "Sidi Namane"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "صوامـــع",
+        "name_en": "Souama"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "عزازقة",
+        "name_en": "Azazga"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "عين الحمام",
+        "name_en": "Ain-El-Hammam"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "عين الزاوية",
+        "name_en": "Ain-Zaouia"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "فريحة",
+        "name_en": "Freha"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "فريقات",
+        "name_en": "Frikat"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "ماكودة",
+        "name_en": "Makouda"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "مشطراس",
+        "name_en": "Mechtras"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "معـــاتقة",
+        "name_en": "Maatkas"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "مقــلع",
+        "name_en": "Mekla"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "ميزرانـــة",
+        "name_en": "Mizrana"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "واسيف",
+        "name_en": "Ouacif"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "واضية",
+        "name_en": "Ouadhias"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "واقنون",
+        "name_en": "Ouaguenoun"
+    },
+    {
+        "province_code": "15",
+        "name_ar": "يطــافن",
+        "name_en": "Yatafene"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "ابن عكنون",
+        "name_en": "Ben Aknoun"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "الابيار",
+        "name_en": "El Biar"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "الحراش",
+        "name_en": "El Harrach"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "الحمامات",
+        "name_en": "Hammamet"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "الخرايسية",
+        "name_en": "Khraissia"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "الدار البيضاء",
+        "name_en": "Dar El Beida"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "الدرارية",
+        "name_en": "Draria"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "الدويرة",
+        "name_en": "Douira"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "الرايس حميدو",
+        "name_en": "Rais Hamidou"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "الرحمانية",
+        "name_en": "Rahmania"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "الرويبة",
+        "name_en": "Rouiba"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "السحاولة",
+        "name_en": "Sehaoula"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "الشراقة",
+        "name_en": "Cheraga"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "العاشور",
+        "name_en": "El Achour"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "القبة",
+        "name_en": "Kouba"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "القصبة",
+        "name_en": "Casbah"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "الكاليتوس",
+        "name_en": "Les Eucalyptus"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "المحمدية",
+        "name_en": "Mohammadia"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "المرسى",
+        "name_en": "El Marsa"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "المعالمة",
+        "name_en": "Maalma"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "المغارية",
+        "name_en": "El Magharia"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "اولاد شبل",
+        "name_en": "Ouled Chebel"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "اولاد فايت",
+        "name_en": "Ouled Fayet"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "بئر توتة",
+        "name_en": "Bir Touta"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "بئر خادم",
+        "name_en": "Birkhadem"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "بئر مراد رايس",
+        "name_en": "Bir Mourad Rais"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "باب الزوار",
+        "name_en": "Bab Ezzouar"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "باب الوادي",
+        "name_en": "Bab El Oued"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "بابا حسن",
+        "name_en": "Baba Hassen"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "باش جراح",
+        "name_en": "Bachedjerah"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "براقي",
+        "name_en": "Baraki"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "برج البحري",
+        "name_en": "Bordj El Bahri"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "برج الكيفان",
+        "name_en": "Bordj El Kiffan"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "بني مسوس",
+        "name_en": "Beni Messous"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "بوروبة",
+        "name_en": "Bourouba"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "بوزريعة",
+        "name_en": "Bouzareah"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "بولوغين بن زيري",
+        "name_en": "Bologhine Ibnou Ziri"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "تسالة المرجة",
+        "name_en": "Tessala El Merdja"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "جسر قسنطينة",
+        "name_en": "Djasr Kasentina"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "حسين داي",
+        "name_en": "Hussein Dey"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "حيدرة",
+        "name_en": "Hydra"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "دالي ابراهيم",
+        "name_en": "Dely Ibrahim"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "رغاية",
+        "name_en": "Reghaia"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "زرالدة",
+        "name_en": "Zeralda"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "سطاوالي",
+        "name_en": "Staoueli"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "سويدانية",
+        "name_en": "Souidania"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "سيدي موسى",
+        "name_en": "Sidi Moussa"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "عين بنيان",
+        "name_en": "Ain Benian"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "عين طاية",
+        "name_en": "Ain Taya"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "محمد بلوزداد",
+        "name_en": "Mohamed Belouzdad"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "هراوة",
+        "name_en": "Herraoua"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "وادي السمار",
+        "name_en": "Oued Smar"
+    },
+    {
+        "province_code": "16",
+        "name_ar": "وادي قريش",
+        "name_en": "Oued Koriche"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "أم العظام",
+        "name_en": "Oum Laadham"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "الادريسية",
+        "name_en": "El Idrissia"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "الجلفة",
+        "name_en": "Djelfa"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "الخميس",
+        "name_en": "El Khemis"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "الشارف",
+        "name_en": "Charef"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "القديد",
+        "name_en": "El Guedid"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "بن يعقوب",
+        "name_en": "Benyagoub"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "بنهار",
+        "name_en": "Benhar"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "بويرة الأحداب",
+        "name_en": "Bouira Lahdab"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "بيرين",
+        "name_en": "Birine"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "تعظميت",
+        "name_en": "Taadmit"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "حاسي العش",
+        "name_en": "Hassi El Euch"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "حاسي بحبح",
+        "name_en": "Hassi Bahbah"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "حاسي فدول",
+        "name_en": "Hassi Fedoul"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "حد الصحاري",
+        "name_en": "Had Sahary"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "دار الشيوخ",
+        "name_en": "Dar Chioukh"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "دلدول",
+        "name_en": "Deldoul"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "دويس",
+        "name_en": "Douis"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "زعفران",
+        "name_en": "Zaafrane"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "زكار",
+        "name_en": "Zaccar"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "سد الرحال",
+        "name_en": "Sed Rahal"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "سلمانة",
+        "name_en": "Selmana"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "سيدي بايزيد",
+        "name_en": "Sidi Baizid"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "سيدي لعجال",
+        "name_en": "Sidi Laadjel"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "عمورة",
+        "name_en": "Amourah"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "عين الإبل",
+        "name_en": "Ain El Ibel"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "عين الشهداء",
+        "name_en": "Ain Chouhada"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "عين فقه",
+        "name_en": "Ain Fekka"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "عين معبد",
+        "name_en": "Ain Maabed"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "عين وسارة",
+        "name_en": "Ain Oussera"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "فيض البطمة",
+        "name_en": "Faidh El Botma"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "قرنيني",
+        "name_en": "Guernini"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "قطارة",
+        "name_en": "Guettara"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "مجبارة",
+        "name_en": "Moudjebara"
+    },
+    {
+        "province_code": "17",
+        "name_ar": "مسعد",
+        "name_en": "Messaad"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "أراقن سويسي",
+        "name_en": "Erraguene Souissi"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "أولاد رابح",
+        "name_en": "Ouled Rabah"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "أولاد يحيى خدروش",
+        "name_en": "Ouled Yahia Khadrouch"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "الامير عبد القادر",
+        "name_en": "Emir Abdelkader"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "الجمعة بني حبيبي",
+        "name_en": "Djemaa Beni Habibi"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "السطارة",
+        "name_en": "Settara"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "الشحنة",
+        "name_en": "Chahna"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "الشقفة",
+        "name_en": "Chekfa"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "الطاهير",
+        "name_en": "Taher"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "العنصر",
+        "name_en": "El Ancer"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "العوانة",
+        "name_en": "El Aouana"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "القنار نشفي",
+        "name_en": "El Kennar Nouchfi"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "الميلية",
+        "name_en": "El Milia"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "بودريعة بني  ياجيس",
+        "name_en": "Boudria Beniyadjis"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "بوراوي بلهادف",
+        "name_en": "Bouraoui Belhadef"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "بوسيف أولاد عسكر",
+        "name_en": "Boussif Ouled Askeur"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "تاكسنة",
+        "name_en": "Texenna"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "جيجل",
+        "name_en": "Jijel"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "جيملة",
+        "name_en": "Djimla"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "خيري واد عجول",
+        "name_en": "Khiri Oued Adjoul"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "زيامة منصورية",
+        "name_en": "Ziama Mansouriah"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "سلمى بن زيادة",
+        "name_en": "Selma Benziada"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "سيدي عبد العزيز",
+        "name_en": "Sidi Abdelaziz"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "سيدي معروف",
+        "name_en": "Sidi Marouf"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "غبالة",
+        "name_en": "Ghebala"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "قاوس",
+        "name_en": "Kaous"
+    },
+    {
+        "province_code": "18",
+        "name_ar": "وجانة",
+        "name_en": "Oudjana"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "أوريسيا",
+        "name_en": "El Ouricia"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "أولاد تبان",
+        "name_en": "Ouled Tebben"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "أولاد سي أحمد",
+        "name_en": "Ouled Si Ahmed"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "أولاد صابر",
+        "name_en": "Ouled Sabor"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "أولاد عدوان",
+        "name_en": "Ouled Addouane"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "أيت نوال مزادة",
+        "name_en": "Ait Naoual Mezada"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "التلة",
+        "name_en": "Tella"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "الحامة",
+        "name_en": "Hamma"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "الدهامشة",
+        "name_en": "Dehamcha"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "الرصفة",
+        "name_en": "Rosfa"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "الطاية",
+        "name_en": "Taya"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "العلمة",
+        "name_en": "El Eulma"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "الولجة",
+        "name_en": "El-Ouldja"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "ايت تيزي",
+        "name_en": "Ait-Tizi"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "بئر العرش",
+        "name_en": "Bir-El-Arch"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "بئر حدادة",
+        "name_en": "Bir Haddada"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "بابور",
+        "name_en": "Babor"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "بازر سكرة",
+        "name_en": "Bazer-Sakra"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "بلاعة",
+        "name_en": "Bellaa"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "بني شبانة",
+        "name_en": "Beni Chebana"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "بني عزيز",
+        "name_en": "Beni-Aziz"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "بني فودة",
+        "name_en": "Beni Fouda"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "بني موحلي",
+        "name_en": "Beni-Mouhli"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "بني ورتيلان",
+        "name_en": "Beni Ourtilane"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "بني وسين",
+        "name_en": "Beni Oussine"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "بوسلام",
+        "name_en": "Bousselam"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "بوطالب",
+        "name_en": "Boutaleb"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "بوعنداس",
+        "name_en": "Bouandas"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "بوقاعة",
+        "name_en": "Bougaa"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "بيضاء برج",
+        "name_en": "Beidha Bordj"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "تاشودة",
+        "name_en": "Tachouda"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "تالة إيفاسن",
+        "name_en": "Tala-Ifacene"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "جميلة",
+        "name_en": "Djemila"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "حربيل",
+        "name_en": "Harbil"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "حمام السخنة",
+        "name_en": "Hamam Soukhna"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "حمام قرقور",
+        "name_en": "Hammam Guergour"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "ذراع قبيلة",
+        "name_en": "Draa-Kebila"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "سرج الغول",
+        "name_en": "Serdj-El-Ghoul"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "سطيف",
+        "name_en": "Setif"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "صالح باي",
+        "name_en": "Salah Bey"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "عموشة",
+        "name_en": "Amoucha"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "عين أرنات",
+        "name_en": "Ain Arnat"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "عين أزال",
+        "name_en": "Ain Azel"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "عين الحجر",
+        "name_en": "Ain Lahdjar"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "عين الروى",
+        "name_en": "Ain-Roua"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "عين السبت",
+        "name_en": "Ain-Sebt"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "عين الكبيرة",
+        "name_en": "Ain El Kebira"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "عين عباسة",
+        "name_en": "Ain Abessa"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "عين لقراج",
+        "name_en": "Ain-Legradj"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "عين ولمان",
+        "name_en": "Ain Oulmene"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "قجال",
+        "name_en": "Guidjel"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "قصر الابطال",
+        "name_en": "Kasr El Abtal"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "قلال",
+        "name_en": "Guellal"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "قلتة زرقاء",
+        "name_en": "Guelta Zerka"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "قنزات",
+        "name_en": "Guenzet"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "ماوكلان",
+        "name_en": "Maouaklane"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "مزلوق",
+        "name_en": "Mezloug"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "معاوية",
+        "name_en": "Maaouia"
+    },
+    {
+        "province_code": "19",
+        "name_ar": "واد البارد",
+        "name_en": "Oued El Bared"
+    },
+    {
+        "province_code": "20",
+        "name_ar": "أولاد إبراهيم",
+        "name_en": "Ouled Brahim"
+    },
+    {
+        "province_code": "20",
+        "name_ar": "أولاد خالد",
+        "name_en": "Ouled Khaled"
+    },
+    {
+        "province_code": "20",
+        "name_ar": "الحساسنة",
+        "name_en": "El Hassasna"
+    },
+    {
+        "province_code": "20",
+        "name_ar": "المعمورة",
+        "name_en": "Maamora"
+    },
+    {
+        "province_code": "20",
+        "name_ar": "تيرسين",
+        "name_en": "Tircine"
+    },
+    {
+        "province_code": "20",
+        "name_ar": "دوي ثابت",
+        "name_en": "Doui Thabet"
+    },
+    {
+        "province_code": "20",
+        "name_ar": "سعيدة",
+        "name_en": "Saida"
+    },
+    {
+        "province_code": "20",
+        "name_ar": "سيدي احمد",
+        "name_en": "Sidi Ahmed"
+    },
+    {
+        "province_code": "20",
+        "name_ar": "سيدي بوبكر",
+        "name_en": "Sidi Boubekeur"
+    },
+    {
+        "province_code": "20",
+        "name_ar": "سيدي عمر",
+        "name_en": "Sidi Amar"
+    },
+    {
+        "province_code": "20",
+        "name_ar": "عين الحجر",
+        "name_en": "Ain El Hadjar"
+    },
+    {
+        "province_code": "20",
+        "name_ar": "عين السخونة",
+        "name_en": "Ain Sekhouna"
+    },
+    {
+        "province_code": "20",
+        "name_ar": "عين السلطان",
+        "name_en": "Ain Soltane"
+    },
+    {
+        "province_code": "20",
+        "name_ar": "مولاي العربي",
+        "name_en": "Moulay Larbi"
+    },
+    {
+        "province_code": "20",
+        "name_ar": "هونت",
+        "name_en": "Hounet"
+    },
+    {
+        "province_code": "20",
+        "name_ar": "يوب",
+        "name_en": "Youb"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "أم الطوب",
+        "name_en": "Oum Toub"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "أولاد حبابة",
+        "name_en": "Ouled Habbaba"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "أولاد عطية",
+        "name_en": "Ouled Attia"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "الحدائق",
+        "name_en": "El Hadaiek"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "الحروش",
+        "name_en": "El Arrouch"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "الزيتونة",
+        "name_en": "Zitouna"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "السبت",
+        "name_en": "Es Sebt"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "الشرايع",
+        "name_en": "Cheraia"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "الغدير",
+        "name_en": "El Ghedir"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "القل",
+        "name_en": "Collo"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "الكركرة",
+        "name_en": "Kerkara"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "المرسى",
+        "name_en": "El Marsa"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "الولجة بولبلوط",
+        "name_en": "Ouldja Boulbalout"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "بكوش لخضر",
+        "name_en": "Bekkouche Lakhdar"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "بن عزوز",
+        "name_en": "Ben Azzouz"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "بني بشير",
+        "name_en": "Beni Bechir"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "بني زيد",
+        "name_en": "Beni Zid"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "بني ولبان",
+        "name_en": "Beni Oulbane"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "بوشطاطة",
+        "name_en": "Bouchetata"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "بين الويدان",
+        "name_en": "Bin El Ouiden"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "تمالوس",
+        "name_en": "Tamalous"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "جندل سعدي محمد",
+        "name_en": "Djendel Saadi Mohamed"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "حمادي كرومة",
+        "name_en": "Hammadi Krouma"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "خناق مايو",
+        "name_en": "Khenag Maoune"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "رمضان جمال",
+        "name_en": "Ramdane Djamel"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "زردازة",
+        "name_en": "Zerdezas"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "سكيكدة",
+        "name_en": "Skikda"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "سيدي مزغيش",
+        "name_en": "Sidi Mezghiche"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "صالح بو الشعور",
+        "name_en": "Salah Bouchaour"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "عزابة",
+        "name_en": "Azzaba"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "عين بوزيان",
+        "name_en": "Ain Bouziane"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "عين زويت",
+        "name_en": "Ain Zouit"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "عين شرشار",
+        "name_en": "Ain Charchar"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "عين قشرة",
+        "name_en": "Ain Kechra"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "فلفلة",
+        "name_en": "Filfila"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "قنواع",
+        "name_en": "Kanoua"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "مجاز الدشيش",
+        "name_en": "Emjez Edchich"
+    },
+    {
+        "province_code": "21",
+        "name_ar": "وادي الزهور",
+        "name_en": "Oued Zhour"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "الحصيبة",
+        "name_en": "El Hacaiba"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "السهالة الثورة",
+        "name_en": "Sehala Thaoura"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "الضاية",
+        "name_en": "Dhaya"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "العمارنة",
+        "name_en": "Amarnas"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "بئر الحمام",
+        "name_en": "Bir El Hammam"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "بضرابين المقراني",
+        "name_en": "Bedrabine El Mokrani"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "بلعربي",
+        "name_en": "Belarbi"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "بن باديس",
+        "name_en": "Ben Badis"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "بن عشيبة شلية",
+        "name_en": "Benachiba Chelia"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "بوجبهة البرج",
+        "name_en": "Boudjebaa El Bordj"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "بوخنفيس",
+        "name_en": "Boukhanefis"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "تاودموت",
+        "name_en": "Taoudmout"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "تسالة",
+        "name_en": "Tessala"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "تغاليمت",
+        "name_en": "Teghalimet"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "تفسور",
+        "name_en": "Tefessour"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "تلاغ",
+        "name_en": "Telagh"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "تلموني",
+        "name_en": "Tilmouni"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "تنيرة",
+        "name_en": "Tenira"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "حاسي دحو",
+        "name_en": "Hassi Dahou"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "حاسي زهانة",
+        "name_en": "Hassi Zahana"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "راس الماء",
+        "name_en": "Ras El Ma"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "رجم دموش",
+        "name_en": "Redjem Demouche"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "زروالة",
+        "name_en": "Zerouala"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "سفيزف",
+        "name_en": "Sfisef"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "سيدي ابراهيم",
+        "name_en": "Sidi Brahim"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "سيدي بلعباس",
+        "name_en": "Sidi Bel-Abbes"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "سيدي حمادوش",
+        "name_en": "Sidi Hamadouche"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "سيدي خالد",
+        "name_en": "Sidi Khaled"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "سيدي دحو الزاير",
+        "name_en": "Sidi Dahou Zairs"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "سيدي شعيب",
+        "name_en": "Sidi Chaib"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "سيدي علي بن يوب",
+        "name_en": "Sidi Ali Benyoub"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "سيدي علي بوسيدي",
+        "name_en": "Sidi Ali Boussidi"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "سيدي لحسن",
+        "name_en": "Sidi Lahcene"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "سيدي يعقوب",
+        "name_en": "Sidi Yacoub"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "شيطوان البلايلة",
+        "name_en": "Chetouane Belaila"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "طابية",
+        "name_en": "Tabia"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "عين أدن",
+        "name_en": "Ain- Adden"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "عين البرد",
+        "name_en": "Ain El Berd"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "عين الثريد",
+        "name_en": "Ain Thrid"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "عين تندمين",
+        "name_en": "Ain Tindamine"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "عين قادة",
+        "name_en": "Ain Kada"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "لمطار",
+        "name_en": "Lamtar"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "مرحوم",
+        "name_en": "Marhoum"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "مرين",
+        "name_en": "Merine"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "مزاورو",
+        "name_en": "Mezaourou"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "مصطفى بن ابراهيم",
+        "name_en": "Mostefa  Ben Brahim"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "مكدرة",
+        "name_en": "Makedra"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "مولاي سليسن",
+        "name_en": "Moulay Slissen"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "وادي السبع",
+        "name_en": "Oued Sebaa"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "وادي تاوريرة",
+        "name_en": "Oued Taourira"
+    },
+    {
+        "province_code": "22",
+        "name_ar": "وادي سفيون",
+        "name_en": "Oued Sefioun"
+    },
+    {
+        "province_code": "23",
+        "name_ar": "البوني",
+        "name_en": "El Bouni"
+    },
+    {
+        "province_code": "23",
+        "name_ar": "التريعات",
+        "name_en": "Treat"
+    },
+    {
+        "province_code": "23",
+        "name_ar": "الحجار",
+        "name_en": "El Hadjar"
+    },
+    {
+        "province_code": "23",
+        "name_ar": "الشرفة",
+        "name_en": "Cheurfa"
+    },
+    {
+        "province_code": "23",
+        "name_ar": "العلمة",
+        "name_en": "El Eulma"
+    },
+    {
+        "province_code": "23",
+        "name_ar": "برحال",
+        "name_en": "Berrahal"
+    },
+    {
+        "province_code": "23",
+        "name_ar": "سرايدي",
+        "name_en": "Seraidi"
+    },
+    {
+        "province_code": "23",
+        "name_ar": "سيدي عمار",
+        "name_en": "Sidi Amar"
+    },
+    {
+        "province_code": "23",
+        "name_ar": "شطايبي",
+        "name_en": "Chetaibi"
+    },
+    {
+        "province_code": "23",
+        "name_ar": "عنابة",
+        "name_en": "Annaba"
+    },
+    {
+        "province_code": "23",
+        "name_ar": "عين الباردة",
+        "name_en": "Ain El Berda"
+    },
+    {
+        "province_code": "23",
+        "name_ar": "واد العنب",
+        "name_en": "Oued El Aneb"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "الركنية",
+        "name_en": "Roknia"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "الفجوج",
+        "name_en": "El Fedjoudj"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "برج صباط",
+        "name_en": "Bordj Sabath"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "بلخير",
+        "name_en": "Belkheir"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "بن جراح",
+        "name_en": "Bendjarah"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "بني مزلين",
+        "name_en": "Beni Mezline"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "بوحشانة",
+        "name_en": "Bou Hachana"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "بوحمدان",
+        "name_en": "Bou Hamdane"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "بوشقوف",
+        "name_en": "Bouchegouf"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "بوعاتي محمود",
+        "name_en": "Bouati Mahmoud"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "بومهرة أحمد",
+        "name_en": "Boumahra Ahmed"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "تاملوكة",
+        "name_en": "Tamlouka"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "جبالة الخميسي",
+        "name_en": "Djeballah Khemissi"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "حمام دباغ",
+        "name_en": "Hammam Debagh"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "رأس العقبة",
+        "name_en": "Ras El Agba"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "سلاوة عنونة",
+        "name_en": "Sellaoua Announa"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "عين العربي",
+        "name_en": "Ain Larbi"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "عين بن بيضاء",
+        "name_en": "Ain Ben Beida"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "عين رقادة",
+        "name_en": "Ain Regada"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "عين صندل",
+        "name_en": "Ain Sandel"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "عين مخلوف",
+        "name_en": "Ain Makhlouf"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "قالمة",
+        "name_en": "Guelma"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "قلعة بوصبع",
+        "name_en": "Guelaat Bou Sbaa"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "لخزارة",
+        "name_en": "Khezaras"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "مجاز الصفاء",
+        "name_en": "Medjez Sfa"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "مجاز عمار",
+        "name_en": "Medjez Amar"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "نشماية",
+        "name_en": "Nechmaya"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "هواري بومدين",
+        "name_en": "Houari Boumedienne"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "هيليوبوليس",
+        "name_en": "Heliopolis"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "وادي الزناتي",
+        "name_en": "Oued Zenati"
+    },
+    {
+        "province_code": "24",
+        "name_ar": "وادي فراغة",
+        "name_en": "Oued Ferragha"
+    },
+    {
+        "province_code": "25",
+        "name_ar": "أبن باديس الهرية",
+        "name_en": "Ben Badis"
+    },
+    {
+        "province_code": "25",
+        "name_ar": "أولاد رحمون",
+        "name_en": "Ouled Rahmoun"
+    },
+    {
+        "province_code": "25",
+        "name_ar": "ابن زياد",
+        "name_en": "Ibn Ziad"
+    },
+    {
+        "province_code": "25",
+        "name_ar": "الخروب",
+        "name_en": "El Khroub"
+    },
+    {
+        "province_code": "25",
+        "name_ar": "بني حميدان",
+        "name_en": "Beni Hamidane"
+    },
+    {
+        "province_code": "25",
+        "name_ar": "بوجريو مسعود",
+        "name_en": "Messaoud Boudjeriou"
+    },
+    {
+        "province_code": "25",
+        "name_ar": "حامة بوزيان",
+        "name_en": "Hamma Bouziane"
+    },
+    {
+        "province_code": "25",
+        "name_ar": "ديدوش مراد",
+        "name_en": "Didouche Mourad"
+    },
+    {
+        "province_code": "25",
+        "name_ar": "زيغود يوسف",
+        "name_en": "Zighoud Youcef"
+    },
+    {
+        "province_code": "25",
+        "name_ar": "عين السمارة",
+        "name_en": "Ain Smara"
+    },
+    {
+        "province_code": "25",
+        "name_ar": "عين عبيد",
+        "name_en": "Ain Abid"
+    },
+    {
+        "province_code": "25",
+        "name_ar": "قسنطينة",
+        "name_en": "Constantine"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "أم الجليل",
+        "name_en": "Oum El Djellil"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "أولاد إبراهيم",
+        "name_en": "Ouled Brahim"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "أولاد امعرف",
+        "name_en": "Ouled Emaaraf"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "أولاد بوعشرة",
+        "name_en": "Ouled Bouachra"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "أولاد دايد",
+        "name_en": "Ouled Deid"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "أولاد عنتر",
+        "name_en": "Ouled Antar"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "أولاد هلال",
+        "name_en": "Ouled Hellal"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "البرواقية",
+        "name_en": "Berrouaghia"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "الحمدانية",
+        "name_en": "El Hamdania"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "الحوضان",
+        "name_en": "El Haoudane"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "الربعية",
+        "name_en": "Rebaia"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "الزبيرية",
+        "name_en": "Zoubiria"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "السانق",
+        "name_en": "Saneg"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "السواقي",
+        "name_en": "Souagui"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "الشهبونية",
+        "name_en": "Chabounia"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "العزيزية",
+        "name_en": "El Azizia"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "العمارية",
+        "name_en": "El Omaria"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "العوينات",
+        "name_en": "El Ouinet"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "العيساوية",
+        "name_en": "Aissaouia"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "القلب الكبير",
+        "name_en": "El Guelbelkebir"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "الكاف الاخضر",
+        "name_en": "Kef Lakhdar"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "المدية",
+        "name_en": "Medea"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "بئر بن عابد",
+        "name_en": "Bir Ben Laabed"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "بعطة",
+        "name_en": "Baata"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "بن شكاو",
+        "name_en": "Ben Chicao"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "بني سليمان",
+        "name_en": "Beni Slimane"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "بوسكن",
+        "name_en": "Bouskene"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "بوشراحيل",
+        "name_en": "Bouchrahil"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "بوعيش",
+        "name_en": "Bouaiche"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "بوعيشون",
+        "name_en": "Bouaichoune"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "بوغار",
+        "name_en": "Boghar"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "بوغزول",
+        "name_en": "Boughzoul"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "تابلاط",
+        "name_en": "Tablat"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "تفراوت",
+        "name_en": "Tafraout"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "تمسقيدة",
+        "name_en": "Tamesguida"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "تيزي مهدي",
+        "name_en": "Tizi Mahdi"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "ثلاث دوائر",
+        "name_en": "Tletat Ed Douair"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "جواب",
+        "name_en": "Djouab"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "حناشة",
+        "name_en": "Hannacha"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "خمس جوامع",
+        "name_en": "Khams Djouamaa"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "دراق",
+        "name_en": "Derrag"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "ذراع السمار",
+        "name_en": "Draa Esmar"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "سدراية",
+        "name_en": "Sedraya"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "سغوان",
+        "name_en": "Seghouane"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "سي المحجوب",
+        "name_en": "Si Mahdjoub"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "سيدي الربيع",
+        "name_en": "Sidi Rabie"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "سيدي دامد",
+        "name_en": "Sidi Demed"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "سيدي زهار",
+        "name_en": "Sidi Zahar"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "سيدي زيان",
+        "name_en": "Sidi Ziane"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "سيدي نعمان",
+        "name_en": "Sidi Naamane"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "شلالة العذاورة",
+        "name_en": "Chelalet El Adhaoura"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "شنيقل",
+        "name_en": "Cheniguel"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "عزيز",
+        "name_en": "Aziz"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "عوامري",
+        "name_en": "Ouamri"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "عين اقصير",
+        "name_en": "Ain Ouksir"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "عين بوسيف",
+        "name_en": "Ain Boucif"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "قصر البخاري",
+        "name_en": "Ksar El Boukhari"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "مجبر",
+        "name_en": "Medjebar"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "مزغنة",
+        "name_en": "Mezerana"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "مغراوة",
+        "name_en": "Maghraoua"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "ميهوب",
+        "name_en": "Mihoub"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "وادي حربيل",
+        "name_en": "Oued Harbil"
+    },
+    {
+        "province_code": "26",
+        "name_ar": "وزرة",
+        "name_en": "Ouzera"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "أولاد بوغالم",
+        "name_en": "Ouled Boughalem"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "أولاد مع الله",
+        "name_en": "Ouled-Maalah"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "الحسيان (بني ياحي",
+        "name_en": "Hassiane"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "السوافلية",
+        "name_en": "Souaflia"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "الطواهرية",
+        "name_en": "Touahria"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "بن عبد المالك رمضان",
+        "name_en": "Benabdelmalek Ramdane"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "بوقيراط",
+        "name_en": "Bouguirat"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "تزقايت",
+        "name_en": "Tazgait"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "حاسي ماماش",
+        "name_en": "Hassi Mameche"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "حجاج",
+        "name_en": "Hadjadj"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "خضرة",
+        "name_en": "Khadra"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "خير الدين",
+        "name_en": "Kheir-Eddine"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "ستيدية",
+        "name_en": "Stidia"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "سور",
+        "name_en": "Sour"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "سيدي بلعطار",
+        "name_en": "Sidi Belaattar"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "سيدي علي",
+        "name_en": "Sidi Ali"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "سيدي لخضر",
+        "name_en": "Sidi-Lakhdar"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "سيرات",
+        "name_en": "Sirat"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "صفصاف",
+        "name_en": "Safsaf"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "صيادة",
+        "name_en": "Sayada"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "عشعاشة",
+        "name_en": "Achaacha"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "عين بودينار",
+        "name_en": "Ain-Boudinar"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "عين تادلس",
+        "name_en": "Ain-Tedles"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "عين سيدي الشريف",
+        "name_en": "Ain-Sidi Cherif"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "عين نويسي",
+        "name_en": "Ain-Nouissy"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "فرناقة",
+        "name_en": "Fornaka"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "ماسرة",
+        "name_en": "Mesra"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "مزغران",
+        "name_en": "Mazagran"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "مستغانم",
+        "name_en": "Mostaganem"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "منصورة",
+        "name_en": "Mansourah"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "نكمارية",
+        "name_en": "Nekmaria"
+    },
+    {
+        "province_code": "27",
+        "name_ar": "وادي الخير",
+        "name_en": "Oued El Kheir"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "أولاد دراج",
+        "name_en": "Ouled Derradj"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "أولاد سليمان",
+        "name_en": "Ouled Slimane"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "أولاد سيدي ابراهيم",
+        "name_en": "Ouled Sidi Brahim"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "أولاد عدي لقبالة",
+        "name_en": "Ouled Addi Guebala"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "أولاد ماضي",
+        "name_en": "Ouled Madhi"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "أولاد منصور",
+        "name_en": "Ouled Mansour"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "الحوامد",
+        "name_en": "El Houamed"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "السوامع",
+        "name_en": "Souamaa"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "المعاضيد",
+        "name_en": "Maadid"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "الهامل",
+        "name_en": "El Hamel"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "امجدل",
+        "name_en": "Medjedel"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "بئر فضة",
+        "name_en": "Bir Foda"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "برهوم",
+        "name_en": "Berhoum"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "بلعايبة",
+        "name_en": "Belaiba"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "بن زوه",
+        "name_en": "Benzouh"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "بن سرور",
+        "name_en": "Ben Srour"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "بني يلمان",
+        "name_en": "Beni Ilmane"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "بوسعادة",
+        "name_en": "Bou Saada"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "بوطي السايح",
+        "name_en": "Bouti Sayeh"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "تارمونت",
+        "name_en": "Tarmount"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "تامسة",
+        "name_en": "Tamsa"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "جبل مساعد",
+        "name_en": "Djebel Messaad"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "حمام الضلعة",
+        "name_en": "Hammam Dalaa"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "خبانة",
+        "name_en": "Khoubana"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "خطوطي سد الجير",
+        "name_en": "Khettouti Sed-El-Jir"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "دهاهنة",
+        "name_en": "Dehahna"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "زرزور",
+        "name_en": "Zarzour"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "سليم",
+        "name_en": "Slim"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "سيدي عامر",
+        "name_en": "Sidi Ameur"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "سيدي عيسى",
+        "name_en": "Sidi Aissa"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "سيدي هجرس",
+        "name_en": "Sidi Hadjeres"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "شلال",
+        "name_en": "Chellal"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "عين الحجل",
+        "name_en": "Ain El Hadjel"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "عين الخضراء",
+        "name_en": "Ain Khadra"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "عين الريش",
+        "name_en": "Ain Rich"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "عين الملح",
+        "name_en": "Ain El Melh"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "عين فارس",
+        "name_en": "Ain Fares"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "محمد بوضياف",
+        "name_en": "Mohamed Boudiaf"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "معاريف",
+        "name_en": "Maarif"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "مقرة",
+        "name_en": "Magra"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "مناعة",
+        "name_en": "Menaa"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "ولتام",
+        "name_en": "Oulteme"
+    },
+    {
+        "province_code": "28",
+        "name_ar": "ونوغة",
+        "name_en": "Ouanougha"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "البرج",
+        "name_en": "El Bordj"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "الحشم",
+        "name_en": "El Hachem"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "السهايلية",
+        "name_en": "Sehailia"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "الشرفاء",
+        "name_en": "Chorfa"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "العلايمية",
+        "name_en": "Alaimia"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "الغمري",
+        "name_en": "El Ghomri"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "القرط",
+        "name_en": "El Keurt"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "القطنة",
+        "name_en": "El Gueitena"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "القعدة",
+        "name_en": "El Gaada"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "المأمونية",
+        "name_en": "El Mamounia"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "المحمدية",
+        "name_en": "Mohammadia"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "المطمور",
+        "name_en": "Matemore"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "المنور",
+        "name_en": "El Menaouer"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "بنيان",
+        "name_en": "Benian"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "بوحنيفية",
+        "name_en": "Bouhanifia"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "بوهني",
+        "name_en": "Bou Henni"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "تيزي",
+        "name_en": "Tizi"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "تيغنيف",
+        "name_en": "Tighennif"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "حسين",
+        "name_en": "Hacine"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "خلوية",
+        "name_en": "Khalouia"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "رأس عين عميروش",
+        "name_en": "Ras El Ain Amirouche"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "زلامطة",
+        "name_en": "Zelamta"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "زهانة",
+        "name_en": "Zahana"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "سجرارة",
+        "name_en": "Sedjerara"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "سيدي بوسعيد",
+        "name_en": "Sidi Boussaid"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "سيدي عبد الجبار",
+        "name_en": "Sidi Abdeldjebar"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "سيدي عبد المومن",
+        "name_en": "Sidi Abdelmoumene"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "سيدي قادة",
+        "name_en": "Sidi Kada"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "سيق",
+        "name_en": "Sig"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "عقاز",
+        "name_en": "Oggaz"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "عوف",
+        "name_en": "Aouf"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "عين أفرص",
+        "name_en": "Ain Frass"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "عين فارس",
+        "name_en": "Ain Fares"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "عين فراح",
+        "name_en": "Ain Ferah"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "عين فكان",
+        "name_en": "Ain Fekan"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "غروس",
+        "name_en": "Gharrous"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "غريس",
+        "name_en": "Ghriss"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "فراقيق",
+        "name_en": "Ferraguig"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "فروحة",
+        "name_en": "Froha"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "قرجوم",
+        "name_en": "Guerdjoum"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "ماقضة",
+        "name_en": "Makhda"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "ماوسة",
+        "name_en": "Maoussa"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "معسكر",
+        "name_en": "Mascara"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "مقطع الدوز",
+        "name_en": "Mocta-Douz"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "نسمط",
+        "name_en": "Nesmot"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "وادي الأبطال",
+        "name_en": "Oued El Abtal"
+    },
+    {
+        "province_code": "29",
+        "name_ar": "وادي التاغية",
+        "name_en": "Oued Taria"
+    },
+    {
+        "province_code": "30",
+        "name_ar": "البرمة",
+        "name_en": "El Borma"
+    },
+    {
+        "province_code": "30",
+        "name_ar": "الرويسات",
+        "name_en": "Rouissat"
+    },
+    {
+        "province_code": "30",
+        "name_ar": "حاسي بن عبد الله",
+        "name_en": "Hassi Ben Abdellah"
+    },
+    {
+        "province_code": "30",
+        "name_ar": "حاسي مسعود",
+        "name_en": "Hassi Messaoud"
+    },
+    {
+        "province_code": "30",
+        "name_ar": "سيدي خويلد",
+        "name_en": "Sidi Khouiled"
+    },
+    {
+        "province_code": "30",
+        "name_ar": "عين البيضاء",
+        "name_en": "Ain Beida"
+    },
+    {
+        "province_code": "30",
+        "name_ar": "ورقلة",
+        "name_en": "Ouargla"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "أرزيو",
+        "name_en": "Arzew"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "البراية",
+        "name_en": "El Braya"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "السانية",
+        "name_en": "Es Senia"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "العنصر",
+        "name_en": "El Ancor"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "الكرمة",
+        "name_en": "El Kerma"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "المرسى الكبير",
+        "name_en": "Mers El Kebir"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "بئر الجير",
+        "name_en": "Bir El Djir"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "بطيوة",
+        "name_en": "Bethioua"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "بن فريحة",
+        "name_en": "Ben Freha"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "بوتليليس",
+        "name_en": "Boutlelis"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "بوسفر",
+        "name_en": "Bousfer"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "بوفاتيس",
+        "name_en": "Boufatis"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "حاسي بن عقبة",
+        "name_en": "Hassi Ben Okba"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "حاسي بونيف",
+        "name_en": "Hassi Bounif"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "حاسي مفسوخ",
+        "name_en": "Hassi Mefsoukh"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "سيدي الشحمي",
+        "name_en": "Sidi Chami"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "سيدي بن يبقى",
+        "name_en": "Sidi Ben Yebka"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "طفراوي",
+        "name_en": "Tafraoui"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "عين البية",
+        "name_en": "Ain Biya"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "عين الترك",
+        "name_en": "Ain Turk"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "عين الكرمة",
+        "name_en": "Ain Kerma"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "قديل",
+        "name_en": "Gdyel"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "مرسى الحجاج",
+        "name_en": "Marsat El Hadjadj"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "مسرغين",
+        "name_en": "Messerghin"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "وادي تليلات",
+        "name_en": "Oued Tlelat"
+    },
+    {
+        "province_code": "31",
+        "name_ar": "وهران",
+        "name_en": "Oran"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "اربوات",
+        "name_en": "Arbaouat"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "الأبيض سيدي الشيخ",
+        "name_en": "Labiodh Sidi Cheikh"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "البنود",
+        "name_en": "El Bnoud"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "البيض",
+        "name_en": "El Bayadh"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "الخيثر",
+        "name_en": "El Kheiter"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "الشقيق",
+        "name_en": "Cheguig"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "الغاسول",
+        "name_en": "Ghassoul"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "الكاف الأحمر",
+        "name_en": "Kef El Ahmar"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "المحرة",
+        "name_en": "El Mehara"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "بريزينة",
+        "name_en": "Brezina"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "بوسمغون",
+        "name_en": "Boussemghoun"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "بوعلام",
+        "name_en": "Boualem"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "بوقطب",
+        "name_en": "Bougtoub"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "توسمولين",
+        "name_en": "Tousmouline"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "رقاصة",
+        "name_en": "Rogassa"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "ستيتن",
+        "name_en": "Stitten"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "سيدي سليمان",
+        "name_en": "Sidi Slimane"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "سيدي طيفور",
+        "name_en": "Sidi Tiffour"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "سيدي عامر",
+        "name_en": "Sidi Ameur"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "شلالة",
+        "name_en": "Chellala"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "عين العراك",
+        "name_en": "Ain El Orak"
+    },
+    {
+        "province_code": "32",
+        "name_ar": "كراكدة",
+        "name_en": "Krakda"
+    },
+    {
+        "province_code": "33",
+        "name_ar": "إن أمناس",
+        "name_en": "In Amenas"
+    },
+    {
+        "province_code": "33",
+        "name_ar": "إيليزي",
+        "name_en": "Illizi"
+    },
+    {
+        "province_code": "33",
+        "name_ar": "برج عمر إدريس",
+        "name_en": "Bordj Omar Driss"
+    },
+    {
+        "province_code": "33",
+        "name_ar": "دبداب",
+        "name_en": "Debdeb"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "أولاد أبراهم",
+        "name_en": "Ouled Brahem"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "أولاد دحمان",
+        "name_en": "Ouled Dahmane"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "أولاد سيدي ابراهيم",
+        "name_en": "Ouled Sidi-Brahim"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "الحمادية",
+        "name_en": "Elhammadia"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "الرابطة",
+        "name_en": "Rabta"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "العش",
+        "name_en": "El Euch"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "العناصر",
+        "name_en": "El Annasseur"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "القصور",
+        "name_en": "Ksour"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "القلة",
+        "name_en": "Colla"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "الماين",
+        "name_en": "El Main"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "المنصورة",
+        "name_en": "Mansoura"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "الياشير",
+        "name_en": "El Achir"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "بئر قاصد علي",
+        "name_en": "Bir Kasdali"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "برج الغدير",
+        "name_en": "Bordj Ghedir"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "برج بوعريرج",
+        "name_en": "B. B. Arreridj"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "برج زمورة",
+        "name_en": "Bordj Zemmoura"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "بليمور",
+        "name_en": "Belimour"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "بن داود",
+        "name_en": "Ben Daoud"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "تسامرت",
+        "name_en": "Tassamert"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "تفرق",
+        "name_en": "Tefreg"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "تقلعيت",
+        "name_en": "Taglait"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "تيكستار",
+        "name_en": "Tixter"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "ثنية النصر",
+        "name_en": "Teniet En Nasr"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "جعافرة",
+        "name_en": "Djaafra"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "حرازة",
+        "name_en": "Haraza"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "حسناوة",
+        "name_en": "Hasnaoua"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "خليل",
+        "name_en": "Khelil"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "رأس الوادي",
+        "name_en": "Ras El Oued"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "سيدي أمبارك",
+        "name_en": "Sidi-Embarek"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "عين تاغروت",
+        "name_en": "Ain Taghrout"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "عين تسرة",
+        "name_en": "Ain Tesra"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "غيلاسة",
+        "name_en": "Ghailasa"
+    },
+    {
+        "province_code": "34",
+        "name_ar": "مجانة",
+        "name_en": "Medjana"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "أعفير",
+        "name_en": "Afir"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "أولاد عيسى",
+        "name_en": "Ouled Aissa"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "أولاد موسى",
+        "name_en": "Ouled Moussa"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "أولاد هداج",
+        "name_en": "Ouled Hedadj"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "الاربعطاش",
+        "name_en": "Larbatache"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "الثنية",
+        "name_en": "Thenia"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "الخروبة",
+        "name_en": "El Kharrouba"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "الناصرية",
+        "name_en": "Naciria"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "برج منايل",
+        "name_en": "Bordj Menaiel"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "بغلية",
+        "name_en": "Baghlia"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "بن شود",
+        "name_en": "Ben Choud"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "بني عمران",
+        "name_en": "Beni Amrane"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "بودواو",
+        "name_en": "Boudouaou"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "بودواو البحري",
+        "name_en": "Boudouaou El Bahri"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "بوزقزة قدارة",
+        "name_en": "Bouzegza Keddara"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "بومرداس",
+        "name_en": "Boumerdes"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "تاورقة",
+        "name_en": "Taourga"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "تيجلابين",
+        "name_en": "Tidjelabine"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "تيمزريت",
+        "name_en": "Timezrit"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "جنات",
+        "name_en": "Djinet"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "حمادي",
+        "name_en": "Hammedi"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "خميس الخشنة",
+        "name_en": "Khemis El Khechna"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "دلس",
+        "name_en": "Dellys"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "زموري",
+        "name_en": "Zemmouri"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "سوق الحد",
+        "name_en": "Souk El Had"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "سي مصطفى",
+        "name_en": "Si Mustapha"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "سيدي داود",
+        "name_en": "Sidi Daoud"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "شعبة العامر",
+        "name_en": "Chabet El Ameur"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "عمال",
+        "name_en": "Ammal"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "قورصو",
+        "name_en": "Corso"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "لقاطة",
+        "name_en": "Leghata"
+    },
+    {
+        "province_code": "35",
+        "name_ar": "يسر",
+        "name_en": "Isser"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "البسباس",
+        "name_en": "Besbes"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "الذرعـان",
+        "name_en": "Drean"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "الزيتونة",
+        "name_en": "Zitouna"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "السوارخ",
+        "name_en": "Souarekh"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "الشافية",
+        "name_en": "Chefia"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "الطارف",
+        "name_en": "El Tarf"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "العيون",
+        "name_en": "El Aioun"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "القالة",
+        "name_en": "El Kala"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "بحيرة الطيور",
+        "name_en": "Lac Des Oiseaux"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "بوثلجة",
+        "name_en": "Bouteldja"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "بوحجار",
+        "name_en": "Bouhadjar"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "بوقوس",
+        "name_en": "Bougous"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "حمام بني صالح",
+        "name_en": "Hammam Beni Salah"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "رمل السوق",
+        "name_en": "Raml Souk"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "زريزر",
+        "name_en": "Zerizer"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "شبيطة مختار",
+        "name_en": "Chebaita Mokhtar"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "شحاني",
+        "name_en": "Chihani"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "عصفور",
+        "name_en": "Asfour"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "عين العسل",
+        "name_en": "Ain El Assel"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "عين الكرمة",
+        "name_en": "Ain Kerma"
+    },
+    {
+        "province_code": "36",
+        "name_ar": "وادي الزيتون",
+        "name_en": "Oued Zitoun"
+    },
+    {
+        "province_code": "37",
+        "name_ar": "أم العسل",
+        "name_en": "Oum El Assel"
+    },
+    {
+        "province_code": "37",
+        "name_ar": "تندوف",
+        "name_en": "Tindouf"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "أولاد بسام",
+        "name_en": "Ouled Bessam"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "الأربعاء",
+        "name_en": "Larbaa"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "الأزهرية",
+        "name_en": "Lazharia"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "العيون",
+        "name_en": "Layoune"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "المعاصم",
+        "name_en": "Maacem"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "الملعب",
+        "name_en": "Melaab"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "اليوسفية",
+        "name_en": "Youssoufia"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "برج الأمير عبد القادر",
+        "name_en": "Bordj El Emir Abdelkader"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "برج بونعامة",
+        "name_en": "Bordj Bounaama"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "بني شعيب",
+        "name_en": "Beni Chaib"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "بني لحسن",
+        "name_en": "Beni Lahcene"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "بوقائد",
+        "name_en": "Boucaid"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "تملاحت",
+        "name_en": "Tamellahet"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "تيسمسيلت",
+        "name_en": "Tissemsilt"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "ثنية الاحد",
+        "name_en": "Theniet El Had"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "خميستي",
+        "name_en": "Khemisti"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "سيدي العنتري",
+        "name_en": "Sidi Lantri"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "سيدي بوتوشنت",
+        "name_en": "Sidi Boutouchent"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "سيدي سليمان",
+        "name_en": "Sidi Slimane"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "سيدي عابد",
+        "name_en": "Sidi Abed"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "عماري",
+        "name_en": "Ammari"
+    },
+    {
+        "province_code": "38",
+        "name_ar": "لرجام",
+        "name_en": "Lardjem"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "البياضة",
+        "name_en": "Bayadha"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "الحمراية",
+        "name_en": "Hamraia"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "الدبيلة",
+        "name_en": "Debila"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "الرباح",
+        "name_en": "Robbah"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "الرقيبة",
+        "name_en": "Reguiba"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "الطالب العربي",
+        "name_en": "Taleb Larbi"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "الطريفاوي",
+        "name_en": "Trifaoui"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "العقلة",
+        "name_en": "El Ogla"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "المقرن",
+        "name_en": "Magrane"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "النخلة",
+        "name_en": "Nakhla"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "الوادي",
+        "name_en": "El-Oued"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "اميه وانسة",
+        "name_en": "Mih Ouansa"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "بن  قشة",
+        "name_en": "Ben Guecha"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "تغزوت",
+        "name_en": "Taghzout"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "حاسي خليفة",
+        "name_en": "Hassi Khalifa"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "حساني عبد الكريم",
+        "name_en": "Hassani Abdelkrim"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "دوار الماء",
+        "name_en": "Douar El Maa"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "سيدي عون",
+        "name_en": "Sidi Aoun"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "قمار",
+        "name_en": "Guemar"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "كوينين",
+        "name_en": "Kouinine"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "وادي العلندة",
+        "name_en": "Oued El Alenda"
+    },
+    {
+        "province_code": "39",
+        "name_ar": "ورماس",
+        "name_en": "Ourmes"
+    },
+    {
+        "province_code": "40",
+        "name_ar": "أولاد رشاش",
+        "name_en": "Ouled Rechache"
+    },
+    {
+        "province_code": "40",
+        "name_ar": "الحامة",
+        "name_en": "El Hamma"
+    },
+    {
+        "province_code": "40",
+        "name_ar": "الرميلة",
+        "name_en": "Remila"
+    },
+    {
+        "province_code": "40",
+        "name_ar": "المحمل",
+        "name_en": "El Mahmal"
+    },
+    {
+        "province_code": "40",
+        "name_ar": "الولجة",
+        "name_en": "El Oueldja"
+    },
+    {
+        "province_code": "40",
+        "name_ar": "انسيغة",
+        "name_en": "Ensigha"
+    },
+    {
+        "province_code": "40",
+        "name_ar": "بابار",
+        "name_en": "Babar"
+    },
+    {
+        "province_code": "40",
+        "name_ar": "بغاي",
+        "name_en": "Baghai"
+    },
+    {
+        "province_code": "40",
+        "name_ar": "بوحمامة",
+        "name_en": "Bouhmama"
+    },
+    {
+        "province_code": "40",
+        "name_ar": "تاوزيانت",
+        "name_en": "Taouzianat"
+    },
+    {
+        "province_code": "40",
+        "name_ar": "جلال",
+        "name_en": "Djellal"
+    },
+    {
+        "province_code": "40",
+        "name_ar": "خنشلة",
+        "name_en": "Khenchela"
+    },
+    {
+        "province_code": "40",
+        "name_ar": "خيران",
+        "name_en": "Khirane"
+    },
+    {
+        "province_code": "40",
+        "name_ar": "ششار",
+        "name_en": "Chechar"
+    },
+    {
+        "province_code": "40",
+        "name_ar": "شلية",
+        "name_en": "Chelia"
+    },
+    {
+        "province_code": "40",
+        "name_ar": "طامزة",
+        "name_en": "Tamza"
+    },
+    {
+        "province_code": "40",
+        "name_ar": "عين الطويلة",
+        "name_en": "Ain Touila"
+    },
+    {
+        "province_code": "40",
+        "name_ar": "قايس",
+        "name_en": "Kais"
+    },
+    {
+        "province_code": "40",
+        "name_ar": "يابوس",
+        "name_en": "Yabous"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "أم العظايم",
+        "name_en": "Oum El Adhaim"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "أولاد إدريس",
+        "name_en": "Ouled Driss"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "أولاد مومن",
+        "name_en": "Ouled Moumen"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "الحدادة",
+        "name_en": "Haddada"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "الحنانشة",
+        "name_en": "Hanencha"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "الخضارة",
+        "name_en": "Khedara"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "الدريعة",
+        "name_en": "Drea"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "الزعرورية",
+        "name_en": "Zaarouria"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "الزوابي",
+        "name_en": "Zouabi"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "المراهنة",
+        "name_en": "Merahna"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "المشروحة",
+        "name_en": "Machroha"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "بئر بوحوش",
+        "name_en": "Bir Bouhouche"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "تاورة",
+        "name_en": "Taoura"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "ترقالت",
+        "name_en": "Terraguelt"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "خميسة",
+        "name_en": "Khemissa"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "سافل الويدان",
+        "name_en": "Safel El Ouiden"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "سدراتة",
+        "name_en": "Sedrata"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "سوق أهراس",
+        "name_en": "Souk Ahras"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "سيدي فرج",
+        "name_en": "Sidi Fredj"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "عين الزانة",
+        "name_en": "Ain Zana"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "عين سلطان",
+        "name_en": "Ain Soltane"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "وادي الكبريت",
+        "name_en": "Oued Kebrit"
+    },
+    {
+        "province_code": "41",
+        "name_ar": "ويلان",
+        "name_en": "Ouillen"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "أحمر العين",
+        "name_en": "Ahmer El Ain"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "أغبال",
+        "name_en": "Aghbal"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "الأرهاط",
+        "name_en": "Larhat"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "الحطاطبة",
+        "name_en": "Attatba"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "الداموس",
+        "name_en": "Damous"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "الشعيبة",
+        "name_en": "Chaiba"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "القليعة",
+        "name_en": "Kolea"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "الناظور",
+        "name_en": "Nador"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "بني ميلك",
+        "name_en": "Beni Mileuk"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "بواسماعيل",
+        "name_en": "Bou Ismail"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "بورقيقة",
+        "name_en": "Bourkika"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "بوهارون",
+        "name_en": "Bou Haroun"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "تيبازة",
+        "name_en": "Tipaza"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "حجرة النص",
+        "name_en": "Hadjret Ennous"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "حجوط",
+        "name_en": "Hadjout"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "خميستي",
+        "name_en": "Khemisti"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "دواودة",
+        "name_en": "Douaouda"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "سيدي راشد",
+        "name_en": "Sidi Rached"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "سيدي سميان",
+        "name_en": "Sidi Semiane"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "سيدي عامر",
+        "name_en": "Sidi-Amar"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "سيدي غيلاس",
+        "name_en": "Sidi Ghiles"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "شرشال",
+        "name_en": "Cherchell"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "عين تاقورايت",
+        "name_en": "Ain Tagourait"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "فوكة",
+        "name_en": "Fouka"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "قوراية",
+        "name_en": "Gouraya"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "مراد",
+        "name_en": "Merad"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "مسلمون",
+        "name_en": "Messelmoun"
+    },
+    {
+        "province_code": "42",
+        "name_ar": "مناصر",
+        "name_en": "Menaceur"
+    },
+    {
+        "province_code": "43",
+        "name_ar": " عين البيضاء أحريش",
+        "name_en": "Ain Beida Harriche"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "أحمد راشدي",
+        "name_en": "Ahmed Rachedi"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "أولاد اخلوف",
+        "name_en": "Ouled Khalouf"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "اعميرة اراس",
+        "name_en": "Amira Arres"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "التلاغمة",
+        "name_en": "Teleghma"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "الرواشد",
+        "name_en": "Rouached"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "الشيقارة",
+        "name_en": "Chigara"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "العياضي برباس",
+        "name_en": "El Ayadi Barbes"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "القرارم قوقة",
+        "name_en": "Grarem Gouga"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "بن يحي عبد الرحمن",
+        "name_en": "Benyahia Abderrahmane"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "بوحاتم",
+        "name_en": "Bouhatem"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "تاجنانت",
+        "name_en": "Tadjenanet"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "ترعي باينان",
+        "name_en": "Terrai Bainen"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "تسالة لمطاعي",
+        "name_en": "Tassala Lematai"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "تسدان حدادة",
+        "name_en": "Tassadane Haddada"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "تيبرقنت",
+        "name_en": "Tiberguent"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "حمالة",
+        "name_en": "Hamala"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "دراحي بوصلاح",
+        "name_en": "Derrahi Bousselah"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "زغاية",
+        "name_en": "Zeghaia"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "سيدي خليفة",
+        "name_en": "Sidi Khelifa"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "سيدي مروان",
+        "name_en": "Sidi Merouane"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "شلغوم العيد",
+        "name_en": "Chelghoum Laid"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "عين التين",
+        "name_en": "Ain Tine"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "عين الملوك",
+        "name_en": "Ain Mellouk"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "فرجيوة",
+        "name_en": "Ferdjioua"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "مشيرة",
+        "name_en": "El Mechira"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "ميلة",
+        "name_en": "Mila"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "مينار زارزة",
+        "name_en": "Minar Zarza"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "وادي العثمانية",
+        "name_en": "Oued Athmenia"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "وادي النجاء",
+        "name_en": "Oued Endja"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "وادي سقان",
+        "name_en": "Oued Seguen"
+    },
+    {
+        "province_code": "43",
+        "name_ar": "يحي بني قشة",
+        "name_en": "Yahia Beniguecha"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "الحسانية",
+        "name_en": "Hassania"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "الحسينية",
+        "name_en": "Hoceinia"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "الروينة",
+        "name_en": "Rouina"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "العامرة",
+        "name_en": "El-Amra"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "العبادية",
+        "name_en": "El-Abadia"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "العطاف",
+        "name_en": "El-Attaf"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "الماين",
+        "name_en": "El-Maine"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "المخاطرية",
+        "name_en": "Mekhatria"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "بئر ولد خليفة",
+        "name_en": "Bir-Ould-Khelifa"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "بربوش",
+        "name_en": "Birbouche"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "برج الأمير خالد",
+        "name_en": "Bordj-Emir-Khaled"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "بطحية",
+        "name_en": "Bathia"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "بلعاص",
+        "name_en": "Belaas"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "بن علال",
+        "name_en": "Ben Allal"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "بوراشد",
+        "name_en": "Bourached"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "بومدفع",
+        "name_en": "Boumedfaa"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "تاشتة زقاغة",
+        "name_en": "Tacheta Zegagha"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "تبركانين",
+        "name_en": "Tiberkanine"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "جليدة",
+        "name_en": "Djelida"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "جمعة أولاد الشيخ",
+        "name_en": "Djemaa Ouled Cheikh"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "جندل",
+        "name_en": "Djendel"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "حمام ريغة",
+        "name_en": "Hammam-Righa"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "خميس مليانة",
+        "name_en": "Khemis-Miliana"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "زدين",
+        "name_en": "Zeddine"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "سيدي الأخضر",
+        "name_en": "Sidi-Lakhdar"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "طارق بن زياد",
+        "name_en": "Tarik-Ibn-Ziad"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "عريب",
+        "name_en": "Arib"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "عين الاشياخ",
+        "name_en": "Ain-Lechiakh"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "عين البنيان",
+        "name_en": "Ain-Benian"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "عين التركي",
+        "name_en": "Ain-Torki"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "عين الدفلى",
+        "name_en": "Ain-Defla"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "عين السلطان",
+        "name_en": "Ain-Soltane"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "عين بويحيى",
+        "name_en": "Ain-Bouyahia"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "مليانة",
+        "name_en": "Miliana"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "واد الجمعة",
+        "name_en": "Oued Djemaa"
+    },
+    {
+        "province_code": "44",
+        "name_ar": "وادي الشرفاء",
+        "name_en": "Oued Chorfa"
+    },
+    {
+        "province_code": "45",
+        "name_ar": "البيوض",
+        "name_en": "El Biodh"
+    },
+    {
+        "province_code": "45",
+        "name_ar": "القصدير",
+        "name_en": "Kasdir"
+    },
+    {
+        "province_code": "45",
+        "name_ar": "المشرية",
+        "name_en": "Mecheria"
+    },
+    {
+        "province_code": "45",
+        "name_ar": "النعامة",
+        "name_en": "Naama"
+    },
+    {
+        "province_code": "45",
+        "name_ar": "تيوت",
+        "name_en": "Tiout"
+    },
+    {
+        "province_code": "45",
+        "name_ar": "جنين بورزق",
+        "name_en": "Djenienne Bourezg"
+    },
+    {
+        "province_code": "45",
+        "name_ar": "سفيسيفة",
+        "name_en": "Sfissifa"
+    },
+    {
+        "province_code": "45",
+        "name_ar": "عسلة",
+        "name_en": "Asla"
+    },
+    {
+        "province_code": "45",
+        "name_ar": "عين الصفراء",
+        "name_en": "Ain Sefra"
+    },
+    {
+        "province_code": "45",
+        "name_ar": "عين بن خليل",
+        "name_en": "Ain Ben Khelil"
+    },
+    {
+        "province_code": "45",
+        "name_ar": "مغرار",
+        "name_en": "Moghrar"
+    },
+    {
+        "province_code": "45",
+        "name_ar": "مكمن بن عمار",
+        "name_en": "Makmen Ben Amar"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "أغلال",
+        "name_en": "Aghlal"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "أولاد الكيحل",
+        "name_en": "Ouled Kihal"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "أولاد بوجمعة",
+        "name_en": "Ouled Boudjemaa"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "الأمير عبد القادر",
+        "name_en": "Emir Abdelkader"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "الحساسنة",
+        "name_en": "Hassasna"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "العامرية",
+        "name_en": "El Amria"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "المالح",
+        "name_en": "El Maleh"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "المساعيد",
+        "name_en": "El Messaid"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "بني صاف",
+        "name_en": "Beni Saf"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "بوزجار",
+        "name_en": "Bouzedjar"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "تارقة",
+        "name_en": "Terga"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "تامزورة",
+        "name_en": "Tamzoura"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "حاسي الغلة",
+        "name_en": "Hassi El Ghella"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "حمام بوحجر",
+        "name_en": "Hammam Bou Hadjar"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "سيدي بن عدة",
+        "name_en": "Sidi Ben Adda"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "سيدي بومدين",
+        "name_en": "Sidi Boumediene"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "سيدي صافي",
+        "name_en": "Sidi Safi"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "سيدي ورياش",
+        "name_en": "Sidi Ouriache"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "شعبة اللحم",
+        "name_en": "Chaabat El Ham"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "شنتوف",
+        "name_en": "Chentouf"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "عقب الليل",
+        "name_en": "Aoubellil"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "عين الأربعاء",
+        "name_en": "Ain El Arbaa"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "عين الطلبة",
+        "name_en": "Ain Tolba"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "عين الكيحل",
+        "name_en": "Ain Kihal"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "عين تموشنت",
+        "name_en": "Ain Temouchent"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "وادي الصباح",
+        "name_en": "Oued Sebbah"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "وادي برقش",
+        "name_en": "Oued Berkeche"
+    },
+    {
+        "province_code": "46",
+        "name_ar": "ولهاصة الغرابة",
+        "name_en": "Oulhaca El Gheraba"
+    },
+    {
+        "province_code": "47",
+        "name_ar": "العطف",
+        "name_en": "El Atteuf"
+    },
+    {
+        "province_code": "47",
+        "name_ar": "القرارة",
+        "name_en": "El Guerrara"
+    },
+    {
+        "province_code": "47",
+        "name_ar": "المنصورة",
+        "name_en": "Mansoura"
+    },
+    {
+        "province_code": "47",
+        "name_ar": "بريان",
+        "name_en": "Berriane"
+    },
+    {
+        "province_code": "47",
+        "name_ar": "بونورة",
+        "name_en": "Bounoura"
+    },
+    {
+        "province_code": "47",
+        "name_ar": "زلفانة",
+        "name_en": "Zelfana"
+    },
+    {
+        "province_code": "47",
+        "name_ar": "سبسب",
+        "name_en": "Sebseb"
+    },
+    {
+        "province_code": "47",
+        "name_ar": "ضاية بن ضحوة",
+        "name_en": "Dhayet Bendhahoua"
+    },
+    {
+        "province_code": "47",
+        "name_ar": "غرداية",
+        "name_en": "Ghardaia"
+    },
+    {
+        "province_code": "47",
+        "name_ar": "متليلي",
+        "name_en": "Metlili"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "أولاد سيدي الميهوب",
+        "name_en": "Ouled Sidi Mihoub"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "أولاد يعيش",
+        "name_en": "Ouled Aiche"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "الحاسي",
+        "name_en": "El Hassi"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "الرمكة",
+        "name_en": "Ramka"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "القطار",
+        "name_en": "El-Guettar"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "القلعة",
+        "name_en": "Kalaa"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "المطمر",
+        "name_en": "El-Matmar"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "الولجة",
+        "name_en": "El Ouldja"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "بلعسل بوزقزة",
+        "name_en": "Belaassel Bouzagza"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "بن داود",
+        "name_en": "Bendaoud"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "بني درقن",
+        "name_en": "Beni Dergoun"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "جديوية",
+        "name_en": "Djidiouia"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "حد الشكالة",
+        "name_en": "Had Echkalla"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "حمري",
+        "name_en": "Hamri"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "دار بن عبد الله",
+        "name_en": "Dar Ben Abdelah"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "زمورة",
+        "name_en": "Zemmoura"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "سوق الحد",
+        "name_en": "Souk El Had"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "سيدي  خطاب",
+        "name_en": "Sidi Khettab"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "سيدي سعادة",
+        "name_en": "Sidi Saada"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "سيدي لزرق",
+        "name_en": "Sidi Lazreg"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "عمي موسى",
+        "name_en": "Ammi Moussa"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "عين الرحمة",
+        "name_en": "Ain Rahma"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "عين طارق",
+        "name_en": "Ain-Tarek"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "غليزان",
+        "name_en": "Relizane"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "لحلاف",
+        "name_en": "Lahlef"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "مازونة",
+        "name_en": "Mazouna"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "مرجة سيدي عابد",
+        "name_en": "Merdja Sidi Abed"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "منداس",
+        "name_en": "Mendes"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "وادي السلام",
+        "name_en": "Oued Essalem"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "وادي رهيو",
+        "name_en": "Oued-Rhiou"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "واريزان",
+        "name_en": "Ouarizane"
+    },
+    {
+        "province_code": "48",
+        "name_ar": "يلل",
+        "name_en": "Yellel"
+    },
+    {
+        "province_code": "49",
+        "name_ar": "أوقروت",
+        "name_en": "Aougrout"
+    },
+    {
+        "province_code": "49",
+        "name_ar": "أولاد السعيد",
+        "name_en": "Ouled Said"
+    },
+    {
+        "province_code": "49",
+        "name_ar": "أولاد عيسى",
+        "name_en": "Ouled Aissa"
+    },
+    {
+        "province_code": "49",
+        "name_ar": "المطارفة",
+        "name_en": "Metarfa"
+    },
+    {
+        "province_code": "49",
+        "name_ar": "تنركوك",
+        "name_en": "Tinerkouk"
+    },
+    {
+        "province_code": "49",
+        "name_ar": "تيميمون",
+        "name_en": "Timimoun"
+    },
+    {
+        "province_code": "49",
+        "name_ar": "دلدول",
+        "name_en": "Deldoul"
+    },
+    {
+        "province_code": "49",
+        "name_ar": "شروين",
+        "name_en": "Charouine"
+    },
+    {
+        "province_code": "49",
+        "name_ar": "طالمين",
+        "name_en": "Talmine"
+    },
+    {
+        "province_code": "49",
+        "name_ar": "قصر قدور",
+        "name_en": "Ksar Kaddour"
+    },
+    {
+        "province_code": "50",
+        "name_ar": "برج باجي مختار",
+        "name_en": "Bordj Badji Mokhtar"
+    },
+    {
+        "province_code": "50",
+        "name_ar": "تيمياوين",
+        "name_en": "Timiaouine"
+    },
+    {
+        "province_code": "51",
+        "name_ar": "أولاد جلال",
+        "name_en": "Ouled Djellal"
+    },
+    {
+        "province_code": "51",
+        "name_ar": "الدوسن",
+        "name_en": "Doucen"
+    },
+    {
+        "province_code": "51",
+        "name_ar": "الشعيبة",
+        "name_en": "Chaiba"
+    },
+    {
+        "province_code": "51",
+        "name_ar": "بسباس",
+        "name_en": "Besbes"
+    },
+    {
+        "province_code": "51",
+        "name_ar": "رأس الميعاد",
+        "name_en": "Ras El Miad"
+    },
+    {
+        "province_code": "51",
+        "name_ar": "سيدي  خالد",
+        "name_en": "Sidi Khaled"
+    },
+    {
+        "province_code": "52",
+        "name_ar": "أولاد خضير",
+        "name_en": "Ouled-Khodeir"
+    },
+    {
+        "province_code": "52",
+        "name_ar": "إقلي",
+        "name_en": "Igli"
+    },
+    {
+        "province_code": "52",
+        "name_ar": "القصابي",
+        "name_en": "Ksabi"
+    },
+    {
+        "province_code": "52",
+        "name_ar": "الواتة",
+        "name_en": "El Ouata"
+    },
+    {
+        "province_code": "52",
+        "name_ar": "بن يخلف",
+        "name_en": "Beni-Ikhlef"
+    },
+    {
+        "province_code": "52",
+        "name_ar": "بني عباس",
+        "name_en": "Beni-Abbes"
+    },
+    {
+        "province_code": "52",
+        "name_ar": "تامترت",
+        "name_en": "Tamtert"
+    },
+    {
+        "province_code": "52",
+        "name_ar": "تيمودي",
+        "name_en": "Timoudi"
+    },
+    {
+        "province_code": "52",
+        "name_ar": "كرزاز",
+        "name_en": "Kerzaz"
+    },
+    {
+        "province_code": "53",
+        "name_ar": "إينغر",
+        "name_en": "Inghar"
+    },
+    {
+        "province_code": "53",
+        "name_ar": "عين صالح",
+        "name_en": "Ain Salah"
+    },
+    {
+        "province_code": "53",
+        "name_ar": "فقارة الزوى",
+        "name_en": "Foggaret Ezzoua"
+    },
+    {
+        "province_code": "54",
+        "name_ar": "تين زواتين",
+        "name_en": "Tin Zouatine"
+    },
+    {
+        "province_code": "54",
+        "name_ar": "عين قزام",
+        "name_en": "Ain Guezzam"
+    },
+    {
+        "province_code": "55",
+        "name_ar": "الحجيرة",
+        "name_en": "El-Hadjira"
+    },
+    {
+        "province_code": "55",
+        "name_ar": "الزاوية العابدية",
+        "name_en": "Zaouia El Abidia"
+    },
+    {
+        "province_code": "55",
+        "name_ar": "الطيبات",
+        "name_en": "Taibet"
+    },
+    {
+        "province_code": "55",
+        "name_ar": "العالية",
+        "name_en": "El Alia"
+    },
+    {
+        "province_code": "55",
+        "name_ar": "المقارين",
+        "name_en": "Megarine"
+    },
+    {
+        "province_code": "55",
+        "name_ar": "النزلة",
+        "name_en": "Nezla"
+    },
+    {
+        "province_code": "55",
+        "name_ar": "بلدة اعمر",
+        "name_en": "Blidet Amor"
+    },
+    {
+        "province_code": "55",
+        "name_ar": "بن ناصر",
+        "name_en": "Benaceur"
+    },
+    {
+        "province_code": "55",
+        "name_ar": "تبسبست",
+        "name_en": "Tebesbest"
+    },
+    {
+        "province_code": "55",
+        "name_ar": "تقرت",
+        "name_en": "Touggourt"
+    },
+    {
+        "province_code": "55",
+        "name_ar": "تماسين",
+        "name_en": "Temacine"
+    },
+    {
+        "province_code": "55",
+        "name_ar": "سيدي سليمان",
+        "name_en": "Sidi Slimane"
+    },
+    {
+        "province_code": "56",
+        "name_ar": "برج الحواس",
+        "name_en": "Bordj El Haouass"
+    },
+    {
+        "province_code": "56",
+        "name_ar": "جانت",
+        "name_en": "Djanet"
+    },
+    {
+        "province_code": "57",
+        "name_ar": "أم الطيور",
+        "name_en": "Oum Touyour"
+    },
+    {
+        "province_code": "57",
+        "name_ar": "تندلة",
+        "name_en": "Tenedla"
+    },
+    {
+        "province_code": "57",
+        "name_ar": "جامعة",
+        "name_en": "Djamaa"
+    },
+    {
+        "province_code": "57",
+        "name_ar": "سطيل",
+        "name_en": "Still"
+    },
+    {
+        "province_code": "57",
+        "name_ar": "سيدي خليل",
+        "name_en": "Sidi Khelil"
+    },
+    {
+        "province_code": "57",
+        "name_ar": "سيدي عمران",
+        "name_en": "Sidi Amrane"
+    },
+    {
+        "province_code": "58",
+        "name_ar": "المنيعة",
+        "name_en": "El Meniaa"
+    },
+    {
+        "province_code": "58",
+        "name_ar": "حاسي الفحل",
+        "name_en": "Hassi Fehal"
+    },
+    {
+        "province_code": "58",
+        "name_ar": "حاسي القارة",
+        "name_en": "Hassi Gara"
+    }
+]

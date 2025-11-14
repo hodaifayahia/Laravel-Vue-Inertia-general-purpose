@@ -1,0 +1,141 @@
+<?php
+
+return [
+    // Page titles
+    'title' => 'Rendez-vous',
+    'book_appointment' => 'Prendre rendez-vous',
+    'my_appointments' => 'Mes rendez-vous',
+    'provider_profile' => 'Profil du prestataire',
+    'provider_schedule' => 'Horaire du prestataire',
+    
+    // Appointment details
+    'appointment_details' => 'Détails du rendez-vous',
+    'appointment_date' => 'Date du rendez-vous',
+    'appointment_time' => 'Heure du rendez-vous',
+    'duration' => 'Durée',
+    'status' => 'Statut',
+    'notes' => 'Notes',
+    
+    // Status
+    'pending' => 'En attente',
+    'confirmed' => 'Confirmé',
+    'completed' => 'Terminé',
+    'cancelled' => 'Annulé',
+    'rescheduled' => 'Reprogrammé',
+    
+    // Actions
+    'book' => 'Réserver',
+    'cancel' => 'Annuler',
+    'reschedule' => 'Reprogrammer',
+    'confirm' => 'Confirmer',
+    'complete' => 'Terminer',
+    'view_details' => 'Voir les détails',
+    
+    // Messages
+    'booking' => 'Réservation...',
+    'cancelling' => 'Annulation...',
+    'rescheduling' => 'Reprogrammation...',
+    'booked_successfully' => 'Rendez-vous réservé avec succès',
+    'cancelled_successfully' => 'Rendez-vous annulé avec succès',
+    'rescheduled_successfully' => 'Rendez-vous reprogrammé avec succès',
+    
+    // Form fields
+    'select_provider' => 'Sélectionner un prestataire',
+    'select_date' => 'Sélectionner une date',
+    'select_time' => 'Sélectionner une heure',
+    'select_specialization' => 'Sélectionner une spécialisation',
+    'reason_for_visit' => 'Raison de la visite',
+    
+    // Provider information
+    'provider' => 'Prestataire',
+    'specialization' => 'Spécialisation',
+    'specializations' => 'Spécialisations',
+    'experience' => 'Expérience',
+    'rating' => 'Évaluation',
+    'availability' => 'Disponibilité',
+    'years_experience' => 'ans d\'expérience',
+    'consultation_fee' => 'Frais de consultation',
+    'languages' => 'Langues',
+    'qualifications' => 'Qualifications',
+    'education' => 'Formation',
+    'awards' => 'Prix et reconnaissance',
+    'license_number' => 'Numéro de licence',
+    'clinic_name' => 'Nom de la clinique',
+    'office_address' => 'Adresse du cabinet',
+    'website' => 'Site web',
+    'services_offered' => 'Services offerts',
+    'total_patients' => 'Total des patients',
+    'reviews' => 'Avis',
+    'view_profile' => 'Voir le profil',
+    'book_with_doctor' => 'Réserver avec :name',
+    
+    // Calendar and time slots
+    'select_date_time' => 'Sélectionner date et heure',
+    'available_dates' => 'Dates disponibles',
+    'available_slots' => 'Créneaux horaires disponibles',
+    'select_slot' => 'Sélectionner un créneau horaire',
+    'no_slots_available' => 'Aucun créneau horaire disponible pour cette date',
+    'morning' => 'Matin',
+    'afternoon' => 'Après-midi',
+    'evening' => 'Soir',
+    'slot_taken' => 'Déjà réservé',
+    'slot_available' => 'Disponible',
+    
+    // Empty state
+    'no_appointments' => 'Aucun rendez-vous',
+    'no_appointments_description' => 'Vous n\'avez pas encore de rendez-vous. Réservez votre premier rendez-vous maintenant.',
+    'no_providers' => 'Aucun prestataire disponible',
+    'no_available_slots' => 'Aucun créneau horaire disponible',
+    
+    // Descriptions
+    'cancel_warning' => 'Êtes-vous sûr de vouloir annuler ce rendez-vous ?',
+    'cancel_description' => 'Cette action ne peut pas être annulée',
+    
+    // Additional fields
+    'doctor' => 'Médecin',
+    'date' => 'Date',
+    'time' => 'Heure',
+    'doctor_profile' => 'Profil du Médecin',
+    'continue' => 'Continuer',
+    'back' => 'Retour',
+    'confirm_appointment' => 'Confirmer Votre Rendez-vous',
+    'select_child' => 'Sélectionner un Enfant',
+    'years_old' => 'ans',
+    'optional' => 'Optionnel',
+    'notes_placeholder' => 'Ajoutez des notes ou des demandes spéciales pour votre rendez-vous...',
+    'submitting' => 'Envoi en cours',
+    'confirm_book' => 'Confirmer & Réserver le Rendez-vous',
+    'loading' => 'Chargement',
+    'contact_information' => 'Coordonnées',
+    'languages_spoken' => 'Langues Parlées',
+    'advance_booking' => 'Réservation à l\'avance',
+    'days' => 'jours',
+    'license' => 'Licence',
+    'patients' => 'patients',
+    
+    // Availability management
+    'manage_availability' => 'Gérer la Disponibilité',
+    'manage_availability_description' => 'Configurez vos dates disponibles et vos heures de travail',
+    'bulk_set_availability' => 'Définir en Masse',
+    'mark_available' => 'Marquer Disponible',
+    'mark_unavailable' => 'Marquer Indisponible',
+    'remove' => 'Supprimer',
+    'clear_selection' => 'Effacer la Sélection',
+    'click_dates_to_select' => 'Cliquez sur les dates pour les sélectionner. Cliquez à nouveau pour désélectionner.',
+    'selected' => 'Sélectionné',
+    'default_schedule' => 'Horaire par Défaut',
+    'set_available' => 'Définir Disponible',
+    'set_unavailable' => 'Définir Indisponible',
+    'setting_availability_for' => 'Définition de disponibilité pour',
+    'date_s' => 'date(s)',
+    'start_time' => 'Heure de Début',
+    'end_time' => 'Heure de Fin',
+    'reason_placeholder' => 'Ex: Vacances, Conférence, Congé personnel...',
+    'bulk_set_description' => 'Définir la disponibilité pour plusieurs dates en sélectionnant une plage de dates et des jours de la semaine',
+    'start_date' => 'Date de Début',
+    'end_date' => 'Date de Fin',
+    'days_of_week' => 'Jours de la Semaine',
+    'bulk_reason_placeholder' => 'Raison optionnelle pour cet horaire de disponibilité',
+    'saving' => 'Enregistrement',
+    'save' => 'Enregistrer',
+];

@@ -51,7 +51,7 @@ $superAdmin = Role::firstOrCreate(['name' => 'super-admin']);
 $superAdmin->syncPermissions(Permission::all());
 echo "  - super-admin (all permissions)\n";
 
-// Admin - has most permissions except managing roles/permissions
+// Admin - can add doctors and manage system
 $admin = Role::firstOrCreate(['name' => 'admin']);
 $admin->syncPermissions([
     'view users',
@@ -61,36 +61,24 @@ $admin->syncPermissions([
     'view dashboard',
     'view dashboard sidebar',
     'view users sidebar',
+    'view roles sidebar',
 ]);
 echo "  - admin\n";
 
-// Manager - can view and edit users
-$manager = Role::firstOrCreate(['name' => 'manager']);
-$manager->syncPermissions([
-    'view users',
-    'edit users',
+// Doctor - can configure schedule and provide services
+$doctor = Role::firstOrCreate(['name' => 'doctor']);
+$doctor->syncPermissions([
     'view dashboard',
     'view dashboard sidebar',
-    'view users sidebar',
 ]);
-echo "  - manager\n";
+echo "  - doctor\n";
 
-// User - basic permissions
-$user = Role::firstOrCreate(['name' => 'user']);
-$user->syncPermissions([
+// Partner - can book appointments for children
+$partner = Role::firstOrCreate(['name' => 'partner']);
+$partner->syncPermissions([
     'view dashboard',
     'view dashboard sidebar',
 ]);
-echo "  - user\n";
-
-// Viewer - can only view users (no edit/create/delete)
-$viewer = Role::firstOrCreate(['name' => 'viewer']);
-$viewer->syncPermissions([
-    'view users',
-    'view dashboard',
-    'view dashboard sidebar',
-    'view users sidebar',
-]);
-echo "  - viewer\n";
+echo "  - partner\n";
 
 echo "\nDone! Roles and permissions seeded successfully!\n";

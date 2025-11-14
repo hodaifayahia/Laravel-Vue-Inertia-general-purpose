@@ -1,0 +1,141 @@
+<?php
+
+return [
+    // Page titles
+    'title' => 'المواعيد',
+    'book_appointment' => 'حجز موعد',
+    'my_appointments' => 'مواعيدي',
+    'provider_profile' => 'ملف المزود',
+    'provider_schedule' => 'جدول المزود',
+    
+    // Appointment details
+    'appointment_details' => 'تفاصيل الموعد',
+    'appointment_date' => 'تاريخ الموعد',
+    'appointment_time' => 'وقت الموعد',
+    'duration' => 'المدة',
+    'status' => 'الحالة',
+    'notes' => 'ملاحظات',
+    
+    // Status
+    'pending' => 'قيد الانتظار',
+    'confirmed' => 'مؤكد',
+    'completed' => 'مكتمل',
+    'cancelled' => 'ملغى',
+    'rescheduled' => 'معاد جدولته',
+    
+    // Actions
+    'book' => 'حجز',
+    'cancel' => 'إلغاء',
+    'reschedule' => 'إعادة الجدولة',
+    'confirm' => 'تأكيد',
+    'complete' => 'إكمال',
+    'view_details' => 'عرض التفاصيل',
+    
+    // Messages
+    'booking' => 'جاري الحجز...',
+    'cancelling' => 'جاري الإلغاء...',
+    'rescheduling' => 'جاري إعادة الجدولة...',
+    'booked_successfully' => 'تم حجز الموعد بنجاح',
+    'cancelled_successfully' => 'تم إلغاء الموعد بنجاح',
+    'rescheduled_successfully' => 'تمت إعادة جدولة الموعد بنجاح',
+    
+    // Form fields
+    'select_provider' => 'حدد مزود الخدمة',
+    'select_date' => 'حدد التاريخ',
+    'select_time' => 'حدد الوقت',
+    'select_specialization' => 'حدد التخصص',
+    'reason_for_visit' => 'سبب الزيارة',
+    
+    // Provider information
+    'provider' => 'المزود',
+    'specialization' => 'التخصص',
+    'specializations' => 'التخصصات',
+    'experience' => 'الخبرة',
+    'rating' => 'التقييم',
+    'availability' => 'التوفر',
+    'years_experience' => 'سنوات من الخبرة',
+    'consultation_fee' => 'رسوم الاستشارة',
+    'languages' => 'اللغات',
+    'qualifications' => 'المؤهلات',
+    'education' => 'التعليم',
+    'awards' => 'الجوائز والتقدير',
+    'license_number' => 'رقم الترخيص',
+    'clinic_name' => 'اسم العيادة',
+    'office_address' => 'عنوان المكتب',
+    'website' => 'الموقع الإلكتروني',
+    'services_offered' => 'الخدمات المقدمة',
+    'total_patients' => 'إجمالي المرضى',
+    'reviews' => 'التقييمات',
+    'view_profile' => 'عرض الملف الشخصي',
+    'book_with_doctor' => 'احجز مع :name',
+    
+    // Calendar and time slots
+    'select_date_time' => 'حدد التاريخ والوقت',
+    'available_dates' => 'التواريخ المتاحة',
+    'available_slots' => 'الفترات الزمنية المتاحة',
+    'select_slot' => 'حدد فترة زمنية',
+    'no_slots_available' => 'لا توجد فترات زمنية متاحة لهذا التاريخ',
+    'morning' => 'الصباح',
+    'afternoon' => 'بعد الظهر',
+    'evening' => 'المساء',
+    'slot_taken' => 'محجوز بالفعل',
+    'slot_available' => 'متاح',
+    
+    // Empty state
+    'no_appointments' => 'لا توجد مواعيد',
+    'no_appointments_description' => 'ليس لديك أي مواعيد بعد. احجز موعدك الأول الآن.',
+    'no_providers' => 'لا يوجد مزودون متاحون',
+    'no_available_slots' => 'لا توجد فترات زمنية متاحة',
+    
+    // Descriptions
+    'cancel_warning' => 'هل أنت متأكد من رغبتك في إلغاء هذا الموعد؟',
+    'cancel_description' => 'لا يمكن التراجع عن هذا الإجراء',
+    
+    // Additional fields
+    'doctor' => 'الطبيب',
+    'date' => 'التاريخ',
+    'time' => 'الوقت',
+    'doctor_profile' => 'ملف الطبيب',
+    'continue' => 'متابعة',
+    'back' => 'رجوع',
+    'confirm_appointment' => 'تأكيد موعدك',
+    'select_child' => 'اختر طفل',
+    'years_old' => 'سنة',
+    'optional' => 'اختياري',
+    'notes_placeholder' => 'أضف أي ملاحظات أو طلبات خاصة لموعدك...',
+    'submitting' => 'جاري الإرسال',
+    'confirm_book' => 'تأكيد وحجز الموعد',
+    'loading' => 'جاري التحميل',
+    'contact_information' => 'معلومات الاتصال',
+    'languages_spoken' => 'اللغات المحكية',
+    'advance_booking' => 'الحجز المسبق',
+    'days' => 'أيام',
+    'license' => 'الرخصة',
+    'patients' => 'مرضى',
+    
+    // Availability management
+    'manage_availability' => 'إدارة التوفر',
+    'manage_availability_description' => 'قم بتكوين التواريخ المتاحة وساعات العمل الخاصة بك',
+    'bulk_set_availability' => 'تعيين جماعي',
+    'mark_available' => 'تحديد كمتاح',
+    'mark_unavailable' => 'تحديد كغير متاح',
+    'remove' => 'إزالة',
+    'clear_selection' => 'مسح التحديد',
+    'click_dates_to_select' => 'انقر على التواريخ لتحديدها. انقر مرة أخرى لإلغاء التحديد.',
+    'selected' => 'محدد',
+    'default_schedule' => 'الجدول الافتراضي',
+    'set_available' => 'تعيين كمتاح',
+    'set_unavailable' => 'تعيين كغير متاح',
+    'setting_availability_for' => 'تعيين التوفر لـ',
+    'date_s' => 'تاريخ (تواريخ)',
+    'start_time' => 'وقت البدء',
+    'end_time' => 'وقت الانتهاء',
+    'reason_placeholder' => 'مثال: إجازة، مؤتمر، إجازة شخصية...',
+    'bulk_set_description' => 'قم بتعيين التوفر لتواريخ متعددة دفعة واحدة عن طريق تحديد نطاق التاريخ وأيام الأسبوع',
+    'start_date' => 'تاريخ البدء',
+    'end_date' => 'تاريخ الانتهاء',
+    'days_of_week' => 'أيام الأسبوع',
+    'bulk_reason_placeholder' => 'سبب اختياري لجدول التوفر هذا',
+    'saving' => 'جاري الحفظ',
+    'save' => 'حفظ',
+];

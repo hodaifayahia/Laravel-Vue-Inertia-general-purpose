@@ -77,6 +77,19 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::post('users/{user}/assign-permissions', [PermissionManagementController::class, 'assignPermissionsToUser'])
         ->middleware('permission:assign permissions')
         ->name('users.assign-permissions');
+
+    // Locations (provinces / cities)
+    Route::get('locations', [\App\Http\Controllers\LocationController::class, 'index'])
+        ->name('locations.index');
+    Route::post('locations/provinces', [\App\Http\Controllers\LocationController::class, 'storeProvince'])
+        ->name('locations.provinces.store');
+    Route::post('locations/cities', [\App\Http\Controllers\LocationController::class, 'storeCity'])
+        ->name('locations.cities.store');
+
+    Route::delete('locations/provinces/{province}', [\App\Http\Controllers\LocationController::class, 'destroyProvince'])
+        ->name('locations.provinces.destroy');
+    Route::delete('locations/cities/{city}', [\App\Http\Controllers\LocationController::class, 'destroyCity'])
+        ->name('locations.cities.destroy');
 });
 
 require __DIR__.'/settings.php';

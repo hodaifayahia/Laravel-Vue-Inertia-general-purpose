@@ -59,6 +59,7 @@ class ProviderScheduleController extends Controller
             'schedules.*.start_time' => 'required|date_format:H:i',
             'schedules.*.end_time' => 'required|date_format:H:i|after:schedules.*.start_time',
             'schedules.*.is_available' => 'required|boolean',
+            'schedules.*.max_patients' => 'nullable|integer|min:1|max:100',
         ]);
 
         // Delete existing schedules
@@ -73,6 +74,7 @@ class ProviderScheduleController extends Controller
                     'start_time' => $scheduleData['start_time'],
                     'end_time' => $scheduleData['end_time'],
                     'is_available' => true,
+                    'max_patients' => $scheduleData['max_patients'] ?? null,
                 ]);
             }
         }

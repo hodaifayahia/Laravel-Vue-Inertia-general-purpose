@@ -18,7 +18,7 @@ echo "✅ Deleted {$deletedCount} old permissions" . PHP_EOL . PHP_EOL;
 echo "🔄 Creating new permission structure..." . PHP_EOL . PHP_EOL;
 
 // Define standard roles
-$roles = ['super-admin', 'admin', 'manager', 'user', 'viewer'];
+$roles = ['super-admin', 'admin', 'doctor', 'partner'];
 
 $created = 0;
 
@@ -48,9 +48,9 @@ foreach ($roles as $fromRole) {
             continue;
         }
 
-        // Manager can chat with admin, other managers, users, and viewers
-        if ($fromRole === 'manager') {
-            if (in_array($toRole, ['admin', 'super-admin', 'manager', 'user', 'viewer'])) {
+        // Doctor can chat with admin and partners
+        if ($fromRole === 'doctor') {
+            if (in_array($toRole, ['admin', 'super-admin', 'partner'])) {
                 ChatPermission::create([
                     'from_role' => $fromRole,
                     'to_role' => $toRole,
@@ -69,30 +69,9 @@ foreach ($roles as $fromRole) {
             continue;
         }
 
-        // User can chat with admin, manager, and other users
-        if ($fromRole === 'user') {
-            if (in_array($toRole, ['admin', 'manager', 'user'])) {
-                ChatPermission::create([
-                    'from_role' => $fromRole,
-                    'to_role' => $toRole,
-                    'can_initiate' => true,
-                    'can_receive' => true,
-                ]);
-            } else {
-                ChatPermission::create([
-                    'from_role' => $fromRole,
-                    'to_role' => $toRole,
-                    'can_initiate' => false,
-                    'can_receive' => true,
-                ]);
-            }
-            $created++;
-            continue;
-        }
-
-        // Viewer can chat with admin and manager
-        if ($fromRole === 'viewer') {
-            if (in_array($toRole, ['admin', 'manager'])) {
+        // Partner can chat with doctors only
+        if ($fromRole === 'partner') {
+            if (in_array($toRole, ['doctor'])) {
                 ChatPermission::create([
                     'from_role' => $fromRole,
                     'to_role' => $toRole,

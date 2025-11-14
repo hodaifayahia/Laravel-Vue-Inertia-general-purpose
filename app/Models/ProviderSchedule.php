@@ -13,6 +13,7 @@ class ProviderSchedule extends Model
         'start_time',
         'end_time',
         'is_available',
+        'max_patients',
     ];
 
     protected $casts = [

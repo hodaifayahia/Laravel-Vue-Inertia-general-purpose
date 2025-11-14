@@ -14,10 +14,10 @@ import {
 import { dashboard } from '@/routes';
 import * as usersRoutes from '@/routes/users';
 import * as rolesRoutes from '@/routes/roles';
-import * as permissionsRoutes from '@/routes/permissions';
 import { type NavItem } from '@/types';
 import { Link } from '@inertiajs/vue3';
-import { BookOpen, Folder, LayoutGrid, Users, Shield, Key, MessageCircle, Settings, Calendar, CalendarCheck, Stethoscope, Clock } from 'lucide-vue-next';
+import { BookOpen, Folder, LayoutGrid, Users, Shield, MessageCircle, Settings, Calendar, CalendarCheck, Stethoscope, Clock, Baby, MapPin } from 'lucide-vue-next';
+import * as locationsRoutes from '@/routes/locations';
 import AppLogo from './AppLogo.vue';
 import { wTrans } from 'laravel-vue-i18n';
 import { computed, ref, onMounted, onUnmounted } from 'vue';
@@ -58,22 +58,28 @@ const { hasPermission } = usePermissions();
 
 // Define all possible nav items with their required permissions
 const allNavItems = [
+    // Main Section
     {
         title: wTrans('sidebar.dashboard'),
         href: dashboard(),
         icon: LayoutGrid,
         permission: 'view dashboard sidebar',
+        group: 'main'
     },
     {
         title: wTrans('sidebar.chat'),
         href: '/chat',
         icon: MessageCircle,
         permission: 'view chat',
+        group: 'main'
     },
+
+    // Appointments & Bookings Section
     {
         title: wTrans('sidebar.bookings'),
         icon: Calendar,
         permission: 'can-book',
+        group: 'appointments',
         items: [
             {
                 title: wTrans('sidebar.book_appointment'),
@@ -91,16 +97,12 @@ const allNavItems = [
         title: wTrans('sidebar.bookings'),
         icon: Stethoscope,
         permission: 'book-sys',
+        group: 'appointments',
         items: [
             {
                 title: wTrans('sidebar.provider_profile'),
-                href: '/provider/profile',
+                href: '/provider/configuration',
                 icon: Stethoscope,
-            },
-            {
-                title: wTrans('sidebar.provider_schedule'),
-                href: '/provider/schedule',
-                icon: Clock,
             },
             {
                 title: wTrans('sidebar.my_appointments'),
@@ -110,41 +112,106 @@ const allNavItems = [
         ],
     },
     {
+        title: wTrans('sidebar.appointments_management'),
+        icon: Calendar,
+        permission: 'manage bookings',
+        group: 'appointments',
+        items: [
+            {
+                title: wTrans('sidebar.all_appointments'),
+                href: '/appointments',
+                icon: Calendar,
+            },
+            {
+                title: wTrans('sidebar.pending_approvals'),
+                href: '/appointments?status=pending',
+                icon: Clock,
+            },
+            {
+                title: wTrans('sidebar.confirmed'),
+                href: '/appointments?status=confirmed',
+                icon: CalendarCheck,
+            },
+        ],
+    },
+
+    // Management Section
+    {
         title: wTrans('sidebar.users'),
         href: usersRoutes.index(),
         icon: Users,
         permission: 'view users sidebar',
+        group: 'management'
     },
     {
         title: wTrans('sidebar.roles'),
         href: rolesRoutes.index(),
         icon: Shield,
         permission: 'view roles sidebar',
+        group: 'management'
     },
     {
-        title: wTrans('sidebar.permissions'),
-        href: permissionsRoutes.index(),
-        icon: Key,
-        permission: 'view permissions sidebar',
+        title: wTrans('sidebar.locations'),
+        href: locationsRoutes.index(),
+        icon: MapPin,
+        permission: 'view locations sidebar',
+        group: 'management'
     },
     {
-        title: wTrans('sidebar.chat_permissions'),
-        href: '/chat/permission-settings',
-        icon: Settings,
-        permission: 'manage chat',
+        title: wTrans('sidebar.children'),
+        href: '/children',
+        icon: Baby,
+        permission: 'view children sidebar',
+        group: 'management'
     },
     {
         title: wTrans('sidebar.specializations'),
         href: '/specializations',
         icon: Stethoscope,
         permission: 'manage bookings',
+        group: 'management'
+    },
+
+    // Settings Section
+    {
+        title: wTrans('sidebar.chat_permissions'),
+        href: '/chat/permission-settings',
+        icon: Settings,
+        permission: 'manage chat',
+        group: 'settings'
+    },
+    {
+        title: wTrans('sidebar.settings'),
+        href: '/settings',
+        icon: Settings,
+        permission: 'view settings',
+        group: 'settings'
     },
 ];
 
-// Filter nav items based on user permissions
-const mainNavItems = computed(() => 
-    allNavItems.filter(item => hasPermission(item.permission))
-);
+// Filter nav items based on user permissions and group them
+const groupedNavItems = computed(() => {
+    const filtered = allNavItems.filter(item => hasPermission(item.permission));
+    
+    const groups = {
+        main: { title: wTrans('sidebar.main') || 'Main', items: [] as any[] },
+        appointments: { title: wTrans('sidebar.appointments') || 'Appointments & Bookings', items: [] as any[] },
+        management: { title: wTrans('sidebar.management') || 'Management', items: [] as any[] },
+        settings: { title: wTrans('sidebar.settings_group') || 'Settings', items: [] as any[] },
+    };
+
+    filtered.forEach(item => {
+        const group = item.group || 'main';
+        if (groups[group]) {
+            groups[group].items.push(item);
+        } else {
+            groups.main.items.push(item);
+        }
+    });
+
+    // Return only groups that have items
+    return Object.values(groups).filter(group => group.items.length > 0);
+});
 
 const footerNavItems: NavItem[] = [
     {
@@ -175,7 +242,14 @@ const footerNavItems: NavItem[] = [
         </SidebarHeader>
 
         <SidebarContent>
-            <NavMain :items="mainNavItems" v-if="mainNavItems.length > 0" />
+            <div v-for="group in groupedNavItems" :key="group.title" class="mb-6">
+                <div class="px-3 py-2">
+                    <h3 class="mb-2 px-4 text-xs font-semibold text-sidebar-foreground/70 uppercase tracking-wider">
+                        {{ group.title }}
+                    </h3>
+                </div>
+                <NavMain :items="group.items" />
+            </div>
         </SidebarContent>
 
         <SidebarFooter>

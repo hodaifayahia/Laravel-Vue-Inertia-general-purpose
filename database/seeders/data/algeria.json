@@ -1,0 +1,11 @@
+[
+  {
+    "country": "Algeria",
+    "states": [
+      {
+        "name": "Algiers",
+        "cities": ["Algiers", "Bab El Oued"]
+      }
+    ]
+  }
+]

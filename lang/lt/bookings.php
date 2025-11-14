@@ -1,0 +1,141 @@
+<?php
+
+return [
+    // Page titles
+    'title' => 'Susitikimai',
+    'book_appointment' => 'Užsisakyti susitikimą',
+    'my_appointments' => 'Mano susitikimai',
+    'provider_profile' => 'Paslaugų teikėjo profilis',
+    'provider_schedule' => 'Paslaugų teikėjo tvarkaraštis',
+    
+    // Appointment details
+    'appointment_details' => 'Susitikimo detalės',
+    'appointment_date' => 'Susitikimo data',
+    'appointment_time' => 'Susitikimo laikas',
+    'duration' => 'Trukmė',
+    'status' => 'Būsena',
+    'notes' => 'Pastabos',
+    
+    // Status
+    'pending' => 'Laukiama',
+    'confirmed' => 'Patvirtinta',
+    'completed' => 'Užbaigta',
+    'cancelled' => 'Atšaukta',
+    'rescheduled' => 'Perplanuota',
+    
+    // Actions
+    'book' => 'Užsisakyti',
+    'cancel' => 'Atšaukti',
+    'reschedule' => 'Perplanuoti',
+    'confirm' => 'Patvirtinti',
+    'complete' => 'Užbaigti',
+    'view_details' => 'Peržiūrėti detales',
+    
+    // Messages
+    'booking' => 'Užsakoma...',
+    'cancelling' => 'Atšaukiama...',
+    'rescheduling' => 'Perplanuojama...',
+    'booked_successfully' => 'Susitikimas sėkmingai užsakytas',
+    'cancelled_successfully' => 'Susitikimas sėkmingai atšauktas',
+    'rescheduled_successfully' => 'Susitikimas sėkmingai perplanuotas',
+    
+    // Form fields
+    'select_provider' => 'Pasirinkite paslaugų teikėją',
+    'select_date' => 'Pasirinkite datą',
+    'select_time' => 'Pasirinkite laiką',
+    'select_specialization' => 'Pasirinkite specializaciją',
+    'reason_for_visit' => 'Apsilankymo priežastis',
+    
+    // Provider information
+    'provider' => 'Paslaugų teikėjas',
+    'specialization' => 'Specializacija',
+    'specializations' => 'Specializacijos',
+    'experience' => 'Patirtis',
+    'rating' => 'Įvertinimas',
+    'availability' => 'Prieinamumas',
+    'years_experience' => 'metų patirtis',
+    'consultation_fee' => 'Konsultacijos mokestis',
+    'languages' => 'Kalbos',
+    'qualifications' => 'Kvalifikacijos',
+    'education' => 'Išsilavinimas',
+    'awards' => 'Apdovanojimai ir pripažinimas',
+    'license_number' => 'Licencijos numeris',
+    'clinic_name' => 'Klinikos pavadinimas',
+    'office_address' => 'Kabineto adresas',
+    'website' => 'Svetainė',
+    'services_offered' => 'Siūlomos paslaugos',
+    'total_patients' => 'Iš viso pacientų',
+    'reviews' => 'Atsiliepimai',
+    'view_profile' => 'Peržiūrėti profilį',
+    'book_with_doctor' => 'Užsisakyti pas :name',
+    
+    // Calendar and time slots
+    'select_date_time' => 'Pasirinkite datą ir laiką',
+    'available_dates' => 'Galimos datos',
+    'available_slots' => 'Laisvi laiko intervalai',
+    'select_slot' => 'Pasirinkite laiko intervalą',
+    'no_slots_available' => 'Nėra laisvų laiko intervalų šiai datai',
+    'morning' => 'Rytas',
+    'afternoon' => 'Popietė',
+    'evening' => 'Vakaras',
+    'slot_taken' => 'Jau užimta',
+    'slot_available' => 'Laisva',
+    
+    // Empty state
+    'no_appointments' => 'Nėra susitikimų',
+    'no_appointments_description' => 'Dar neturite jokių susitikimų. Užsisakykite pirmąjį susitikimą dabar.',
+    'no_providers' => 'Nėra prieinamų paslaugų teikėjų',
+    'no_available_slots' => 'Nėra laisvų laiko intervalų',
+    
+    // Descriptions
+    'cancel_warning' => 'Ar tikrai norite atšaukti šį vizitą?',
+    'cancel_description' => 'Šio veiksmo negalima atšaukti',
+    
+    // Additional fields
+    'doctor' => 'Gydytojas',
+    'date' => 'Data',
+    'time' => 'Laikas',
+    'doctor_profile' => 'Gydytojo Profilis',
+    'continue' => 'Tęsti',
+    'back' => 'Atgal',
+    'confirm_appointment' => 'Patvirtinkite Savo Vizitą',
+    'select_child' => 'Pasirinkti Vaiką',
+    'years_old' => 'metų',
+    'optional' => 'Neprivaloma',
+    'notes_placeholder' => 'Pridėkite pastabas ar specialius pageidavimus dėl savo vizito...',
+    'submitting' => 'Pateikiama',
+    'confirm_book' => 'Patvirtinti & Užsiregistruoti',
+    'loading' => 'Įkeliama',
+    'contact_information' => 'Kontaktinė Informacija',
+    'languages_spoken' => 'Kalbamos Kalbos',
+    'advance_booking' => 'Išankstinis Užsiregistravimas',
+    'days' => 'dienos',
+    'license' => 'Licencija',
+    'patients' => 'pacientai',
+    
+    // Availability management
+    'manage_availability' => 'Valdyti Prieinamumą',
+    'manage_availability_description' => 'Konfigūruokite savo prieinamas datas ir darbo valandas',
+    'bulk_set_availability' => 'Masinis Nustatymas',
+    'mark_available' => 'Pažymėti Kaip Prieinamą',
+    'mark_unavailable' => 'Pažymėti Kaip Neprieinamą',
+    'remove' => 'Pašalinti',
+    'clear_selection' => 'Išvalyti Pasirinkimą',
+    'click_dates_to_select' => 'Spustelėkite datas, kad jas pasirinktumėte. Spustelėkite dar kartą, kad atšauktumėte.',
+    'selected' => 'Pasirinkta',
+    'default_schedule' => 'Numatytasis Grafikas',
+    'set_available' => 'Nustatyti Prieinamą',
+    'set_unavailable' => 'Nustatyti Neprieinamą',
+    'setting_availability_for' => 'Nustatomas prieinamumas',
+    'date_s' => 'data(os)',
+    'start_time' => 'Pradžios Laikas',
+    'end_time' => 'Pabaigos Laikas',
+    'reason_placeholder' => 'Pvz., Atostogos, Konferencija, Asmeninis laikas...',
+    'bulk_set_description' => 'Nustatykite prieinamumą kelioms datoms iš karto pasirinkdami datų intervalą ir savaitės dienas',
+    'start_date' => 'Pradžios Data',
+    'end_date' => 'Pabaigos Data',
+    'days_of_week' => 'Savaitės Dienos',
+    'bulk_reason_placeholder' => 'Neprivaloma priežastis šiam prieinamumo grafikui',
+    'saving' => 'Išsaugoma',
+    'save' => 'Išsaugoti',
+];

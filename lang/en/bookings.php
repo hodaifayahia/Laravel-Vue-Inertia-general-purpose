@@ -1,0 +1,141 @@
+<?php
+
+return [
+    // Page titles
+    'title' => 'Appointments',
+    'book_appointment' => 'Book Appointment',
+    'my_appointments' => 'My Appointments',
+    'provider_profile' => 'Provider Profile',
+    'provider_schedule' => 'Provider Schedule',
+    
+    // Appointment details
+    'appointment_details' => 'Appointment Details',
+    'appointment_date' => 'Appointment Date',
+    'appointment_time' => 'Appointment Time',
+    'duration' => 'Duration',
+    'status' => 'Status',
+    'notes' => 'Notes',
+    
+    // Status
+    'pending' => 'Pending',
+    'confirmed' => 'Confirmed',
+    'completed' => 'Completed',
+    'cancelled' => 'Cancelled',
+    'rescheduled' => 'Rescheduled',
+    
+    // Actions
+    'book' => 'Book',
+    'cancel' => 'Cancel',
+    'reschedule' => 'Reschedule',
+    'confirm' => 'Confirm',
+    'complete' => 'Complete',
+    'view_details' => 'View Details',
+    
+    // Messages
+    'booking' => 'Booking...',
+    'cancelling' => 'Cancelling...',
+    'rescheduling' => 'Rescheduling...',
+    'booked_successfully' => 'Appointment booked successfully',
+    'cancelled_successfully' => 'Appointment cancelled successfully',
+    'rescheduled_successfully' => 'Appointment rescheduled successfully',
+    
+    // Form fields
+    'select_provider' => 'Select Provider',
+    'select_date' => 'Select Date',
+    'select_time' => 'Select Time',
+    'select_specialization' => 'Select Specialization',
+    'reason_for_visit' => 'Reason for Visit',
+    
+    // Provider information
+    'provider' => 'Provider',
+    'specialization' => 'Specialization',
+    'specializations' => 'Specializations',
+    'experience' => 'Experience',
+    'rating' => 'Rating',
+    'availability' => 'Availability',
+    'years_experience' => 'years of experience',
+    'consultation_fee' => 'Consultation Fee',
+    'languages' => 'Languages',
+    'qualifications' => 'Qualifications',
+    'education' => 'Education',
+    'awards' => 'Awards & Recognition',
+    'license_number' => 'License Number',
+    'clinic_name' => 'Clinic Name',
+    'office_address' => 'Office Address',
+    'website' => 'Website',
+    'services_offered' => 'Services Offered',
+    'total_patients' => 'Total Patients',
+    'reviews' => 'Reviews',
+    'view_profile' => 'View Profile',
+    'book_with_doctor' => 'Book with :name',
+    
+    // Calendar and time slots
+    'select_date_time' => 'Select Date & Time',
+    'available_dates' => 'Available Dates',
+    'available_slots' => 'Available Time Slots',
+    'select_slot' => 'Select a time slot',
+    'no_slots_available' => 'No time slots available for this date',
+    'morning' => 'Morning',
+    'afternoon' => 'Afternoon',
+    'evening' => 'Evening',
+    'slot_taken' => 'Already booked',
+    'slot_available' => 'Available',
+    
+    // Empty state
+    'no_appointments' => 'No Appointments',
+    'no_appointments_description' => 'You don\'t have any appointments yet. Book your first appointment now.',
+    'no_providers' => 'No Providers Available',
+    'no_available_slots' => 'No Available Time Slots',
+    
+    // Descriptions
+    'cancel_warning' => 'Are you sure you want to cancel this appointment?',
+    'cancel_description' => 'This action cannot be undone',
+    
+    // Additional fields
+    'doctor' => 'Doctor',
+    'date' => 'Date',
+    'time' => 'Time',
+    'doctor_profile' => 'Doctor Profile',
+    'continue' => 'Continue',
+    'back' => 'Back',
+    'confirm_appointment' => 'Confirm Your Appointment',
+    'select_child' => 'Select Child',
+    'years_old' => 'years old',
+    'optional' => 'Optional',
+    'notes_placeholder' => 'Add any notes or special requests for your appointment...',
+    'submitting' => 'Submitting',
+    'confirm_book' => 'Confirm & Book Appointment',
+    'loading' => 'Loading',
+    'contact_information' => 'Contact Information',
+    'languages_spoken' => 'Languages Spoken',
+    'advance_booking' => 'Advance Booking',
+    'days' => 'days',
+    'license' => 'License',
+    'patients' => 'patients',
+    
+    // Availability management
+    'manage_availability' => 'Manage Availability',
+    'manage_availability_description' => 'Configure your available dates and working hours',
+    'bulk_set_availability' => 'Bulk Set Availability',
+    'mark_available' => 'Mark Available',
+    'mark_unavailable' => 'Mark Unavailable',
+    'remove' => 'Remove',
+    'clear_selection' => 'Clear Selection',
+    'click_dates_to_select' => 'Click on dates to select them. Click again to deselect.',
+    'selected' => 'Selected',
+    'default_schedule' => 'Default Schedule',
+    'set_available' => 'Set Available',
+    'set_unavailable' => 'Set Unavailable',
+    'setting_availability_for' => 'Setting availability for',
+    'date_s' => 'date(s)',
+    'start_time' => 'Start Time',
+    'end_time' => 'End Time',
+    'reason_placeholder' => 'E.g., Holiday, Conference, Personal time off...',
+    'bulk_set_description' => 'Set availability for multiple dates at once by selecting date range and days of week',
+    'start_date' => 'Start Date',
+    'end_date' => 'End Date',
+    'days_of_week' => 'Days of Week',
+    'bulk_reason_placeholder' => 'Optional reason for this availability schedule',
+    'saving' => 'Saving',
+    'save' => 'Save',
+];

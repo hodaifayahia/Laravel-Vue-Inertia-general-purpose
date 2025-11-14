@@ -62,28 +62,19 @@ class ChatPermissionSeeder extends Seeder
             ]);
         }
 
-        // Manager - chat with anyone
-        $manager = Role::where('name', 'manager')->first();
-        if ($manager) {
-            $manager->givePermissionTo([
+        // Doctor - chat with partners and admin
+        $doctor = Role::where('name', 'doctor')->first();
+        if ($doctor) {
+            $doctor->givePermissionTo([
                 'view chat',
                 'send messages',
             ]);
         }
 
-        // User - basic chat permissions
-        $user = Role::where('name', 'user')->first();
-        if ($user) {
-            $user->givePermissionTo([
-                'view chat',
-                'send messages',
-            ]);
-        }
-
-        // Viewer - basic chat permissions
-        $viewer = Role::where('name', 'viewer')->first();
-        if ($viewer) {
-            $viewer->givePermissionTo([
+        // Partner - chat with doctors
+        $partner = Role::where('name', 'partner')->first();
+        if ($partner) {
+            $partner->givePermissionTo([
                 'view chat',
                 'send messages',
             ]);
@@ -96,7 +87,7 @@ class ChatPermissionSeeder extends Seeder
     private function createRoleToChatPermissions(): void
     {
         // Define all roles (lowercase to match RolePermissionSeeder)
-        $roles = ['super-admin', 'admin', 'manager', 'user', 'viewer'];
+        $roles = ['super-admin', 'admin', 'doctor', 'partner'];
 
         foreach ($roles as $fromRole) {
             foreach ($roles as $toRole) {
@@ -118,9 +109,9 @@ class ChatPermissionSeeder extends Seeder
                     continue;
                 }
 
-                // Manager can chat with admin, other managers, and users
-                if ($fromRole === 'manager') {
-                    if (in_array($toRole, ['admin', 'manager', 'user', 'viewer'])) {
+                // Doctor can chat with admin and partners
+                if ($fromRole === 'doctor') {
+                    if (in_array($toRole, ['admin', 'super-admin', 'partner'])) {
                         ChatPermission::updateOrCreate(
                             ['from_role' => $fromRole, 'to_role' => $toRole],
                             ['can_initiate' => true, 'can_receive' => true]
@@ -134,25 +125,9 @@ class ChatPermissionSeeder extends Seeder
                     continue;
                 }
 
-                // User can chat with admin and manager
-                if ($fromRole === 'user') {
-                    if (in_array($toRole, ['admin', 'manager', 'user'])) {
-                        ChatPermission::updateOrCreate(
-                            ['from_role' => $fromRole, 'to_role' => $toRole],
-                            ['can_initiate' => true, 'can_receive' => true]
-                        );
-                    } else {
-                        ChatPermission::updateOrCreate(
-                            ['from_role' => $fromRole, 'to_role' => $toRole],
-                            ['can_initiate' => false, 'can_receive' => true]
-                        );
-                    }
-                    continue;
-                }
-
-                // Viewer can chat with admin and manager
-                if ($fromRole === 'viewer') {
-                    if (in_array($toRole, ['admin', 'manager'])) {
+                // Partner can chat with doctors
+                if ($fromRole === 'partner') {
+                    if (in_array($toRole, ['doctor'])) {
                         ChatPermission::updateOrCreate(
                             ['from_role' => $fromRole, 'to_role' => $toRole],
                             ['can_initiate' => true, 'can_receive' => true]

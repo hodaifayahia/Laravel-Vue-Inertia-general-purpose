@@ -126,65 +126,55 @@ class BookingTestSeeder extends Seeder
         );
         $users['admin']->assignRole('admin');
 
-        // Provider 1 - Cardiologist (can provide services)
-        $users['provider1'] = User::firstOrCreate(
+        // Doctor 1 - Cardiologist (can provide services)
+        $users['doctor1'] = User::firstOrCreate(
             ['email' => 'dr.smith@test.com'],
             [
                 'name' => 'Dr. John Smith',
                 'password' => Hash::make('password'),
             ]
         );
-        $users['provider1']->assignRole('manager');
+        $users['doctor1']->assignRole('doctor');
 
-        // Provider 2 - Dermatologist (can provide services)
-        $users['provider2'] = User::firstOrCreate(
+        // Doctor 2 - Dermatologist (can provide services)
+        $users['doctor2'] = User::firstOrCreate(
             ['email' => 'dr.johnson@test.com'],
             [
                 'name' => 'Dr. Sarah Johnson',
                 'password' => Hash::make('password'),
             ]
         );
-        $users['provider2']->assignRole('manager');
+        $users['doctor2']->assignRole('doctor');
 
-        // Provider 3 - Pediatrician (can provide services)
-        $users['provider3'] = User::firstOrCreate(
+        // Doctor 3 - Pediatrician (can provide services)
+        $users['doctor3'] = User::firstOrCreate(
             ['email' => 'dr.williams@test.com'],
             [
                 'name' => 'Dr. Emily Williams',
                 'password' => Hash::make('password'),
             ]
         );
-        $users['provider3']->assignRole('manager');
+        $users['doctor3']->assignRole('doctor');
 
-        // Regular Patient 1 - can only book
-        $users['patient1'] = User::firstOrCreate(
-            ['email' => 'patient1@test.com'],
+        // Partner 1 - can book appointments for children
+        $users['partner1'] = User::firstOrCreate(
+            ['email' => 'partner1@test.com'],
             [
-                'name' => 'Alice Patient',
+                'name' => 'Alice Partner',
                 'password' => Hash::make('password'),
             ]
         );
-        $users['patient1']->assignRole('user');
+        $users['partner1']->assignRole('partner');
 
-        // Regular Patient 2 - can only book
-        $users['patient2'] = User::firstOrCreate(
-            ['email' => 'patient2@test.com'],
+        // Partner 2 - can book appointments for children
+        $users['partner2'] = User::firstOrCreate(
+            ['email' => 'partner2@test.com'],
             [
-                'name' => 'Bob Patient',
+                'name' => 'Bob Partner',
                 'password' => Hash::make('password'),
             ]
         );
-        $users['patient2']->assignRole('user');
-
-        // Viewer - can only view (no booking)
-        $users['viewer'] = User::firstOrCreate(
-            ['email' => 'viewer@test.com'],
-            [
-                'name' => 'Viewer User',
-                'password' => Hash::make('password'),
-            ]
-        );
-        $users['viewer']->assignRole('viewer');
+        $users['partner2']->assignRole('partner');
 
         return $users;
     }
@@ -196,39 +186,121 @@ class BookingTestSeeder extends Seeder
     {
         $providers = [];
 
-        // Provider 1 - Cardiologist
-        $providers['provider1'] = ProviderProfile::firstOrCreate(
-            ['user_id' => $users['provider1']->id],
+        // Get some sample provinces and cities for location data
+        $algiersProvince = \App\Models\Province::where('code', '16')->first(); // Algiers
+        $oranProvince = \App\Models\Province::where('code', '31')->first(); // Oran
+        $constantineProvince = \App\Models\Province::where('code', '25')->first(); // Constantine
+
+        $algiersCity = \App\Models\City::where('province_id', $algiersProvince?->id)->first();
+        $oranCity = \App\Models\City::where('province_id', $oranProvince?->id)->first();
+        $constantineCity = \App\Models\City::where('province_id', $constantineProvince?->id)->first();
+
+        // Doctor 1 - Cardiologist (Algiers)
+        $providers['doctor1'] = ProviderProfile::updateOrCreate(
+            ['user_id' => $users['doctor1']->id],
             [
                 'specialization_id' => $specializations[0]->id, // Cardiology
+                'province_id' => $algiersProvince?->id,
+                'city_id' => $algiersCity?->id,
                 'bio' => 'Experienced cardiologist with over 15 years of practice. Specialized in preventive cardiology and heart disease management. Committed to providing personalized care for each patient.',
                 'years_experience' => 15,
                 'slot_duration' => 45,
                 'is_available' => true,
+                'title' => 'Dr.',
+                'license_number' => 'MED-ALG-2023-001',
+                'qualifications' => json_encode(['MD Cardiology', 'FACC', 'Board Certified']),
+                'languages' => json_encode(['Arabic', 'French', 'English']),
+                'phone' => '+213-555-0101',
+                'office_address' => '123 Cardiology Center, Algiers Medical District',
+                'clinic_name' => 'Algiers Heart Institute',
+                'consultation_fee' => 150.00,
+                'advance_booking_days' => 30,
+                'services_offered' => json_encode(['Cardiac Consultation', 'ECG', 'Echocardiography', 'Stress Testing']),
+                'education' => json_encode([
+                    ['degree' => 'MD in Cardiology', 'institution' => 'Algiers Medical University', 'year' => '2008'],
+                    ['degree' => 'Residency in Internal Medicine', 'institution' => 'Central Hospital Algiers', 'year' => '2011']
+                ]),
+                'awards' => json_encode([
+                    ['title' => 'Best Cardiologist Award', 'year' => '2020'],
+                    ['title' => 'Excellence in Patient Care', 'year' => '2018']
+                ]),
+                'website' => 'https://algiersheart.com',
+                'social_links' => json_encode([
+                    'facebook' => 'https://facebook.com/algiersheart',
+                    'linkedin' => 'https://linkedin.com/in/drjohnsmith'
+                ]),
             ]
         );
 
-        // Provider 2 - Dermatologist
-        $providers['provider2'] = ProviderProfile::firstOrCreate(
-            ['user_id' => $users['provider2']->id],
+        // Doctor 2 - Dermatologist (Oran)
+        $providers['doctor2'] = ProviderProfile::updateOrCreate(
+            ['user_id' => $users['doctor2']->id],
             [
                 'specialization_id' => $specializations[1]->id, // Dermatology
+                'province_id' => $oranProvince?->id,
+                'city_id' => $oranCity?->id,
                 'bio' => 'Board-certified dermatologist specializing in medical and cosmetic dermatology. Expert in skin cancer detection, acne treatment, and anti-aging procedures. Passionate about helping patients achieve healthy skin.',
                 'years_experience' => 10,
                 'slot_duration' => 30,
                 'is_available' => true,
+                'title' => 'Dr.',
+                'license_number' => 'DER-ORN-2022-045',
+                'qualifications' => json_encode(['MD Dermatology', 'Board Certified Dermatologist', 'Laser Specialist']),
+                'languages' => json_encode(['Arabic', 'French', 'English']),
+                'phone' => '+213-555-0202',
+                'office_address' => '456 Skin Care Clinic, Oran Dermatology Center',
+                'clinic_name' => 'Oran Skin & Beauty Clinic',
+                'consultation_fee' => 120.00,
+                'advance_booking_days' => 21,
+                'services_offered' => json_encode(['Dermatology Consultation', 'Acne Treatment', 'Skin Cancer Screening', 'Laser Therapy']),
+                'education' => json_encode([
+                    ['degree' => 'MD in Dermatology', 'institution' => 'Oran Medical School', 'year' => '2013'],
+                    ['degree' => 'Fellowship in Cosmetic Dermatology', 'institution' => 'International Dermatology Institute', 'year' => '2016']
+                ]),
+                'awards' => json_encode([
+                    ['title' => 'Young Dermatologist of the Year', 'year' => '2019']
+                ]),
+                'website' => 'https://oranskincare.com',
+                'social_links' => json_encode([
+                    'instagram' => 'https://instagram.com/oranskincare',
+                    'linkedin' => 'https://linkedin.com/in/drsarahjohnson'
+                ]),
             ]
         );
 
-        // Provider 3 - Pediatrician
-        $providers['provider3'] = ProviderProfile::firstOrCreate(
-            ['user_id' => $users['provider3']->id],
+        // Doctor 3 - Pediatrician (Constantine)
+        $providers['doctor3'] = ProviderProfile::updateOrCreate(
+            ['user_id' => $users['doctor3']->id],
             [
                 'specialization_id' => $specializations[2]->id, // Pediatrics
+                'province_id' => $constantineProvince?->id,
+                'city_id' => $constantineCity?->id,
                 'bio' => 'Caring pediatrician dedicated to children\'s health and well-being. Experienced in newborn care, vaccinations, and developmental monitoring. Creating a comfortable environment for young patients and their families.',
                 'years_experience' => 8,
                 'slot_duration' => 30,
                 'is_available' => true,
+                'title' => 'Dr.',
+                'license_number' => 'PED-CON-2021-078',
+                'qualifications' => json_encode(['MD Pediatrics', 'Board Certified Pediatrician', 'Neonatal Specialist']),
+                'languages' => json_encode(['Arabic', 'French', 'English']),
+                'phone' => '+213-555-0303',
+                'office_address' => '789 Children\'s Health Center, Constantine Pediatric District',
+                'clinic_name' => 'Constantine Children\'s Clinic',
+                'consultation_fee' => 100.00,
+                'advance_booking_days' => 14,
+                'services_offered' => json_encode(['Pediatric Consultation', 'Vaccinations', 'Developmental Checkups', 'Newborn Care']),
+                'education' => json_encode([
+                    ['degree' => 'MD in Pediatrics', 'institution' => 'Constantine University Medical School', 'year' => '2015'],
+                    ['degree' => 'Pediatric Residency', 'institution' => 'Children\'s Hospital Constantine', 'year' => '2018']
+                ]),
+                'awards' => json_encode([
+                    ['title' => 'Pediatrician of the Year', 'year' => '2022']
+                ]),
+                'website' => 'https://constantinepediatrics.com',
+                'social_links' => json_encode([
+                    'facebook' => 'https://facebook.com/constantinepediatrics',
+                    'twitter' => 'https://twitter.com/dr_emily_w'
+                ]),
             ]
         );
 
@@ -240,7 +312,7 @@ class BookingTestSeeder extends Seeder
      */
     private function createProviderSchedules(array $providers): void
     {
-        // Provider 1 Schedule - Available Monday to Friday
+        // Doctor 1 Schedule - Available Monday to Friday
         $days = [
             ['day' => 1, 'start' => '09:00', 'end' => '17:00'], // Monday
             ['day' => 2, 'start' => '09:00', 'end' => '17:00'], // Tuesday
@@ -252,7 +324,7 @@ class BookingTestSeeder extends Seeder
         foreach ($days as $day) {
             ProviderSchedule::firstOrCreate(
                 [
-                    'provider_profile_id' => $providers['provider1']->id,
+                    'provider_profile_id' => $providers['doctor1']->id,
                     'day_of_week' => $day['day'],
                 ],
                 [
@@ -263,7 +335,7 @@ class BookingTestSeeder extends Seeder
             );
         }
 
-        // Provider 2 Schedule - Available Tuesday to Saturday
+        // Doctor 2 Schedule - Available Tuesday to Saturday
         $days2 = [
             ['day' => 2, 'start' => '10:00', 'end' => '18:00'], // Tuesday
             ['day' => 3, 'start' => '10:00', 'end' => '18:00'], // Wednesday
@@ -275,7 +347,7 @@ class BookingTestSeeder extends Seeder
         foreach ($days2 as $day) {
             ProviderSchedule::firstOrCreate(
                 [
-                    'provider_profile_id' => $providers['provider2']->id,
+                    'provider_profile_id' => $providers['doctor2']->id,
                     'day_of_week' => $day['day'],
                 ],
                 [
@@ -286,7 +358,7 @@ class BookingTestSeeder extends Seeder
             );
         }
 
-        // Provider 3 Schedule - Available Monday, Wednesday, Friday
+        // Doctor 3 Schedule - Available Monday, Wednesday, Friday
         $days3 = [
             ['day' => 1, 'start' => '08:00', 'end' => '16:00'], // Monday
             ['day' => 3, 'start' => '08:00', 'end' => '16:00'], // Wednesday
@@ -296,7 +368,7 @@ class BookingTestSeeder extends Seeder
         foreach ($days3 as $day) {
             ProviderSchedule::firstOrCreate(
                 [
-                    'provider_profile_id' => $providers['provider3']->id,
+                    'provider_profile_id' => $providers['doctor3']->id,
                     'day_of_week' => $day['day'],
                 ],
                 [
@@ -313,78 +385,78 @@ class BookingTestSeeder extends Seeder
      */
     private function createTestAppointments(array $users, array $providers): void
     {
-        // Pending appointment
+        // Pending appointment - Partner booking for child
         Appointment::firstOrCreate(
             [
-                'user_id' => $users['patient1']->id,
-                'provider_profile_id' => $providers['provider1']->id,
+                'user_id' => $users['partner1']->id,
+                'provider_profile_id' => $providers['doctor1']->id,
                 'appointment_date' => now()->addDays(3)->toDateString(),
                 'start_time' => '10:00:00',
             ],
             [
                 'end_time' => '10:45:00',
                 'status' => 'pending',
-                'notes' => 'First-time patient consultation for heart palpitations.',
+                'notes' => 'Child: Emma (7 years) - Consultation for heart palpitations and chest discomfort during exercise.',
             ]
         );
 
-        // Confirmed appointment
+        // Confirmed appointment - Partner booking for another child
         Appointment::firstOrCreate(
             [
-                'user_id' => $users['patient1']->id,
-                'provider_profile_id' => $providers['provider2']->id,
+                'user_id' => $users['partner1']->id,
+                'provider_profile_id' => $providers['doctor2']->id,
                 'appointment_date' => now()->addDays(5)->toDateString(),
                 'start_time' => '14:00:00',
             ],
             [
                 'end_time' => '14:30:00',
                 'status' => 'confirmed',
-                'notes' => 'Follow-up appointment for acne treatment.',
+                'notes' => 'Child: Lucas (10 years) - Follow-up for skin rash and acne treatment.',
             ]
         );
 
         // Completed appointment
         Appointment::firstOrCreate(
             [
-                'user_id' => $users['patient2']->id,
-                'provider_profile_id' => $providers['provider1']->id,
+                'user_id' => $users['partner2']->id,
+                'provider_profile_id' => $providers['doctor1']->id,
                 'appointment_date' => now()->subDays(7)->toDateString(),
                 'start_time' => '11:00:00',
             ],
             [
                 'end_time' => '11:45:00',
                 'status' => 'completed',
-                'notes' => 'Annual cardiac checkup - patient is doing well.',
+                'notes' => 'Child: Sophie (5 years) - Annual cardiac checkup - child is healthy and developing well.',
             ]
         );
 
         // Cancelled appointment
         Appointment::firstOrCreate(
             [
-                'user_id' => $users['patient2']->id,
-                'provider_profile_id' => $providers['provider3']->id,
+                'user_id' => $users['partner2']->id,
+                'provider_profile_id' => $providers['doctor3']->id,
                 'appointment_date' => now()->subDays(2)->toDateString(),
                 'start_time' => '09:00:00',
             ],
             [
                 'end_time' => '09:30:00',
                 'status' => 'cancelled',
-                'notes' => 'Cancelled by patient due to scheduling conflict.',
+                'notes' => 'Child: Oliver (3 years) - Cancelled due to child feeling better. Will reschedule if needed.',
             ]
         );
 
         // Multiple appointments for testing list/management
         Appointment::firstOrCreate(
             [
-                'user_id' => $users['patient1']->id,
-                'provider_profile_id' => $providers['provider3']->id,
+                'user_id' => $users['partner1']->id,
+                'provider_profile_id' => $providers['doctor3']->id,
                 'appointment_date' => now()->addDays(10)->toDateString(),
                 'start_time' => '15:00:00',
             ],
             [
                 'end_time' => '15:30:00',
                 'status' => 'pending',
-                'notes' => 'Child vaccination appointment.',
+                'notes' => 'Child: Emma (7 years) - Routine vaccination and health checkup.',
             ]
         );
     }
@@ -405,27 +477,22 @@ class BookingTestSeeder extends Seeder
         $this->command->line('   Can: Manage everything, view all, book, provide services');
         $this->command->newLine();
         
-        $this->command->info('⚙️  ADMIN (Booking Manager):');
+        $this->command->info('⚙️  ADMIN (System Manager):');
         $this->command->line('   Email: admin@test.com');
-        $this->command->line('   Can: Manage all bookings, view all appointments');
+        $this->command->line('   Can: Add doctors, manage all bookings, view all appointments');
         $this->command->newLine();
         
-        $this->command->info('👨‍⚕️ PROVIDERS (Can provide services + book):');
+        $this->command->info('👨‍⚕️ DOCTORS (Medical Providers):');
         $this->command->line('   Email: dr.smith@test.com (Cardiologist, 15 years exp)');
         $this->command->line('   Email: dr.johnson@test.com (Dermatologist, 10 years exp)');
         $this->command->line('   Email: dr.williams@test.com (Pediatrician, 8 years exp)');
-        $this->command->line('   Can: Configure profile/schedule, book appointments');
+        $this->command->line('   Can: Configure schedule/availability, chat with partners, view appointments');
         $this->command->newLine();
         
-        $this->command->info('🧑 PATIENTS (Can book only):');
-        $this->command->line('   Email: patient1@test.com (Alice Patient)');
-        $this->command->line('   Email: patient2@test.com (Bob Patient)');
-        $this->command->line('   Can: Book appointments, view their appointments');
-        $this->command->newLine();
-        
-        $this->command->info('👁️  VIEWER (Read-only):');
-        $this->command->line('   Email: viewer@test.com');
-        $this->command->line('   Can: View only (no booking access)');
+        $this->command->info('👨‍👩‍👧‍👦 PARTNERS (Parents/Guardians):');
+        $this->command->line('   Email: partner1@test.com (Alice Partner)');
+        $this->command->line('   Email: partner2@test.com (Bob Partner)');
+        $this->command->line('   Can: Book appointments for children, add child info/problems, chat with doctors');
         $this->command->newLine();
         
         $this->command->line('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
@@ -433,19 +500,19 @@ class BookingTestSeeder extends Seeder
         
         $this->command->info('📊 TEST DATA SUMMARY:');
         $this->command->line('   ✓ 5 Specializations created');
-        $this->command->line('   ✓ 8 Users with different roles');
-        $this->command->line('   ✓ 3 Provider profiles with schedules');
+        $this->command->line('   ✓ 7 Users with different roles');
+        $this->command->line('   ✓ 3 Doctor profiles with schedules');
         $this->command->line('   ✓ 5 Test appointments (various statuses)');
         $this->command->newLine();
         
         $this->command->info('🧪 TEST CASES TO VERIFY:');
-        $this->command->line('   1. Super Admin - Access all features');
-        $this->command->line('   2. Admin - Manage bookings without provider profile');
-        $this->command->line('   3. Providers - Setup profile, configure schedule, receive bookings');
-        $this->command->line('   4. Patients - Browse specializations, book appointments');
-        $this->command->line('   5. Viewer - Cannot access booking system');
-        $this->command->line('   6. View provider details page for each doctor');
-        $this->command->line('   7. Check appointment statuses (pending/confirmed/completed/cancelled)');
-        $this->command->line('   8. Test availability slots per provider schedule');
+        $this->command->line('   1. Super Admin & Admin - Add new doctors with name and email');
+        $this->command->line('   2. Doctors - Login and configure work schedule/availability');
+        $this->command->line('   3. Doctors - Chat with partners and admin');
+        $this->command->line('   4. Partners - Browse available doctors and book appointments');
+        $this->command->line('   5. Partners - Add children info with problems/notes for each appointment');
+        $this->command->line('   6. Partners - Chat with doctors about their children');
+        $this->command->line('   7. View appointment statuses (pending/confirmed/completed/cancelled)');
+        $this->command->line('   8. Test doctor availability slots based on their schedule');
     }
 }

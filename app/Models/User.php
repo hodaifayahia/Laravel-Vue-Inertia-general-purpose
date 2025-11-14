@@ -29,6 +29,11 @@ class User extends Authenticatable
         'provider',
         'provider_id',
         'avatar',
+        'photo',
+        'phone',
+        'bio',
+        'date_of_birth',
+        'gender',
     ];
 
     /**
@@ -51,6 +56,7 @@ class User extends Authenticatable
         return [
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
+            'date_of_birth' => 'date',
         ];
     }
 
@@ -186,11 +192,19 @@ class User extends Authenticatable
     }
 
     /**
-     * Get appointments where user is the patient.
+     * Get appointments where user is the partner.
      */
     public function appointments(): HasMany
     {
         return $this->hasMany(Appointment::class);
+    }
+
+    /**
+     * Get children for this partner.
+     */
+    public function children(): HasMany
+    {
+        return $this->hasMany(Child::class, 'partner_id');
     }
 
     /**
@@ -207,5 +221,21 @@ class User extends Authenticatable
     public function canBook(): bool
     {
         return $this->hasPermissionTo('can-book');
+    }
+
+    /**
+     * Check if user is a partner (parent/guardian).
+     */
+    public function isPartner(): bool
+    {
+        return $this->hasRole('partner');
+    }
+
+    /**
+     * Check if user is a doctor.
+     */
+    public function isDoctor(): bool
+    {
+        return $this->hasRole('doctor');
     }
 }

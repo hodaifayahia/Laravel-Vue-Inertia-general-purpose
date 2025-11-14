@@ -38,11 +38,21 @@ class RolePermissionSeeder extends Seeder
             // Dashboard
             'view dashboard',
             
+            // Children permissions
+            'view children',
+            'create children',
+            'edit children',
+            'delete children',
+            'view all children',
+            
             // Sidebar access permissions
             'view dashboard sidebar',
             'view users sidebar',
             'view roles sidebar',
             'view permissions sidebar',
+            'view children sidebar',
+            'view locations sidebar',
+            'view settings',
         ];
 
         foreach ($permissions as $permission) {
@@ -55,7 +65,7 @@ class RolePermissionSeeder extends Seeder
         $superAdmin = Role::firstOrCreate(['name' => 'super-admin']);
         $superAdmin->givePermissionTo(Permission::all());
 
-        // Admin - has most permissions except managing roles/permissions
+                // Admin - can add doctors and manage system
         $admin = Role::firstOrCreate(['name' => 'admin']);
         $admin->givePermissionTo([
             'view users',
@@ -63,32 +73,32 @@ class RolePermissionSeeder extends Seeder
             'edit users',
             'delete users',
             'view dashboard',
-        ]);
-
-        // Manager - can view and edit users
-        $manager = Role::firstOrCreate(['name' => 'manager']);
-        $manager->givePermissionTo([
-            'view users',
-            'edit users',
-            'view dashboard',
             'view dashboard sidebar',
             'view users sidebar',
+            'view roles sidebar',
+            'view locations sidebar',
+            'view all children',
+            'view children sidebar',
+            'view settings',
         ]);
 
-        // User - basic permissions
-        $user = Role::firstOrCreate(['name' => 'user']);
-        $user->givePermissionTo([
+        // Doctor - can configure schedule and manage appointments
+        $doctor = Role::firstOrCreate(['name' => 'doctor']);
+        $doctor->givePermissionTo([
             'view dashboard',
             'view dashboard sidebar',
         ]);
         
-        // Viewer - can only view users (no edit/create/delete)
-        $viewer = Role::firstOrCreate(['name' => 'viewer']);
-        $viewer->givePermissionTo([
-            'view users',
+        // Partner - can book appointments and manage children
+        $partner = Role::firstOrCreate(['name' => 'partner']);
+        $partner->givePermissionTo([
             'view dashboard',
             'view dashboard sidebar',
-            'view users sidebar',
+            'view children',
+            'create children',
+            'edit children',
+            'delete children',
+            'view children sidebar',
         ]);
 
         // Assign super-admin role to the first user if exists

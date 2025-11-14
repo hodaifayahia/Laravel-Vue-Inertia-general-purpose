@@ -12,32 +12,156 @@ class AppointmentController extends Controller
     /**
      * Display appointments for the authenticated user.
      */
-    public function index()
+    public function index(Request $request)
     {
         $user = auth()->user();
-
-        // Check if user is a provider
+        $isAdmin = $user->hasPermissionTo('manage bookings');
         $isProvider = $user->hasPermissionTo('book-sys') && $user->providerProfile;
+        $isPatient = !$isProvider && !$isAdmin;
 
-        if ($isProvider) {
-            // Provider view: show appointments with their patients
-            $appointments = Appointment::where('provider_profile_id', $user->providerProfile->id)
-                ->with(['user:id,name,email,avatar'])
-                ->orderBy('appointment_date')
-                ->orderBy('start_time')
-                ->paginate(20);
+        $query = Appointment::query();
+        
+        // Apply filtering based on user role
+        if ($isAdmin) {
+            // Admin can see all appointments
+            $query->with([
+                'user:id,name,email,avatar',
+                'providerProfile.user:id,name,email,avatar',
+                'providerProfile.specialization',
+                'providerProfile.city:id,name_ar,name_en'
+            ]);
+        } elseif ($isProvider) {
+            // Provider sees only their appointments
+            $query->where('provider_profile_id', $user->providerProfile->id)
+                ->with(['user:id,name,email,avatar']);
         } else {
-            // Patient view: show their appointments with providers
-            $appointments = Appointment::where('user_id', $user->id)
-                ->with(['providerProfile.user:id,name,email,avatar', 'providerProfile.specialization'])
-                ->orderBy('appointment_date')
-                ->orderBy('start_time')
-                ->paginate(20);
+            // Patient sees only their appointments
+            $query->where('user_id', $user->id)
+                ->with(['providerProfile.user:id,name,email,avatar', 'providerProfile.specialization']);
         }
+
+        // Apply status filter if provided
+        if ($request->has('status') && $request->status !== 'all') {
+            $query->where('status', $request->status);
+        }
+
+        // Apply date filter if provided
+        if ($request->has('date_from')) {
+            $query->whereDate('appointment_date', '>=', $request->date_from);
+        }
+        if ($request->has('date_to')) {
+            $query->whereDate('appointment_date', '<=', $request->date_to);
+        }
+
+        // Apply specialization filter (for admin only)
+        if ($isAdmin && $request->has('specialization') && $request->specialization !== 'all') {
+            $query->whereHas('providerProfile.specialization', function ($q) use ($request) {
+                $q->where('slug', $request->specialization);
+            });
+        }
+
+        // Apply city filter (for admin only)
+        if ($isAdmin && $request->has('city') && $request->city !== 'all') {
+            $query->whereHas('providerProfile.city', function ($q) use ($request) {
+                $q->where('id', $request->city);
+            });
+        }
+
+        // Apply search filter
+        if ($request->has('search') && !empty($request->search)) {
+            $searchTerm = $request->search;
+            $query->where(function ($q) use ($searchTerm, $isAdmin, $isProvider) {
+                if ($isAdmin) {
+                    // Search in patient name, provider name, notes
+                    $q->whereHas('user', function ($userQuery) use ($searchTerm) {
+                        $userQuery->where('name', 'like', '%' . $searchTerm . '%')
+                                ->orWhere('email', 'like', '%' . $searchTerm . '%');
+                    })
+                    ->orWhereHas('providerProfile.user', function ($providerQuery) use ($searchTerm) {
+                        $providerQuery->where('name', 'like', '%' . $searchTerm . '%')
+                                    ->orWhere('email', 'like', '%' . $searchTerm . '%');
+                    })
+                    ->orWhere('notes', 'like', '%' . $searchTerm . '%');
+                } elseif ($isProvider) {
+                    // Provider searches in patient name, email, notes
+                    $q->whereHas('user', function ($userQuery) use ($searchTerm) {
+                        $userQuery->where('name', 'like', '%' . $searchTerm . '%')
+                                ->orWhere('email', 'like', '%' . $searchTerm . '%');
+                    })
+                    ->orWhere('notes', 'like', '%' . $searchTerm . '%');
+                } else {
+                    // Patient searches in provider name, specialization, notes
+                    $q->whereHas('providerProfile.user', function ($providerQuery) use ($searchTerm) {
+                        $providerQuery->where('name', 'like', '%' . $searchTerm . '%');
+                    })
+                    ->orWhereHas('providerProfile.specialization', function ($specQuery) use ($searchTerm) {
+                        $specQuery->where('name', 'like', '%' . $searchTerm . '%');
+                    })
+                    ->orWhere('notes', 'like', '%' . $searchTerm . '%');
+                }
+            });
+        }
+
+        $appointments = $query
+            ->orderBy('appointment_date', 'desc')
+            ->orderBy('start_time', 'desc')
+            ->paginate(20);
+
+        // Get filter options for admin view
+        $specializations = [];
+        $cities = [];
+        
+        if ($isAdmin) {
+            $specializations = \App\Models\Specialization::where('is_active', true)
+                ->pluck('name', 'slug')
+                ->toArray();
+            $cities = \App\Models\City::orderBy('name_ar')
+                ->pluck('name_ar', 'id')
+                ->toArray();
+        }
+
+        // Calculate statistics
+        $statsQuery = Appointment::query();
+        
+        // Apply same role-based filtering for statistics
+        if ($isAdmin) {
+            // Admin sees all appointments
+        } elseif ($isProvider) {
+            // Provider sees only their appointments
+            $statsQuery->where('provider_profile_id', $user->providerProfile->id);
+        } else {
+            // Patient sees only their appointments
+            $statsQuery->where('user_id', $user->id);
+        }
+
+        $statistics = [
+            'total' => (clone $statsQuery)->count(),
+            'pending' => (clone $statsQuery)->where('status', 'pending')->count(),
+            'confirmed' => (clone $statsQuery)->where('status', 'confirmed')->count(),
+            'completed' => (clone $statsQuery)->where('status', 'completed')->count(),
+            'cancelled' => (clone $statsQuery)->where('status', 'cancelled')->count(),
+            'no_show' => (clone $statsQuery)->where('status', 'no_show')->count(),
+            'today' => (clone $statsQuery)->whereDate('appointment_date', today())->count(),
+            'this_week' => (clone $statsQuery)->whereBetween('appointment_date', [now()->startOfWeek(), now()->endOfWeek()])->count(),
+            'this_month' => (clone $statsQuery)->whereYear('appointment_date', now()->year)->whereMonth('appointment_date', now()->month)->count(),
+        ];
 
         return Inertia::render('Dashboard/Bookings/Appointments/Index', [
             'appointments' => $appointments,
             'isProvider' => $isProvider,
+            'isAdmin' => $isAdmin,
+            'isPatient' => $isPatient,
+            'specializations' => $specializations,
+            'cities' => $cities,
+            'statistics' => $statistics,
+            'filters' => [
+                'status' => $request->query('status', 'all'),
+                'date_from' => $request->query('date_from', ''),
+                'date_to' => $request->query('date_to', ''),
+                'specialization' => $request->query('specialization', 'all'),
+                'city' => $request->query('city', 'all'),
+                'search' => $request->query('search', ''),
+            ]
         ]);
     }
 
@@ -50,7 +174,14 @@ class AppointmentController extends Controller
             abort(403, 'You do not have permission to book appointments.');
         }
 
-        return Inertia::render('Dashboard/Bookings/Book');
+        $provinces = \App\Models\Province::orderBy('name_ar')->get();
+        $cities = \App\Models\City::orderBy('name_ar')->get();
+
+        return Inertia::render('Dashboard/Bookings/BookEnhanced', [
+            'provinces' => $provinces,
+            'cities' => $cities,
+            'success' => session('success', false),
+        ]);
     }
 
     /**
@@ -74,9 +205,10 @@ class AppointmentController extends Controller
         $provider = ProviderProfile::findOrFail($validated['provider_profile_id']);
         
         if (!$provider->is_available) {
-            return redirect()->back()->withErrors([
-                'error' => 'This provider is currently unavailable.'
-            ]);
+            return response()->json([
+                'error' => 'This provider is currently unavailable.',
+                'message' => 'This provider is currently unavailable.'
+            ], 422);
         }
 
         // Check for conflicting appointments
@@ -97,9 +229,10 @@ class AppointmentController extends Controller
             ->exists();
 
         if ($existingAppointment) {
-            return redirect()->back()->withErrors([
-                'error' => 'This time slot is already booked.'
-            ]);
+            return response()->json([
+                'error' => 'This time slot is already booked.',
+                'message' => 'This time slot is already booked.'
+            ], 422);
         }
 
         $appointment = Appointment::create([
@@ -112,8 +245,11 @@ class AppointmentController extends Controller
             'status' => 'pending',
         ]);
 
-        return redirect()->route('appointments.index')
-            ->with('success', 'Appointment booked successfully!');
+        return response()->json([
+            'success' => true,
+            'message' => 'Appointment booked successfully!',
+            'appointment' => $appointment
+        ], 201);
     }
 
     /**
@@ -122,9 +258,10 @@ class AppointmentController extends Controller
     public function updateStatus(Request $request, Appointment $appointment)
     {
         $user = auth()->user();
+        $isAdmin = $user->hasPermissionTo('manage bookings');
 
-        // Only provider can update status
-        if (!$user->providerProfile || $appointment->provider_profile_id !== $user->providerProfile->id) {
+        // Only provider or admin can update status
+        if (!$isAdmin && (!$user->providerProfile || $appointment->provider_profile_id !== $user->providerProfile->id)) {
             abort(403, 'Unauthorized action.');
         }
 
@@ -143,9 +280,10 @@ class AppointmentController extends Controller
     public function cancel(Appointment $appointment)
     {
         $user = auth()->user();
+        $isAdmin = $user->hasPermissionTo('manage bookings');
 
-        // Only the patient can cancel their own appointment
-        if ($appointment->user_id !== $user->id) {
+        // Only the patient or admin can cancel appointment
+        if (!$isAdmin && $appointment->user_id !== $user->id) {
             abort(403, 'Unauthorized action.');
         }
 
@@ -162,27 +300,51 @@ class AppointmentController extends Controller
     }
 
     /**
+     * Delete appointment (by admin only).
+     */
+    public function destroy(Appointment $appointment)
+    {
+        $user = auth()->user();
+
+        // Only admin can delete appointments
+        if (!$user->hasPermissionTo('manage bookings')) {
+            abort(403, 'Unauthorized action.');
+        }
+
+        $appointment->delete();
+
+        return redirect()->back()->with('success', 'Appointment deleted successfully!');
+    }
+
+    /**
      * Show appointment details.
      */
     public function show(Appointment $appointment)
     {
         $user = auth()->user();
+        $isAdmin = $user->hasPermissionTo('manage bookings');
+        $isProvider = $user->hasPermissionTo('book-sys') && $user->providerProfile;
 
         // User can only view their own appointments or appointments they are providing
-        if ($appointment->user_id !== $user->id && 
-            (!$user->providerProfile || $appointment->provider_profile_id !== $user->providerProfile->id)) {
+        if ($appointment->user_id !== $user->id &&
+            (!$isProvider || $appointment->provider_profile_id !== $user->providerProfile->id) &&
+            !$isAdmin) {
             abort(403, 'Unauthorized action.');
         }
 
         $appointment->load([
             'user:id,name,email,avatar',
-            'providerProfile.user:id,name,email,avatar',
-            'providerProfile.specialization'
+            'providerProfile' => function ($query) {
+                $query->with('user:id,name,email,avatar,phone')
+                      ->with('specialization')
+                      ->select('id', 'user_id', 'specialization_id', 'years_experience', 'rating', 'total_reviews', 'consultation_fee', 'phone');
+            }
         ]);
 
         return Inertia::render('Dashboard/Bookings/Appointments/Show', [
             'appointment' => $appointment,
-            'isProvider' => $user->providerProfile && $appointment->provider_profile_id === $user->providerProfile->id,
+            'isProvider' => $isProvider && $appointment->provider_profile_id === $user->providerProfile->id,
+            'isAdmin' => $isAdmin,
         ]);
     }
 }

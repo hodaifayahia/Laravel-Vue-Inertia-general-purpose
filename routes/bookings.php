@@ -3,6 +3,7 @@
 use App\Http\Controllers\AppointmentController;
 use App\Http\Controllers\ProviderProfileController;
 use App\Http\Controllers\ProviderScheduleController;
+use App\Http\Controllers\ProviderAvailabilityController;
 use App\Http\Controllers\SpecializationController;
 use Illuminate\Support\Facades\Route;
 
@@ -22,12 +23,20 @@ Route::middleware(['auth', 'verified'])->group(function () {
 
     // Provider Profile (for users with book-sys permission)
     Route::middleware('permission:book-sys')->group(function () {
-        Route::get('/provider/profile', [ProviderProfileController::class, 'show'])->name('provider.profile.show');
+        Route::get('/provider/configuration', [ProviderProfileController::class, 'configuration'])->name('provider.configuration');
         Route::post('/provider/profile', [ProviderProfileController::class, 'store'])->name('provider.profile.store');
         
         // Provider Schedule
         Route::get('/provider/schedule', [ProviderScheduleController::class, 'index'])->name('provider.schedule.index');
         Route::post('/provider/schedule/bulk', [ProviderScheduleController::class, 'bulkUpdate'])->name('provider.schedule.bulk');
+        
+        // Provider Availability (Date-specific configuration)
+        Route::get('/provider/availability', [ProviderAvailabilityController::class, 'index'])->name('provider.availability.index');
+        Route::post('/provider/availability', [ProviderAvailabilityController::class, 'store'])->name('provider.availability.store');
+        Route::post('/provider/availability/bulk', [ProviderAvailabilityController::class, 'bulkStore'])->name('provider.availability.bulk');
+        Route::post('/provider/availability/exclude', [ProviderAvailabilityController::class, 'storeExcludedDates'])->name('provider.availability.exclude');
+        Route::delete('/provider/availability/{id}', [ProviderAvailabilityController::class, 'destroy'])->name('provider.availability.destroy');
+        Route::get('/provider/availability/month', [ProviderAvailabilityController::class, 'getMonthAvailability'])->name('provider.availability.month');
     });
 
     // Providers list (for booking)
@@ -58,5 +67,6 @@ Route::middleware(['auth', 'verified'])->group(function () {
     // Admin views
     Route::middleware('permission:manage bookings')->group(function () {
         Route::get('/providers', [ProviderProfileController::class, 'index'])->name('providers.index');
+        Route::delete('/appointments/{appointment}', [AppointmentController::class, 'destroy'])->name('appointments.destroy');
     });
 });

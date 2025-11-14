@@ -10,6 +10,7 @@ class Appointment extends Model
     protected $fillable = [
         'provider_profile_id',
         'user_id',
+        'child_id',
         'appointment_date',
         'start_time',
         'end_time',
@@ -32,11 +33,19 @@ class Appointment extends Model
     }
 
     /**
-     * Get the user (patient) for this appointment.
+     * Get the user (partner) for this appointment.
      */
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);
+    }
+
+    /**
+     * Get the child for this appointment.
+     */
+    public function child(): BelongsTo
+    {
+        return $this->belongsTo(Child::class);
     }
 
     /**

@@ -32,8 +32,8 @@ class BookingPermissionSeeder extends Seeder
         // Assign permissions to roles
         $superAdmin = Role::where('name', 'super-admin')->first();
         $admin = Role::where('name', 'admin')->first();
-        $manager = Role::where('name', 'manager')->first();
-        $user = Role::where('name', 'user')->first();
+        $doctor = Role::where('name', 'doctor')->first();
+        $partner = Role::where('name', 'partner')->first();
 
         if ($superAdmin) {
             $superAdmin->givePermissionTo(['book-sys', 'can-book', 'manage bookings', 'view bookings']);
@@ -43,12 +43,12 @@ class BookingPermissionSeeder extends Seeder
             $admin->givePermissionTo(['book-sys', 'can-book', 'manage bookings', 'view bookings']);
         }
 
-        if ($manager) {
-            $manager->givePermissionTo(['book-sys', 'can-book', 'view bookings']);
+        if ($doctor) {
+            $doctor->givePermissionTo(['book-sys', 'view bookings']);
         }
 
-        if ($user) {
-            $user->givePermissionTo(['can-book']);
+        if ($partner) {
+            $partner->givePermissionTo(['can-book']);
         }
 
         $this->command->info('Booking permissions created and assigned successfully!');
