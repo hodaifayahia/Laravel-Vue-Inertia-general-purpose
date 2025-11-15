@@ -10,13 +10,15 @@ import {
     SidebarMenu,
     SidebarMenuButton,
     SidebarMenuItem,
+    SidebarGroup,
+    SidebarGroupLabel,
 } from '@/components/ui/sidebar';
 import { dashboard } from '@/routes';
 import * as usersRoutes from '@/routes/users';
 import * as rolesRoutes from '@/routes/roles';
 import { type NavItem } from '@/types';
 import { Link } from '@inertiajs/vue3';
-import { BookOpen, Folder, LayoutGrid, Users, Shield, MessageCircle, Settings, Calendar, CalendarCheck, Stethoscope, Clock, Baby, MapPin } from 'lucide-vue-next';
+import { BookOpen, Folder, LayoutGrid, Users, Shield, MessageCircle, Settings, Calendar, CalendarCheck, Stethoscope, Clock, Baby, MapPin, Gamepad2, Brain } from 'lucide-vue-next';
 import * as locationsRoutes from '@/routes/locations';
 import AppLogo from './AppLogo.vue';
 import { wTrans } from 'laravel-vue-i18n';
@@ -67,10 +69,24 @@ const allNavItems = [
         group: 'main'
     },
     {
+        title: 'Assessment',
+        href: '/assessment',
+        icon: Brain,
+        permission: null, // Public access - no auth required
+        group: 'main'
+    },
+    {
         title: wTrans('sidebar.chat'),
         href: '/chat',
         icon: MessageCircle,
         permission: 'view chat',
+        group: 'main'
+    },
+    {
+        title: wTrans('activities.title'),
+        href: '/activities',
+        icon: Gamepad2,
+        permission: null, // Public access
         group: 'main'
     },
 
@@ -78,59 +94,26 @@ const allNavItems = [
     {
         title: wTrans('sidebar.bookings'),
         icon: Calendar,
-        permission: 'can-book',
+        permission: 'can-book,book-sys,manage bookings',
         group: 'appointments',
         items: [
             {
                 title: wTrans('sidebar.book_appointment'),
                 href: '/book',
                 icon: CalendarCheck,
+                permission: 'can-book',
             },
-            {
-                title: wTrans('sidebar.my_appointments'),
-                href: '/appointments',
-                icon: Calendar,
-            },
-        ],
-    },
-    {
-        title: wTrans('sidebar.bookings'),
-        icon: Stethoscope,
-        permission: 'book-sys',
-        group: 'appointments',
-        items: [
             {
                 title: wTrans('sidebar.provider_profile'),
                 href: '/provider/configuration',
                 icon: Stethoscope,
+                permission: 'book-sys',
             },
             {
                 title: wTrans('sidebar.my_appointments'),
                 href: '/appointments',
                 icon: Calendar,
-            },
-        ],
-    },
-    {
-        title: wTrans('sidebar.appointments_management'),
-        icon: Calendar,
-        permission: 'manage bookings',
-        group: 'appointments',
-        items: [
-            {
-                title: wTrans('sidebar.all_appointments'),
-                href: '/appointments',
-                icon: Calendar,
-            },
-            {
-                title: wTrans('sidebar.pending_approvals'),
-                href: '/appointments?status=pending',
-                icon: Clock,
-            },
-            {
-                title: wTrans('sidebar.confirmed'),
-                href: '/appointments?status=confirmed',
-                icon: CalendarCheck,
+                permission: 'can-book,book-sys,manage bookings',
             },
         ],
     },
@@ -171,41 +154,47 @@ const allNavItems = [
         permission: 'manage bookings',
         group: 'management'
     },
-
-    // Settings Section
-    {
-        title: wTrans('sidebar.chat_permissions'),
-        href: '/chat/permission-settings',
-        icon: Settings,
-        permission: 'manage chat',
-        group: 'settings'
-    },
-    {
-        title: wTrans('sidebar.settings'),
-        href: '/settings',
-        icon: Settings,
-        permission: 'view settings',
-        group: 'settings'
-    },
 ];
+
+// Helper function to check if user has any of the comma-separated permissions
+const hasAnyPermission = (permissionString: string | null): boolean => {
+    // Allow public items (no permission required)
+    if (permissionString === null) {
+        return true;
+    }
+    const permissions = permissionString.split(',').map(p => p.trim());
+    return permissions.some(permission => hasPermission(permission));
+};
 
 // Filter nav items based on user permissions and group them
 const groupedNavItems = computed(() => {
-    const filtered = allNavItems.filter(item => hasPermission(item.permission));
+    const filtered = allNavItems.filter(item => hasAnyPermission(item.permission));
     
     const groups = {
         main: { title: wTrans('sidebar.main') || 'Main', items: [] as any[] },
         appointments: { title: wTrans('sidebar.appointments') || 'Appointments & Bookings', items: [] as any[] },
         management: { title: wTrans('sidebar.management') || 'Management', items: [] as any[] },
-        settings: { title: wTrans('sidebar.settings_group') || 'Settings', items: [] as any[] },
     };
 
     filtered.forEach(item => {
-        const group = item.group || 'main';
-        if (groups[group]) {
-            groups[group].items.push(item);
-        } else {
-            groups.main.items.push(item);
+        // Filter sub-items if they exist
+        if (item.items && item.items.length > 0) {
+            item.items = item.items.filter(subItem => {
+                if (subItem.permission) {
+                    return hasAnyPermission(subItem.permission);
+                }
+                return true; // Show if no permission specified
+            });
+        }
+        
+        // Only add item if it has sub-items or no sub-items at all
+        if (!item.items || item.items.length > 0) {
+            const group = item.group || 'main';
+            if (groups[group]) {
+                groups[group].items.push(item);
+            } else {
+                groups.main.items.push(item);
+            }
         }
     });
 
@@ -214,16 +203,6 @@ const groupedNavItems = computed(() => {
 });
 
 const footerNavItems: NavItem[] = [
-    {
-        title: 'Github Repo',
-        href: 'https://github.com/laravel/vue-starter-kit',
-        icon: Folder,
-    },
-    {
-        title: wTrans('sidebar.documentation'),
-        href: 'https://laravel.com/docs/starter-kits#vue',
-        icon: BookOpen,
-    },
 ];
 </script>
 
@@ -242,14 +221,10 @@ const footerNavItems: NavItem[] = [
         </SidebarHeader>
 
         <SidebarContent>
-            <div v-for="group in groupedNavItems" :key="group.title" class="mb-6">
-                <div class="px-3 py-2">
-                    <h3 class="mb-2 px-4 text-xs font-semibold text-sidebar-foreground/70 uppercase tracking-wider">
-                        {{ group.title }}
-                    </h3>
-                </div>
+            <SidebarGroup v-for="group in groupedNavItems" :key="group.title">
+                <SidebarGroupLabel>{{ group.title }}</SidebarGroupLabel>
                 <NavMain :items="group.items" />
-            </div>
+            </SidebarGroup>
         </SidebarContent>
 
         <SidebarFooter>

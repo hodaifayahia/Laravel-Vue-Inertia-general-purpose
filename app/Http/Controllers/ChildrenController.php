@@ -36,6 +36,21 @@ class ChildrenController extends Controller
     }
 
     /**
+     * Get authenticated user's children as JSON (for API).
+     */
+    public function apiIndex()
+    {
+        $user = auth()->user();
+        
+        $children = Child::where('partner_id', $user->id)
+            ->select('id', 'name', 'date_of_birth', 'gender', 'medical_notes')
+            ->orderBy('date_of_birth', 'desc')
+            ->get();
+
+        return response()->json($children);
+    }
+
+    /**
      * Show the form for creating a new child.
      */
     public function create(): Response

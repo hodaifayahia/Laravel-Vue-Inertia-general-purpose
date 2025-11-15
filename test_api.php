@@ -1,58 +1,32 @@
 <?php
 
-require_once 'vendor/autoload.php';
+require __DIR__.'/vendor/autoload.php';
 
-$app = require_once 'bootstrap/app.php';
-$app->make('Illuminate\Contracts\Console\Kernel')->bootstrap();
+$app = require_once __DIR__.'/bootstrap/app.php';
+$kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
 
-use App\Models\Specialization;
-use App\Models\ProviderProfile;
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\PublicApiController;
 
-// Test the API endpoint that loads providers by specialization
-echo "🔍 Testing Provider API with Location Data\n";
-echo "==========================================\n\n";
+$controller = new PublicApiController();
 
-// Get the first specialization
-$specialization = Specialization::first();
-if (!$specialization) {
-    echo "❌ No specializations found. Run the seeder first.\n";
-    exit(1);
-}
-
-echo "📋 Testing specialization: {$specialization->name}\n\n";
-
-// Simulate the API call that loads providers with location data
-$providers = ProviderProfile::where('specialization_id', $specialization->id)
-    ->with(['user', 'specialization', 'province', 'city', 'schedules'])
-    ->get();
-
-if ($providers->isEmpty()) {
-    echo "❌ No providers found for this specialization.\n";
-    exit(1);
-}
-
-foreach ($providers as $provider) {
-    echo "👨‍⚕️ {$provider->user->name}\n";
-    echo "   Specialization: {$provider->specialization->name}\n";
-
-    if ($provider->province) {
-        echo "   📍 Province: {$provider->province->name_ar} ({$provider->province->name_en}) - {$provider->province->code}\n";
-    } else {
-        echo "   ❌ No province data\n";
+try {
+    $response = $controller->getDoctors();
+    $data = $response->getData(true);
+    
+    echo "✅ API Status: SUCCESS\n";
+    echo "Total doctors: " . count($data['doctors']) . "\n";
+    echo "\nFirst 3 doctors:\n";
+    
+    foreach (array_slice($data['doctors'], 0, 3) as $doctor) {
+        echo "\n- {$doctor['name']}\n";
+        echo "  Specialty: {$doctor['specialty']}\n";
+        echo "  City: {$doctor['city_name']}\n";
+        echo "  Province: {$doctor['province_name']}\n";
+        echo "  Years experience: {$doctor['years_experience']}\n";
     }
-
-    if ($provider->city) {
-        echo "   🏛️ City: {$provider->city->name_ar} ({$provider->city->name_en})\n";
-    } else {
-        echo "   ❌ No city data\n";
-    }
-
-    if ($provider->clinic_name) {
-        echo "   💼 Clinic: {$provider->clinic_name}\n";
-    }
-
-    echo "\n";
+    
+} catch (\Exception $e) {
+    echo "❌ API Error: " . $e->getMessage() . "\n";
+    echo "File: " . $e->getFile() . "\n";
+    echo "Line: " . $e->getLine() . "\n";
 }
-
-echo "✅ API test completed!\n";

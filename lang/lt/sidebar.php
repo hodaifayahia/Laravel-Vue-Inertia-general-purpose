@@ -2,8 +2,9 @@
 
 return [
     'platform' => 'Platforma',
+    'main' => 'Pradžia',
 
-        'dashboard' => 'Prietaisų skydelis',
+    'dashboard' => 'Prietaisų skydelis',
     'chat' => 'Pokalbis',
     'bookings' => 'Susitikimai',
     'book_appointment' => 'Užsisakyti susitikimą',

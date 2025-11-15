@@ -7,6 +7,9 @@ return [
     'my_appointments' => 'My Appointments',
     'provider_profile' => 'Provider Profile',
     'provider_schedule' => 'Provider Schedule',
+    'ready_to_book' => 'Ready to Book an Appointment?',
+    'connect_specialist' => 'Connect with a specialist who can provide personalized support',
+    'book_now' => 'Book Now',
     
     // Appointment details
     'appointment_details' => 'Appointment Details',
@@ -44,6 +47,12 @@ return [
     'select_date' => 'Select Date',
     'select_time' => 'Select Time',
     'select_specialization' => 'Select Specialization',
+    'select_specialist' => 'Select Specialist',
+    'select_province' => 'Select Province',
+    'select_city' => 'Select City',
+    'province' => 'Province',
+    'city' => 'City',
+    'child_name' => 'Child',
     'reason_for_visit' => 'Reason for Visit',
     
     // Provider information

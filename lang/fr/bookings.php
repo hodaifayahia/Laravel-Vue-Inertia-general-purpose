@@ -2,11 +2,15 @@
 
 return [
     // Page titles
+        // Page titles
     'title' => 'Rendez-vous',
-    'book_appointment' => 'Prendre rendez-vous',
+    'book_appointment' => 'Prendre un rendez-vous',
     'my_appointments' => 'Mes rendez-vous',
-    'provider_profile' => 'Profil du prestataire',
-    'provider_schedule' => 'Horaire du prestataire',
+    'provider_profile' => 'Profil du fournisseur',
+    'provider_schedule' => 'Horaire du fournisseur',
+    'ready_to_book' => 'Prêt à réserver un rendez-vous?',
+    'connect_specialist' => 'Connectez-vous avec un spécialiste qui peut fournir un soutien personnalisé',
+    'book_now' => 'Réserver Maintenant',
     
     // Appointment details
     'appointment_details' => 'Détails du rendez-vous',

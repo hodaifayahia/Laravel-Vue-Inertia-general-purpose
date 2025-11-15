@@ -2,11 +2,15 @@
 
 return [
     // Page titles
+        // Page titles
     'title' => 'المواعيد',
     'book_appointment' => 'حجز موعد',
     'my_appointments' => 'مواعيدي',
-    'provider_profile' => 'ملف المزود',
-    'provider_schedule' => 'جدول المزود',
+    'provider_profile' => 'ملف مقدم الخدمة',
+    'provider_schedule' => 'جدول مقدم الخدمة',
+    'ready_to_book' => 'هل أنت مستعد لحجز موعد؟',
+    'connect_specialist' => 'تواصل مع متخصص يمكنه تقديم دعم شخصي',
+    'book_now' => 'احجز الآن',
     
     // Appointment details
     'appointment_details' => 'تفاصيل الموعد',
@@ -44,6 +48,12 @@ return [
     'select_date' => 'حدد التاريخ',
     'select_time' => 'حدد الوقت',
     'select_specialization' => 'حدد التخصص',
+    'select_specialist' => 'اختر الأخصائي',
+    'select_province' => 'اختر الولاية',
+    'select_city' => 'اختر المدينة',
+    'province' => 'الولاية',
+    'city' => 'المدينة',
+    'child_name' => 'الطفل',
     'reason_for_visit' => 'سبب الزيارة',
     
     // Provider information

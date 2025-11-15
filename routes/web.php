@@ -10,6 +10,53 @@ Route::get('/', function () {
     return Inertia::render('Welcome');
 })->name('home');
 
+// Public dysgraphia platform pages
+Route::get('/doctors', function () {
+    return Inertia::render('Doctors/Index');
+})->name('doctors.index');
+
+Route::get('/doctors/{id}', function ($id) {
+    return Inertia::render('Doctors/Show', ['id' => $id]);
+})->name('doctors.show');
+
+Route::get('/map', function () {
+    return Inertia::render('Map');
+})->name('map');
+
+Route::get('/about', function () {
+    return Inertia::render('About');
+})->name('about');
+
+Route::get('/faq', function () {
+    return Inertia::render('FAQ');
+})->name('faq');
+
+Route::get('/resources', function () {
+    return Inertia::render('Resources');
+})->name('resources');
+
+Route::get('/contact', function () {
+    return Inertia::render('Contact');
+})->name('contact');
+
+// Free Dysgraphia Assessment - accessible without authentication
+Route::get('/assessment', function () {
+    return Inertia::render('Assessment');
+})->name('assessment');
+
+// Public Activity Games - accessible without authentication
+Route::get('/activities', function () {
+    return Inertia::render('Activities/Index');
+})->name('activities.index');
+
+Route::get('/activities/{activity}/play', function ($activity) {
+    return Inertia::render('Activities/Game', ['activityId' => $activity]);
+})->name('activities.play');
+
+// Public Locations (provinces / cities) - accessible without authentication
+Route::get('locations', [\App\Http\Controllers\LocationController::class, 'index'])
+    ->name('locations.index');
+
 Route::get('dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -78,9 +125,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
         ->middleware('permission:assign permissions')
         ->name('users.assign-permissions');
 
-    // Locations (provinces / cities)
-    Route::get('locations', [\App\Http\Controllers\LocationController::class, 'index'])
-        ->name('locations.index');
+    // Locations (provinces / cities) - Admin only
     Route::post('locations/provinces', [\App\Http\Controllers\LocationController::class, 'storeProvince'])
         ->name('locations.provinces.store');
     Route::post('locations/cities', [\App\Http\Controllers\LocationController::class, 'storeCity'])
@@ -90,6 +135,38 @@ Route::middleware(['auth', 'verified'])->group(function () {
         ->name('locations.provinces.destroy');
     Route::delete('locations/cities/{city}', [\App\Http\Controllers\LocationController::class, 'destroyCity'])
         ->name('locations.cities.destroy');
+
+    // Admin Activity Management
+    Route::prefix('admin/activities')->name('admin.activities.')->group(function () {
+        Route::get('/', [\App\Http\Controllers\Admin\ActivityAdminController::class, 'index'])
+            ->name('index');
+        Route::get('/create', [\App\Http\Controllers\Admin\ActivityAdminController::class, 'create'])
+            ->name('create');
+        Route::post('/', [\App\Http\Controllers\Admin\ActivityAdminController::class, 'store'])
+            ->name('store');
+        Route::get('/{activity}/edit', [\App\Http\Controllers\Admin\ActivityAdminController::class, 'edit'])
+            ->name('edit');
+        Route::put('/{activity}', [\App\Http\Controllers\Admin\ActivityAdminController::class, 'update'])
+            ->name('update');
+        Route::delete('/{activity}', [\App\Http\Controllers\Admin\ActivityAdminController::class, 'destroy'])
+            ->name('destroy');
+
+        // Activity Items
+        Route::post('/{activity}/items', [\App\Http\Controllers\Admin\ActivityAdminController::class, 'storeItem'])
+            ->name('items.store');
+        Route::put('/items/{item}', [\App\Http\Controllers\Admin\ActivityAdminController::class, 'updateItem'])
+            ->name('items.update');
+        Route::delete('/items/{item}', [\App\Http\Controllers\Admin\ActivityAdminController::class, 'destroyItem'])
+            ->name('items.destroy');
+
+        // Attempts/Results
+        Route::get('/attempts', [\App\Http\Controllers\Admin\ActivityAdminController::class, 'attempts'])
+            ->name('attempts');
+        Route::get('/attempts/{attempt}', [\App\Http\Controllers\Admin\ActivityAdminController::class, 'showAttempt'])
+            ->name('attempts.show');
+        Route::put('/attempts/{attempt}/notes', [\App\Http\Controllers\Admin\ActivityAdminController::class, 'updateAttemptNotes'])
+            ->name('attempts.update-notes');
+    });
 });
 
 require __DIR__.'/settings.php';

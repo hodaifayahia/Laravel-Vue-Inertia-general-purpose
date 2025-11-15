@@ -7,6 +7,9 @@ return [
     'my_appointments' => 'Mano susitikimai',
     'provider_profile' => 'Paslaugų teikėjo profilis',
     'provider_schedule' => 'Paslaugų teikėjo tvarkaraštis',
+    'ready_to_book' => 'Paruoštas užsisakyti susitikimą?',
+    'connect_specialist' => 'Susisiekite su specialistu, kuris gali suteikti asmeninę pagalbą',
+    'book_now' => 'Užsisakyti Dabar',
     
     // Appointment details
     'appointment_details' => 'Susitikimo detalės',

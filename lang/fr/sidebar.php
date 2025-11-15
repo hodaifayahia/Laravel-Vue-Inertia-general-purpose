@@ -2,6 +2,7 @@
 
 return [
     'platform' => 'Plateforme',
+    'main' => 'Accueil',
 
     'dashboard' => 'Tableau de bord',
     'chat' => 'Discussion',

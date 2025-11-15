@@ -26,6 +26,7 @@ class AppointmentController extends Controller
             // Admin can see all appointments
             $query->with([
                 'user:id,name,email,avatar',
+                'child:id,name,date_of_birth,gender',
                 'providerProfile.user:id,name,email,avatar',
                 'providerProfile.specialization',
                 'providerProfile.city:id,name_ar,name_en'
@@ -33,11 +34,11 @@ class AppointmentController extends Controller
         } elseif ($isProvider) {
             // Provider sees only their appointments
             $query->where('provider_profile_id', $user->providerProfile->id)
-                ->with(['user:id,name,email,avatar']);
+                ->with(['user:id,name,email,avatar', 'child:id,name,date_of_birth,gender']);
         } else {
             // Patient sees only their appointments
             $query->where('user_id', $user->id)
-                ->with(['providerProfile.user:id,name,email,avatar', 'providerProfile.specialization']);
+                ->with(['providerProfile.user:id,name,email,avatar', 'providerProfile.specialization', 'child:id,name,date_of_birth,gender']);
         }
 
         // Apply status filter if provided
@@ -110,6 +111,8 @@ class AppointmentController extends Controller
         // Get filter options for admin view
         $specializations = [];
         $cities = [];
+        $provinces = [];
+        $allCities = [];
         
         if ($isAdmin) {
             $specializations = \App\Models\Specialization::where('is_active', true)
@@ -119,6 +122,11 @@ class AppointmentController extends Controller
                 ->pluck('name_ar', 'id')
                 ->toArray();
         }
+        
+        // For any user who can book (patient, admin, provider), provide provinces and cities for booking modal
+        // This allows all users to use the booking modal
+        $provinces = \App\Models\Province::orderBy('name_ar')->get();
+        $allCities = \App\Models\City::orderBy('name_ar')->get();
 
         // Calculate statistics
         $statsQuery = Appointment::query();
@@ -153,6 +161,8 @@ class AppointmentController extends Controller
             'isPatient' => $isPatient,
             'specializations' => $specializations,
             'cities' => $cities,
+            'provinces' => $provinces,
+            'allCities' => $allCities,
             'statistics' => $statistics,
             'filters' => [
                 'status' => $request->query('status', 'all'),
@@ -193,13 +203,18 @@ class AppointmentController extends Controller
             abort(403, 'You do not have permission to book appointments.');
         }
 
+        \Log::info('Appointment booking request:', $request->all());
+
         $validated = $request->validate([
+            'child_id' => 'nullable|exists:children,id',
             'provider_profile_id' => 'required|exists:provider_profiles,id',
             'appointment_date' => 'required|date|after_or_equal:today',
             'start_time' => 'required|date_format:H:i',
             'end_time' => 'required|date_format:H:i|after:start_time',
             'notes' => 'nullable|string|max:500',
         ]);
+
+        \Log::info('Validated data:', $validated);
 
         // Check if provider is available
         $provider = ProviderProfile::findOrFail($validated['provider_profile_id']);
@@ -235,15 +250,22 @@ class AppointmentController extends Controller
             ], 422);
         }
 
-        $appointment = Appointment::create([
+        $appointmentData = [
             'provider_profile_id' => $validated['provider_profile_id'],
             'user_id' => auth()->id(),
+            'child_id' => $validated['child_id'] ?? null,
             'appointment_date' => $validated['appointment_date'],
             'start_time' => $validated['start_time'],
             'end_time' => $validated['end_time'],
             'notes' => $validated['notes'] ?? null,
             'status' => 'pending',
-        ]);
+        ];
+
+        \Log::info('Creating appointment with:', $appointmentData);
+
+        $appointment = Appointment::create($appointmentData);
+
+        \Log::info('Appointment created:', $appointment->toArray());
 
         return response()->json([
             'success' => true,
@@ -334,6 +356,7 @@ class AppointmentController extends Controller
 
         $appointment->load([
             'user:id,name,email,avatar',
+            'child:id,name,date_of_birth,gender,medical_notes',
             'providerProfile' => function ($query) {
                 $query->with('user:id,name,email,avatar,phone')
                       ->with('specialization')

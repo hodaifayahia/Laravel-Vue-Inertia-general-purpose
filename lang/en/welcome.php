@@ -1,60 +1,77 @@
 <?php
 
 return [
+    // Page
+    'page_title' => 'Dysgraphia Support Platform - Find Specialists & Resources',
+    
     // Hero Section
-    'trusted_by' => 'Trusted by 10,000+ developers worldwide',
-    'hero_title' => 'Build Amazing Applications with Modern Tools',
-    'hero_subtitle' => 'The perfect starting point for your next project. Built with Laravel, Vue, and Inertia.js for the ultimate developer experience.',
+    'hero_badge' => '✨ Comprehensive Dysgraphia Support',
+    'hero_headline' => 'Support for Writing Challenges Across Algeria',
+    'hero_description' => 'Connect with qualified specialists, access educational resources, and discover strategies to support individuals with dysgraphia.',
     
-    // CTA Buttons
-    'get_started_free' => 'Get Started Free',
-    'view_documentation' => 'View Documentation',
-    'go_to_dashboard' => 'Go to Dashboard',
-    'start_building_now' => 'Start Building Now',
-    'open_dashboard' => 'Open Dashboard',
+    // Hero CTA
+    'hero_cta_primary' => 'Book an Appointment',
+    'hero_cta_secondary' => 'Find a Specialist',
     
-    // Social Proof
-    'no_credit_card' => 'No credit card required',
-    'free_forever' => 'Free forever',
-    'setup_in_minutes' => 'Setup in 5 minutes',
+    // Stats
+    'specialists_count' => 'Specialists',
+    'cities_count' => 'Cities Covered',
+    'provinces_count' => 'Provinces',
+    'appointments_count' => 'Appointments Booked',
     
-    // Features Section
-    'why_choose_us' => 'Why Choose Us?',
-    'features_subtitle' => 'Everything you need to build modern web applications',
+    // Featured Section
+    'featured_specialists' => 'Featured Specialists',
+    'meet_our_specialists' => 'Meet our network of experienced dysgraphia specialists dedicated to providing quality care',
+    'years_experience' => 'years experience',
+    'view_profile' => 'View Profile',
+    'view_all_specialists' => 'View All Specialists',
     
-    'feature_fast_title' => 'Lightning Fast',
-    'feature_fast_description' => 'Built with performance in mind. Experience blazing fast page loads and smooth interactions.',
+    // About Section (uses about.php keys)
+    // Contact Section (uses contact.php keys)
+    // Resources Section (uses resources.php keys)
+    // FAQ Section (uses faq.php keys)
     
-    'feature_secure_title' => 'Secure by Default',
-    'feature_secure_description' => 'Enterprise-grade security with authentication, authorization, and encrypted data.',
+    // Assessment Section
+    'assessment_title' => 'Free Dysgraphia Assessment',
+    'assessment_subtitle' => 'Take our comprehensive free test to identify potential dysgraphia indicators in your child',
+    'assessment_description' => 'Our scientifically-designed assessment helps identify writing difficulties early, providing valuable insights for parents and educators.',
     
-    'feature_users_title' => 'User Management',
-    'feature_users_description' => 'Complete user management system with roles, permissions, and profiles built-in.',
+    // Assessment Benefits
+    'assessment_benefits_title' => 'Why Take the Assessment?',
+    'benefit_early_detection' => 'Early Detection',
+    'benefit_early_detection_desc' => 'Identify potential issues before they impact learning',
+    'benefit_personalized_insights' => 'Personalized Insights',
+    'benefit_personalized_insights_desc' => 'Get detailed analysis of your child\'s writing patterns',
+    'benefit_expert_guidance' => 'Expert Guidance',
+    'benefit_expert_guidance_desc' => 'Receive recommendations from qualified specialists',
+    'benefit_free_access' => 'Completely Free',
+    'benefit_free_access_desc' => 'No cost assessment with immediate results',
     
-    'feature_stack_title' => 'Modern Stack',
-    'feature_stack_description' => 'Laravel, Vue 3, Inertia.js, and Tailwind CSS. The best tools for modern development.',
+    // Assessment Process
+    'assessment_process_title' => 'How It Works',
+    'process_step_1' => 'Register Child',
+    'process_step_1_desc' => 'Enter basic information about your child',
+    'process_step_2' => 'Take Assessment',
+    'process_step_2_desc' => 'Complete interactive writing exercises',
+    'process_step_3' => 'Get Results',
+    'process_step_3_desc' => 'Receive detailed analysis and recommendations',
+    'process_step_4' => 'Connect with Specialists',
+    'process_step_4_desc' => 'Book appointments with qualified professionals',
     
-    'feature_i18n_title' => 'Internationalization',
-    'feature_i18n_description' => 'Multi-language support built-in. Reach a global audience with ease.',
+    // Assessment Categories
+    'assessment_categories_title' => 'What We Assess',
+    'category_fine_motor' => 'Fine Motor Skills',
+    'category_fine_motor_desc' => 'Handwriting control and precision',
+    'category_spatial_awareness' => 'Spatial Awareness',
+    'category_spatial_awareness_desc' => 'Letter formation and spacing',
+    'category_cognitive_processing' => 'Cognitive Processing',
+    'category_cognitive_processing_desc' => 'Writing speed and organization',
+    'category_visual_perception' => 'Visual Perception',
+    'category_visual_perception_desc' => 'Letter recognition and copying',
     
-    'feature_scalable_title' => 'Scalable Architecture',
-    'feature_scalable_description' => 'Clean, maintainable code structure that scales with your business needs.',
-    
-    // Stats Section
-    'active_users' => 'Active Users',
-    'uptime' => 'Uptime',
-    'support' => 'Support',
-    'projects' => 'Projects',
-    
-    // CTA Section
-    'join_community' => 'Join our community',
-    'ready_to_start' => 'Ready to Get Started?',
-    'cta_description' => 'Join thousands of developers building amazing applications today. No credit card required.',
-    
-    // Footer
-    'all_rights_reserved' => '© 2025 All rights reserved. Built with',
-    'love' => 'love',
-    'using_laravel_vue' => 'using Laravel & Vue',
-    'documentation' => 'Documentation',
-    'github' => 'GitHub',
+    // Assessment CTA
+    'assessment_cta' => 'Start Free Assessment',
+    'assessment_cta_subtext' => 'Takes only 10-15 minutes • No registration required',
+    'assessment_trust_badges' => 'Trusted by 500+ families • Scientifically validated • Expert reviewed',
 ];
+

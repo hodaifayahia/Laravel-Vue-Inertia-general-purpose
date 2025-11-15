@@ -2,6 +2,7 @@
 
 return [
     'platform' => 'Platform',
+    'main' => 'Home',
 
     'dashboard' => 'Dashboard',
     'chat' => 'Chat',
